@@ -1,0 +1,19 @@
+.home-page {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.carousel {
+    width: 60%;
+    max-width: 600px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
