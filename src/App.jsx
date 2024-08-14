@@ -7,30 +7,30 @@ import Events from "./pages/Events";
 import Magazines from "./pages/Magazines";
 
 const App = () => {
-    const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setWindowHeight(window.innerHeight);
-        };
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowHeight(window.innerHeight);
+    };
 
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    return (
-        <Box style={{ height: windowHeight }}>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="*" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/events" element={<Events />} />
-                    <Route path="/magazines" element={<Magazines />} />
-                </Routes>
-            </BrowserRouter>
-        </Box>
-    );
+  return (
+    <Box style={{ height: windowHeight }}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/magazines" element={<Magazines />} />
+        </Routes>
+      </BrowserRouter>
+    </Box>
+  );
 };
 
 export default App;
