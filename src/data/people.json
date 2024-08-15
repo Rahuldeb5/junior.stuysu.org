@@ -1,0 +1,93 @@
+{
+    "Presidents": [
+        {
+            "name": "Vanna Lei",
+            "img": "/images/people/vanna.png",
+            "bio": "I don’t know about you, but I’m feeling like I hate food. I’m thrilled to be able to serve as your president again and I’m Vanna. You must be so confused, but that’s just what I like to do."
+        },
+        {
+            "name": "Philip Zhang",
+            "img": "/images/people/philip.png",
+            "bio": "Hi, I’m Philip and I’m so excited to be starting junior year as a co-president! I love to play the violin and study biology + math, and hope to use my skills to help make your year the best."
+        }
+    ],
+    "chiefOfStaff": [
+        {
+            "name": "Amy Zhou",
+            "img": "/images/people/amy.png",
+            "bio": "Hi, I’m Amy and I am one of the Chiefs of Staff this year. I am so excited to be working with such an amazing cabinet on projects like JProm and college resources! I enjoy coding, but in my free time, I love to try all types of food."
+        },
+        {
+            "name": "Kelly Chen",
+            "img": "/images/people/kelly.png",
+            "bio": "Hi! I’m Kelly and I’m super excited to be a Chief of Staff this year. I look forward to working with everyone on the team!"
+        }
+    ],
+    "Events": [
+        {
+            "name": "Catherine Chan",
+            "img": "/images/people/catherine.png",
+            "bio": "Hey!! I’m Catherine and I’m thrilled to be an Events Director for Junior Caucus this year! I was a member of the Events Department for Sophomore Caucus and had so much fun planning and organizing events! I look forward to being able to make this year the most fun Junior year possible as director!"
+        },
+        {
+            "name": "Olivia Cisse",
+            "img": "/images/people/olivia.png",
+            "bio": "Hi! I’m Olivia, your Events Director for this year.  I’m so excited to help make your school as fun as possible!"
+        }
+    ],
+    "Internals": [
+        {
+            "name": "Theresa Lau",
+            "img": "/images/people/theresa.png",
+            "bio": "Hi, I’m Theresa, this year’s internals director. I was a member of the sophomore caucus and I’m super ecstatic to be working with such an amazing team."
+        },
+        {
+            "name": "Claire Zeng",
+            "img": "/images/people/claire.png",
+            "bio": "Hello, my name is Claire and I’m excited to once again be a part of caucus. This year I will be an Internals Director alongside Theresa and I cannot wait to work with everyone! Feel free to reach out anytime."
+        }
+    ],
+    "IT": [
+        {
+            "name": "Rahul Deb",
+            "img": "/images/people/rahul.png",
+            "bio": "Hello, I am Rahul, and I will be your IT director for this year’s Junior Caucus under the mentorship of Philip Zhang. I enjoy competitive programming and robotics. Don’t tell anyone this (it is supposed to be a secret), but “I Built This, Me, Brick by Brick”."
+        }
+    ],
+    "Finance": [
+        {
+            "name": "Sarah Jiang",
+            "img": "/images/people/sarah.png",
+            "bio": "Hey, I’m Sarah, one of your Finance directors for Junior Caucus this year! This year, I look forward to making all the events enjoyable and affordable for everyone (especially JProm!). In my spare time, I like to read, do math, tutor and play the flute. Fun facts: Halloween is my birthday and I almost always have a daily coke!"
+        },
+        {
+            "name": "Nathan Luan",
+            "img": "/images/people/nathan.png",
+            "bio": "Hello, I’m Nathan, your other finance director for Junior Caucus this year. I’m a competitive swimmer all year round, but when I’m not swimming, I enjoy traveling and eating good food!"
+        }
+    ],
+    "Graphics": [
+        {
+            "name": "Benson Chen",
+            "img": "/images/people/benson.png",
+            "bio": "Hey,  I’m  Benson, and I’ll be one of this year’s graphics director! In my free time, I’ve been learning my way around Logic pro. A fun fact is that I’ve seen the new Deadpool movie too many times."
+        },
+        {
+            "name": "Sid Shrivastava",
+            "img": "/images/people/sid.png",
+            "bio": "Hey! I’m Sid, and I'm thrilled to be a part of the caucus once again. This year, I am one of the Graphic directors. In my free time, I love to draw, and I am excited to help make junior year the best year!"
+        }
+    ],
+    "Outreach": [
+        {
+            "name": "Hannah Moon",
+            "img": "/images/people/hannah.png",
+            "bio": "Hi! I’m Hannah and I’m so excited to be one of the outreach directors for this year’s junior caucus. I love to volunteer and am involved in Stuy’s Red Cross. A fun fact about me is that I love to ski! I look forward to having an amazing year with this year’s junior caucus."
+        },
+        {
+            "name": "Amrit Das",   
+            "img": "/images/people/amrit.png",
+            "bio": "Hello! I’m Amrit, and I am excited to be one of your outreach directors this year. I hope to ensure that we have a successful and fun Junior Year. I enjoy debating competitively and following current developments in both the political and biological fields. Aside from that, I enjoy playing the Indian classical instrument sitar, following soccer (my favorite team is Chelsea FC), and tutoring."
+        }
+    ]
+}

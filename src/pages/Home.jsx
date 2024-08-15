@@ -4,11 +4,12 @@ import Contact from "../comps/Contact";
 import { Typography, Box } from "@mui/material";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Data from "../schedules.json";
+import Data from "../data/schedules.json";
 import Papa from "papaparse";
 import { useEffect, useState } from "react";
 import DateTimeDisplay from "../comps/DateTimeDisplay";
-import InstagramEmbed from "../comps/InstagramEmbed";
+import { InstagramEmbed } from "react-social-media-embed";
+import Calendar from "../comps/Calendar";
 
 export default function Home() {
   const [minutes, setMinutes] = useState(5);
@@ -162,17 +163,21 @@ export default function Home() {
           </Box>
           <Box className="time-left">
             <Typography variant="h4" color={"green"}>
-              Time Into: {minutes}
+              Time Into: {Math.round(minutes)}
             </Typography>
             <br />
             <Typography variant="h4" color={"red"}>
-              Time Left: {minutesLeft}
+              Time Left: {Math.round(minutesLeft)}
             </Typography>
           </Box>
         </Box>
 
+        <Box className="calendar">
+          <Calendar />
+        </Box>
+
         <Box className="magazine">
-          <InstagramEmbed />
+          <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
         </Box>
       </Box>
       <Box className="footer">

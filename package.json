@@ -5,6 +5,8 @@
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
     "@mui/material": "^5.16.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,6 +21,7 @@
     "react-pdf": "^9.1.0",
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
+    "react-social-media-embed": "^2.5.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
