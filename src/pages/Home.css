@@ -5,18 +5,13 @@
 .home-page {
   background-color: #ddd5f3;
   color: #0e2b54;
-  min-height: 100vh; /* Ensure the page can grow beyond the viewport height */
+  min-height: 100vh;
   width: 100vw;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-}
-
-.navbar {
-  position: relative;
-  width: 100%;
-  z-index: 1;
+  padding-bottom: 110px; /* Adjust to match the footer height */
 }
 
 .content {
@@ -26,7 +21,13 @@
   margin-top: 60px;
   width: 100%;
   box-sizing: border-box;
-  flex: 1; /* Ensure content section grows to fill available space */
+  flex: 1;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
 
 .title {
@@ -37,4 +38,9 @@
 
 .title h1 {
   margin: 0;
+}
+
+.footer {
+  background-color: white;
+  padding-bottom: 20px; /* Adjust this value to control bottom spacing */
 }
