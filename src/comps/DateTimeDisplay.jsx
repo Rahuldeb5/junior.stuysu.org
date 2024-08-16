@@ -1,8 +1,17 @@
+import "./DateTimeDisplay.css";
 import { Box, Typography } from "@mui/material";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const DateTimeDisplay = () => {
-  const currentDateTime = new Date();
+  const [currentDateTime, setCurrentDateTime] = new useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentDateTime(new Date());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   const daysOfWeek = [
     "Sunday",
