@@ -15,13 +15,11 @@
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
+  flex: 1;
   padding: 20px;
   margin-top: 60px;
   width: 100%;
   box-sizing: border-box;
-  flex: 1;
 }
 
 .navbar {
@@ -30,17 +28,51 @@
   z-index: 1;
 }
 
+.title-slideshow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
 .title {
   flex: 1;
   margin-right: 20px;
   padding-top: 20px;
 }
 
-.title h1 {
-  margin: 0;
+.slideshow {
+  flex: 1;
+}
+
+.date {
+  margin-bottom: 20px;
+}
+
+.schedule {
+  margin-bottom: 20px;
+}
+
+.calendar-magazine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.calendar,
+.magazine {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.calendar:last-child {
+  margin-right: 0;
 }
 
 .footer {
   background-color: white;
-  padding-bottom: 20px; /* Adjust this value to control bottom spacing */
+  padding-bottom: 20px;
+  text-align: center;
 }

@@ -14,30 +14,35 @@ export default function Home() {
       <Box className="navbar">
         <Navbar />
       </Box>
-      <Box className="content" sx={{ flex: 1 }}>
-        <Box className="title">
-          <Typography variant="h1" align="left">
-            Junior <br />
-            Caucus
-          </Typography>
+
+      <Box className="content">
+        <Box className="title-slideshow">
+          <Box className="title">
+            <Typography variant="h1" align="left">
+              Junior <br />
+              Caucus
+            </Typography>
+          </Box>
+          <Box className="slideshow">
+            <Carousel />
+          </Box>
         </Box>
 
-        <Box className="slideshow">
-          <Carousel />
-        </Box>
         <Box className="date">
           <DateTimeDisplay />
         </Box>
+
         <Box className="schedule">
           <Schedule />
         </Box>
 
-        <Box className="calendar">
-          <Calendar />
-        </Box>
-
-        <Box className="magazine">
-          <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
+        <Box className="calendar-magazine">
+          <Box className="calendar">
+            <Calendar />
+          </Box>
+          <Box className="magazine">
+            <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
+          </Box>
         </Box>
       </Box>
 
