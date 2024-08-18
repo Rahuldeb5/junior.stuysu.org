@@ -28,37 +28,40 @@
   z-index: 1;
 }
 
+/* Title and Slideshow horizontally spaced across the screen */
 .title-slideshow {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 20px;
+  width: 100%;
 }
 
 .title {
   flex: 1;
-  margin-right: 20px;
   padding-top: 20px;
+  margin-right: 20px;
+  text-align: left; /* Align title to the left */
 }
 
 .slideshow {
   flex: 1;
+  margin-left: 20px;
 }
 
-.date {
-  margin-bottom: 20px;
-}
-
+/* Schedule and DateTimeDisplay left-aligned */
+.date,
 .schedule {
   margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
 }
 
+/* Calendar and Magazine horizontally spaced across the screen */
 .calendar-magazine {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
 }
 
 .calendar,
@@ -67,12 +70,13 @@
   margin-right: 20px;
 }
 
-.calendar:last-child {
-  margin-right: 0;
+.magazine {
+  margin-right: 0; /* Remove margin on the right side of the magazine */
 }
 
 .footer {
   background-color: white;
-  padding-bottom: 20px;
   text-align: center;
+  position: relative;
+  z-index: 1e9;
 }

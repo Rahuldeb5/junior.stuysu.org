@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .magazines-page { /* Correct the class name from magazine-page to magazines-page */
+    background-color: #ddd5f3;
+    color: #0e2b54;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .navbar {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1e9;
+  }
+  

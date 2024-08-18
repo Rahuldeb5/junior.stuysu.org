@@ -5,39 +5,24 @@ import { Box, Link, Typography } from "@mui/material";
 const Contact = () => {
   return (
     <Box className="footer">
-      <Box className="icons-container">
-        <Box className="icons" align="center">
-          <Link
-            href="https://www.instagram.com/stuyjuniorcaucus/?hl=en"
-            className="logo-ref"
-          >
-            <img src={"/images/instagram.png"} alt="Instagram logo" />
-          </Link>
-          <Link
-            href="https://www.facebook.com/groups/stuyclass2026"
-            className="logo-ref"
-          >
-            <img src={"/images/facebook.png"} alt="Facebook logo" />
-          </Link>
-          <Link
-            href="https://github.com/Rahuldeb5/junior.stuysu.org"
-            className="logo-ref"
-          >
-            <img src={"/images/github.png"} alt="GitHub logo" />
-          </Link>
-        </Box>
-      </Box>
       <Typography variant="body1" align="center">
         © 2024 Junior Caucus.
       </Typography>
       <Typography variant="body1" align="center">
-        Co-Presidents: Vanna Lei & Philip Zhang
+        Co-Presidents: 
+        <Link href="mailto:vlei60@stuy.edu" color="inherit" sx={{ textDecoration: "none" }}> Vanna Lei </Link>
+        &
+        <Link href="mailto:pzhang60@stuy.edu" color="inherit" sx={{ textDecoration: "none" }}> Philip Zhang </Link>
       </Typography>
       <Typography variant="body1" align="center">
-        Chief of Staff: Amy Zhou & Kelly Chen
+        Chief of Staff: 
+        <Link href="mailto:azhou60@stuy.edu" color="inherit" sx={{ textDecoration: "none" }}> Amy Zhou </Link>
+        &
+        <Link href="mailto:kchen60@stuy.edu" color="inherit" sx={{ textDecoration: "none" }}> Kelly Chen </Link>
       </Typography>
       <Typography variant="body1" align="center">
-        Development Lead: Rahul Deb
+        Development Lead: 
+        <Link href="mailto:rdeb60@stuy.edu" color="inherit" sx={{ textDecoration: "none" }}> Rahul Deb </Link>
       </Typography>
     </Box>
   );

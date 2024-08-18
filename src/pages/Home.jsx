@@ -1,12 +1,13 @@
 import "./Home.css";
 import Navbar from "../comps/Navbar";
-import Contact from "../comps/Contact";
+// import Contact from "../comps/Contact";
 import { Typography, Box } from "@mui/material";
 import { InstagramEmbed } from "react-social-media-embed";
 import DateTimeDisplay from "../comps/DateTimeDisplay";
 import Calendar from "../comps/Calendar";
 import Schedule from "../comps/Schedule";
 import Carousel from "../comps/Carousel";
+import StickyFooter from "../comps/StickyFooter";
 
 export default function Home() {
   return (
@@ -46,8 +47,11 @@ export default function Home() {
         </Box>
       </Box>
 
+      {/* Spacer to prevent footer overlap */}
+      <Box sx={{height: "30px"}} />
+
       <Box className="footer">
-        <Contact />
+        <StickyFooter />
       </Box>
     </Box>
   );

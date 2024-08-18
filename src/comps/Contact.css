@@ -8,24 +8,3 @@
   margin: 0; /* Remove any default margin */
   text-align: center; /* Center the text */
 }
-
-.icons-container {
-  display: flex;
-  justify-content: center; /* Center the icons horizontally */
-  align-items: center; /* Center the icons vertically */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-}
-
-.icons {
-  display: flex;
-  gap: 10px; /* Adjust the gap between icons */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-}
-
-.logo-ref img {
-  height: auto;
-  margin: 0; /* Remove any margin around images */
-  padding: 0; /* Remove any padding around images */
-}

@@ -2,7 +2,8 @@ import "./About.css";
 import { Box, Typography } from "@mui/material";
 import Navbar from "../comps/Navbar";
 import Info from "../data/people.json";
-import Contact from "../comps/Contact";
+import StickyFooter from "../comps/StickyFooter";
+// import Contact from "../comps/Contact";
 
 export default function About() {
   return (
@@ -240,8 +241,12 @@ export default function About() {
           </Box>
         </Box>
       </Box>
+
+      {/* Spacer to prevent footer overlap */}
+      <Box sx={{height: "180px"}} />
+
       <Box className="footer">
-        <Contact />
+        <StickyFooter />
       </Box>
     </Box>
   );

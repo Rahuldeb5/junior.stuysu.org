@@ -52,6 +52,8 @@
 }
 
 .footer {
-  margin-top: auto; /* Pushes the footer to the bottom if there's enough content */
-  padding: 20px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1e9;
 }
