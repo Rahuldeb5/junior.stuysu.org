@@ -1,59 +1,89 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .about-page {
-  background-color: #ddd5f3;
-  color: #0e2b54;
-  min-height: 100vh; /* Allows the content to extend beyond the viewport */
-  width: 100vw;
-  overflow-x: hidden; /* Prevents horizontal overflow */
-  overflow-y: auto; /* Allows vertical scrolling */
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+    color: #0e2b54;
+    min-height: 100vh;
+    /* Allows the content to extend beyond the viewport */
+    width: 100vw;
+    overflow-x: hidden;
+    /* Prevents horizontal overflow */
+    overflow-y: auto;
+    /* Allows vertical scrolling */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .navbar {
-  position: relative;
-  width: 100%;
-  z-index: 1;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
 .content {
-  display: flex;
-  flex-direction: column; /* Stack sections vertically */
-  padding: 20px;
-  width: 100%;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* Stack sections vertically */
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .box-item {
-  display: flex;
-  flex-wrap: wrap; /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
-  gap: 16px;
-  margin-top: 16px; /* Adds space between the title and the boxes */
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
+    gap: 16px;
+    margin-top: 16px;
+    /* Adds space between the title and the boxes */
 }
 
 .sub-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  flex: 1 1 calc(50% - 16px); /* Each sub-box takes up 50% of the container's width minus the gap */
-  max-width: 48%; /* Limits the width of each sub-box */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1 1 calc(50% - 16px);
+    /* Each sub-box takes up 50% of the container's width minus the gap */
+    max-width: 50%;
+    /* Limits the width of each sub-box */
 }
 
 .sub-box img {
-  max-width: 100%; /* Ensures the image can shrink to fit the container */
-  height: auto; /* Maintains the aspect ratio */
-  max-height: 500px; /* Limits the height of the images */
-  object-fit: contain; /* Ensures the entire image is visible within its container */
+    max-width: 100%;
+    /* Ensures the image can shrink to fit the container */
+    height: auto;
+    /* Maintains the aspect ratio */
+    max-height: 500px;
+    /* Limits the height of the images */
+    object-fit: contain;
+    /* Ensures the entire image is visible within its container */
+}
+
+.content .title-typography {
+    font-family: Poppins;
+    margin-left: 2rem;
+    font-weight: 400;
+}
+
+.sub-box .name-typography {
+    font-family: Poppins;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+
+.sub-box .typography {
+    font-family: Poppins;
+    font-weight: 300;
+    text-align: justify;
+    padding: .5rem 1.5rem;
 }
 
 .footer {
-  background-color: white;
-  text-align: center;
-  position: relative;
-  z-index: 1e9;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1e9;
 }
