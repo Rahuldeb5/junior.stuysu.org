@@ -1,82 +1,92 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .home-page {
-  background-color: #ddd5f3;
-  color: #0e2b54;
-  min-height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 110px; /* Adjust to match the footer height */
+    background-color: #ddd5f3;
+    color: #0e2b54;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 110px;
+    /* Adjust to match the footer height */
 }
 
-.content {
-  flex: 1;
-  padding: 20px;
-  margin-top: 60px;
-  width: 100%;
-  box-sizing: border-box;
+.home-page .content {
+    padding: 1rem 3rem;
+    flex: 1;
+    margin-top: 60px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .navbar {
-  position: relative;
-  width: 100%;
-  z-index: 1;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
+
 /* Title and Slideshow horizontally spaced across the screen */
+
 .title-slideshow {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .title {
-  flex: 1;
-  padding-top: 20px;
-  margin-right: 20px;
-  text-align: left; /* Align title to the left */
+    flex: 1;
+    padding-top: 20px;
+    margin-right: 20px;
+    text-align: left;
+    /* Align title to the left */
 }
 
 .slideshow {
-  flex: 1;
-  margin-left: 20px;
+    flex: 1;
+    margin-left: 20px;
 }
+
 
 /* Schedule and DateTimeDisplay left-aligned */
+
 .date,
 .schedule {
-  margin-bottom: 20px;
-  text-align: left;
-  width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
 }
 
+
 /* Calendar and Magazine horizontally spaced across the screen */
+
 .calendar-magazine {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .calendar,
 .magazine {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.magazine {
-  margin-right: 0; /* Remove margin on the right side of the magazine */
+    width: 100%;
+    flex: 1;
+    max-width: 400px;
+    height: 490px;
+    overflow: hidden;
+    margin: 0 3rem;
+    object-fit: contain;
 }
 
 .footer {
-  background-color: white;
-  text-align: center;
-  position: relative;
-  z-index: 1e9;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1e9;
 }

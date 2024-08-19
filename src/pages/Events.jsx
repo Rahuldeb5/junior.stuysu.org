@@ -6,6 +6,7 @@ export default function Events() {
   return (
     <Box className="events-page">
       <Navbar {...{ page: "Events" }} />
+      
     </Box>
   );
 }
