@@ -243,7 +243,7 @@ export default function About() {
       </Box>
 
       {/* Spacer to prevent footer overlap */}
-      <Box sx={{height: "180px"}} />
+      <Box sx={{ height: "180px" }} />
 
       <Box className="footer">
         <StickyFooter />

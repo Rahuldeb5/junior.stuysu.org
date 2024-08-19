@@ -15,14 +15,14 @@ export default function Magazines() {
       <Box className="content" sx={{ flex: 1 }}>
         <Box className="title">
           <Typography variant="h1" align="center">
-              Latest Magazine:
+            Latest Magazine:
           </Typography>
         </Box>
         <Box className="current">
           <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
         </Box>
       </Box>
-      
+
       <Box className="footer">
         <StickyFooter />
       </Box>
