@@ -3,8 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Events from "./pages/Events";
-import Magazines from "./pages/Magazines";
+import Jprom from "./pages/Jprom";
+import OtherEvents from "./pages/OtherEvents";
+import Newsletters from "./pages/Newsletters";
+import Guides from "./pages/Guides";
 
 const App = () => {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -25,8 +27,10 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/magazines" element={<Magazines />} />
+          <Route path="/jprom" element={<Jprom />} />
+          <Route path="/other" element={<OtherEvents />} />
+          <Route path="/newsletters" element={<Newsletters />} />
+          <Route path="/guides" element={<Guides />} />
         </Routes>
       </BrowserRouter>
     </Box>

@@ -7,7 +7,7 @@ import DateTimeDisplay from "../comps/DateTimeDisplay";
 import Calendar from "../comps/Calendar";
 import Schedule from "../comps/Schedule";
 import Carousel from "../comps/Carousel";
-import StickyFooter from "../comps/StickyFooter";
+import Contact from "../comps/Contact";
 
 export default function Home() {
   return (
@@ -46,12 +46,8 @@ export default function Home() {
           </Box>
         </Box>
       </Box>
-
-      {/* Spacer to prevent footer overlap */}
-      <Box sx={{ height: "30px" }} />
-
       <Box className="footer">
-        <StickyFooter />
+        <Contact />
       </Box>
     </Box>
   );

@@ -23,7 +23,7 @@
 .content {
   display: flex;
   flex-direction: column; /* Stack sections vertically */
-  padding: 20px;
+  padding: 50px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -36,24 +36,46 @@
 }
 
 .sub-box {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 8px;
   flex: 1 1 calc(50% - 16px); /* Each sub-box takes up 50% of the container's width minus the gap */
-  max-width: 48%; /* Limits the width of each sub-box */
+  max-width: 50%; /* Limits the width of each sub-box */
 }
 
 .sub-box img {
-  max-width: 100%; /* Ensures the image can shrink to fit the container */
-  height: auto; /* Maintains the aspect ratio */
-  max-height: 500px; /* Limits the height of the images */
-  object-fit: contain; /* Ensures the entire image is visible within its container */
+  max-width: 100%;
+  /* Ensures the image can shrink to fit the container */
+  height: auto;
+  /* Maintains the aspect ratio */
+  max-height: 500px;
+  /* Limits the height of the images */
+  object-fit: contain;
+  /* Ensures the entire image is visible within its container */
+}
+
+.content .title-typography {
+  font-family: Poppins;
+  margin-left: 2rem;
+  font-weight: 400;
+}
+
+.sub-box .name-typography {
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.sub-box .typography {
+  font-family: Poppins;
+  font-weight: 300;
+  text-align: justify;
+  padding: 0.5rem 1.5rem;
 }
 
 .footer {
   background-color: white;
   text-align: center;
   position: relative;
-  z-index: 1e9;
 }

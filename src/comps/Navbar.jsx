@@ -42,20 +42,41 @@ const Navbar = (props) => {
           >
             About
           </Link>
-          <Link
-            href="/events"
-            className={currPageGet(props.page, "Events")}
-            style={{ fontSize: "1.5rem" }}
-          >
-            Events
-          </Link>
-          <Link
-            href="/magazines"
-            className={currPageGet(props.page, "Magazines")}
-            style={{ fontSize: "1.5rem" }}
-          >
-            Magazines
-          </Link>
+          <Box className="nav-dropdown">
+            <Link
+              href="#"
+              className="nav-menu-item"
+              style={{ fontSize: "1.5rem" }}
+            >
+              Events
+            </Link>
+            <Box className="dropdown-content">
+              <Link href="/jprom" className="nav-menu-item">
+                Jprom
+              </Link>
+              <Link href="/other" className="nav-menu-item">
+                Other
+              </Link>
+            </Box>
+          </Box>
+
+          <Box className="nav-dropdown">
+            <Link
+              href="#"
+              className="nav-menu-item"
+              style={{ fontSize: "1.5rem" }}
+            >
+              Resources
+            </Link>
+            <Box className="dropdown-content">
+              <Link href="/newsletters" className="nav-menu-item">
+                Newsletters
+              </Link>
+              <Link href="/guides" className="nav-menu-item">
+                Guides
+              </Link>
+            </Box>
+          </Box>
         </Box>
       </Box>
     </Box>

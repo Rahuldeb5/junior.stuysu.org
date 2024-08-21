@@ -9,7 +9,7 @@ const Calendar = () => {
   const navigate = useNavigate();
 
   const handleEventClick = (clickInfo) => {
-    navigate("/events");
+    navigate("/other");
   };
 
   return (
