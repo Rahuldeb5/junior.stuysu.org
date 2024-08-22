@@ -19,13 +19,13 @@ export default function Home() {
       <Box className="content">
         <Box className="title-slideshow">
           <Box className="title">
-            <Typography variant="h1" align="left">
+            <Typography className="typography" variant="h1" align="center">
               Junior <br />
               Caucus
             </Typography>
           </Box>
           <Box className="slideshow">
-            <Carousel />
+            <Carousel className="slideshow-carousel"/>
           </Box>
         </Box>
 
@@ -44,8 +44,14 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Box className="magazine">
-          <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
+        <Box classname="magazine-container">
+          <Typography className="magazine-title" variant="h1" align="center">
+              Magazines
+          </Typography>
+          <Box className="magazine">
+            <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
+            <InstagramEmbed url="https://www.instagram.com/p/C-3aqLxPFYR/" />  
+          </Box>
         </Box>
       </Box>
 

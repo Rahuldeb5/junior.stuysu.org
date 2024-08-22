@@ -84,9 +84,9 @@ const Schedule = () => {
             <Box className="period-crawler-container" key={index}>
               <Box className="period-name">
                 {period === currPeriod ? (
-                  <Box sx={{ backgroundColor: "white" }}>{period}</Box>
+                  <Box></Box>
                 ) : (
-                  <Box>{period}</Box>
+                  <Box sx={{ backgroundColor: "white" }}>{period}</Box>
                 )}
               </Box>
               <Box className="period-time">{periodTimes[index]}</Box>
@@ -94,7 +94,8 @@ const Schedule = () => {
           );
         })}
       </Box>
-      <Box className="time-left">
+      {/* imo unecessary feature: */}
+      {/* <Box className="time-left">
         <Typography variant="h4" color={"green"}>
           Time Into: {Math.round(minutes)}
         </Typography>
@@ -102,7 +103,7 @@ const Schedule = () => {
         <Typography variant="h4" color={"red"}>
           Time Left: {Math.round(minutesLeft)}
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   );
 };
