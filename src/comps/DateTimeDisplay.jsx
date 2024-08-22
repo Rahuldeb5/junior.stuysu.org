@@ -39,13 +39,13 @@ const DateTimeDisplay = () => {
 
   return (
     <Box>
-      <Typography variant="p" align="left">
+      <Typography className="day" variant="p" align="left">
         {day + " "}
       </Typography>
-      <Typography variant="p" align="left">
+      <Typography className="date" variant="p" align="left">
         {date + " "}
       </Typography>
-      <Typography variant="p" align="left">
+      <Typography className="time" variant="p" align="left">
         {time + " "}
       </Typography>
     </Box>
