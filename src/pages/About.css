@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+body {
+  text-align: center;
+}
 .about-page {
   background-color: #ddd5f3;
   color: #0e2b54;
@@ -26,6 +29,14 @@
   padding: 50px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.box-IT {
+  justify-content: center; 
+  display: flex;
+  flex-wrap: wrap; /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
+  gap: 16px;
+  margin-top: 16px; /* Adds space between the title and the boxes */
 }
 
 .box-item {
@@ -70,7 +81,7 @@
 .sub-box .typography {
   font-family: Poppins;
   font-weight: 300;
-  text-align: justify;
+  text-align: justify, center;
   padding: 0.5rem 1.5rem;
 }
 
