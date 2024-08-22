@@ -15,6 +15,9 @@ Creates the node_modules directory and should only be ran when project directory
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+### `npx prettier --write .`
+Corrects the formatting and organization of the code. Should be ran right before committing.
+
 ## More Resources
 - [Introduction Video](https://www.youtube.com/watch?v=Nd8E9ktPdqg)
 - [Junior Caucus Website Data](https://docs.google.com/spreadsheets/d/1FfJxTXMbGEMKkS-pJtjZo9fVn4rn2e4fYNr4E7_wBPU/edit?usp=sharing=0)
