@@ -46,32 +46,47 @@
   margin-left: 20px;
 }
 
-/* Schedule and DateTimeDisplay left-aligned */
-.date,
-.schedule {
-  margin-bottom: 20px;
-  text-align: left;
-  width: 100%;
-}
-
-/* Calendar and Magazine horizontally spaced across the screen */
-.calendar-magazine {
+.schedule-calendar {
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: stretch; /* Ensures both children have the same height */
+  align-items: stretch;
   width: 100%;
 }
 
-.calendar,
-.magazine {
+.date,
+.schedule,
+.calendar {
   flex: 1;
   margin-right: 20px;
   display: flex;
-  flex-direction: column; /* Allows for further content alignment within the elements */
+  flex-direction: column;
+}
+
+.date {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.schedule {
+  font-size: 2rem;
+  text-align: center
+}
+
+.calendar {
+  margin-right: 0;
+  height: 200%;
+  text-align: left;
 }
 
 .magazine {
-  margin-right: 0; /* Remove margin on the right side of the magazine */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.magazine {
+  margin-right: 0;
 }
 
 .footer {

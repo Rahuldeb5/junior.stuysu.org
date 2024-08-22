@@ -29,23 +29,26 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Box className="date">
-          <DateTimeDisplay />
-        </Box>
+        <Box className="schedule-calendar">
+          <Box className="left-side">
+            <Box className="date">
+              <DateTimeDisplay />
+            </Box>
+            <Box className="schedule">
+              <Schedule />
+            </Box>
+          </Box>
 
-        <Box className="schedule">
-          <Schedule />
-        </Box>
-
-        <Box className="calendar-magazine">
           <Box className="calendar">
             <Calendar />
           </Box>
-          <Box className="magazine">
-            <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
-          </Box>
+        </Box>
+
+        <Box className="magazine">
+          <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
         </Box>
       </Box>
+
       <Box className="footer">
         <Contact />
       </Box>
