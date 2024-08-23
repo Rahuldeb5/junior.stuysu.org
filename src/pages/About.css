@@ -8,8 +8,8 @@ body {
   text-align: center;
 }
 .about-page {
-  background-color: #ddd5f3;
-  color: #0e2b54;
+  background-color: #ede8f5;
+  color: #3d52a0;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;
   overflow-x: hidden; /* Prevents horizontal overflow */
