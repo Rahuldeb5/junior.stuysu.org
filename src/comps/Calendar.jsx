@@ -25,7 +25,7 @@ const Calendar = () => {
       events={events}
       eventColor="#0e2b54"
       eventTextColor="white"
-      height={600}
+      height={1015}
       eventClick={handleEventClick}
     />
   );

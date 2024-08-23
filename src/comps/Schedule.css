@@ -1,0 +1,42 @@
+.schedules-specifics {
+  display: flex;
+  flex-direction: row; /* Stack children vertically */
+}
+
+.left-schedule,
+.right-schedule {
+  width: 50%; /* Each takes up half of the container's width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  display: flex;
+  flex-direction: column; /* Stack contents vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.left-schedule {
+  text-align: center; /* Center text horizontally */
+  padding-right: 8px; /* Space between left and right schedules */
+}
+
+.right-schedule {
+  text-align: center; /* Center text horizontally */
+  padding-left: 8px; /* Space between left and right schedules */
+}
+
+.period-name,
+.period-time {
+  margin: 4px 0; /* Space between items within left and right schedules */
+}
+
+.period-name {
+  font-size: 1em;
+}
+
+.period-time {
+  font-size: 1.5em;
+}
+
+.left,
+.into {
+  padding: 0.2em;
+}

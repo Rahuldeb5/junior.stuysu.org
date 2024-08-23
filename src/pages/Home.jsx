@@ -10,6 +10,8 @@ import Carousel from "../comps/Carousel";
 import Contact from "../comps/Contact";
 
 export default function Home() {
+  const magazineUrl = "https://www.instagram.com/p/C-lwzBvPwGD/";
+
   return (
     <Box className="home-page">
       <Box className="navbar">
@@ -17,35 +19,42 @@ export default function Home() {
       </Box>
 
       <Box className="content">
-        <Box className="title-slideshow">
-          <Box className="title">
-            <Typography variant="h1" align="left">
-              Junior <br />
-              Caucus
-            </Typography>
+        <Box className="title">
+          <Typography className="typography" variant="h1" align="center">
+            Junior <br />
+            Caucus
+          </Typography>
+        </Box>
+
+        <Box className="slideshow">
+          <Carousel className="slideshow-carousel" />
+        </Box>
+
+        <Box className="schedule-calendar">
+          <Box className="left-side">
+            <Box className="date">
+              <DateTimeDisplay />
+            </Box>
+            <Box className="schedule">
+              <Schedule />
+            </Box>
           </Box>
-          <Box className="slideshow">
-            <Carousel />
-          </Box>
-        </Box>
 
-        <Box className="date">
-          <DateTimeDisplay />
-        </Box>
-
-        <Box className="schedule">
-          <Schedule />
-        </Box>
-
-        <Box className="calendar-magazine">
           <Box className="calendar">
             <Calendar />
           </Box>
+        </Box>
+
+        <Box classname="magazine-container">
+          <Typography className="magazine-title" variant="h1" align="center">
+            Magazines
+          </Typography>
           <Box className="magazine">
-            <InstagramEmbed url="https://www.instagram.com/p/C-lwzBvPwGD/" />
+            <InstagramEmbed url={magazineUrl} />
           </Box>
         </Box>
       </Box>
+
       <Box className="footer">
         <Contact />
       </Box>

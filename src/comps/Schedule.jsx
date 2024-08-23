@@ -79,29 +79,87 @@ const Schedule = () => {
   return (
     <Box className="schedule">
       <Box className="schedules-specifics">
-        {getPeriods(getDayInfo(dayType)).map((period, index) => {
-          return (
-            <Box className="period-crawler-container" key={index}>
-              <Box className="period-name">
-                {period === currPeriod ? (
-                  <Box sx={{ backgroundColor: "white" }}>{period}</Box>
-                ) : (
-                  <Box>{period}</Box>
+        <Box className="left-schedule">
+          {getPeriods(getDayInfo(dayType)).map((period, index) => {
+            return (
+              <Box className="period-crawler-container" key={index}>
+                {index + 1 <= scheduleSize / 2 && (
+                  <>
+                    {period === currPeriod ? (
+                      <Box
+                        className="period-name"
+                        sx={{ backgroundColor: "white" }}
+                      >
+                        {" "}
+                        {period}{" "}
+                      </Box>
+                    ) : (
+                      <Box className="period-name"> {period} </Box>
+                    )}
+                    {period === currPeriod ? (
+                      <Box
+                        className="period-time"
+                        sx={{ backgroundColor: "white" }}
+                      >
+                        {" "}
+                        {periodTimes[index]}{" "}
+                      </Box>
+                    ) : (
+                      <Box className="period-time"> {periodTimes[index]} </Box>
+                    )}
+                  </>
                 )}
               </Box>
-              <Box className="period-time">{periodTimes[index]}</Box>
-            </Box>
-          );
-        })}
+            );
+          })}
+        </Box>
+        <Box className="right-schedule">
+          {getPeriods(getDayInfo(dayType)).map((period, index) => {
+            return (
+              <Box className="period-crawler-container" key={index}>
+                {index + 1 > scheduleSize / 2 && (
+                  <>
+                    {period === currPeriod ? (
+                      <Box
+                        className="period-name"
+                        sx={{ backgroundColor: "white" }}
+                      >
+                        {" "}
+                        {period}{" "}
+                      </Box>
+                    ) : (
+                      <Box className="period-name"> {period} </Box>
+                    )}
+                    {period === currPeriod ? (
+                      <Box
+                        className="period-time"
+                        sx={{ backgroundColor: "white" }}
+                      >
+                        {" "}
+                        {periodTimes[index]}{" "}
+                      </Box>
+                    ) : (
+                      <Box className="period-time"> {periodTimes[index]} </Box>
+                    )}
+                  </>
+                )}
+              </Box>
+            );
+          })}
+        </Box>
       </Box>
-      <Box className="time-left">
-        <Typography variant="h4" color={"green"}>
-          Time Into: {Math.round(minutes)}
-        </Typography>
-        <br />
-        <Typography variant="h4" color={"red"}>
-          Time Left: {Math.round(minutesLeft)}
-        </Typography>
+      {/* FIX CSS: KALIMUL */}
+      <Box className="time">
+        <Box className="into">
+          <Typography variant="h4" color={"green"}>
+            Time Into: {Math.round(minutes)}
+          </Typography>
+        </Box>
+        <Box className="left">
+          <Typography variant="h4" color={"red"}>
+            Time Left: {Math.round(minutesLeft)}
+          </Typography>
+        </Box>
       </Box>
     </Box>
   );
@@ -131,7 +189,7 @@ const getDayInfo = (DayType) => {
       return Data.Conference.schedule;
     case "Homeroom":
       return Data.Homeroom.schedule;
-    case "Extended":
+    case "Extended Homeroom":
       return Data["Extended Homeroom"].schedule;
     case "Regular":
       return Data.Regular.schedule;
@@ -139,6 +197,8 @@ const getDayInfo = (DayType) => {
       return Data.Regular.schedule;
   }
 };
+
+let scheduleSize = 0;
 
 const getPeriodTimes = (DayType) => {
   const info = getDayInfo(DayType);
@@ -164,6 +224,8 @@ const getPeriodTimes = (DayType) => {
       );
     }
   }
+
+  scheduleSize = final.length;
   return final;
 };
 
