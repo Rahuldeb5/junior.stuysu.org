@@ -78,6 +78,9 @@ const Schedule = () => {
 
   return (
     <Box className="schedule">
+      <Box className="day-type">
+        {AorBDay} Day
+      </Box>
       <Box className="schedules-specifics">
         <Box className="left-schedule">
           {getPeriods(getDayInfo(dayType)).map((period, index) => {

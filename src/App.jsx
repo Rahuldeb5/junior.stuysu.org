@@ -7,6 +7,7 @@ import Jprom from "./pages/Jprom";
 import OtherEvents from "./pages/OtherEvents";
 import Newsletters from "./pages/Newsletters";
 import Guides from "./pages/Guides";
+import Magazines from "./pages/Magazines";
 
 const App = () => {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/other" element={<OtherEvents />} />
           <Route path="/newsletters" element={<Newsletters />} />
           <Route path="/guides" element={<Guides />} />
+          <Route path="/magazines" element={<Magazines />} />
         </Routes>
       </BrowserRouter>
     </Box>
