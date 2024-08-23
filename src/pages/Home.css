@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 .home-page {
   background-color: #ddd5f3;
@@ -13,8 +13,8 @@
 
 .content {
   display: flex;
-  flex-direction: column; 
-  align-items: flex-start; 
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -24,27 +24,23 @@
   z-index: 1;
 }
 
-.title-slideshow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 100%;
-}
-
 .title {
   text-align: left;
   display: flex;
   justify-content: flex-start;
   flex: 1 1 50%;
-  max-width: 50%; 
+  max-width: 50%;
   font-weight: normal;
   box-sizing: border-box;
 }
 
 .title .typography {
   font-size: 15rem;
-  font-family: "Dancing Script"; 
+  font-family: "Dancing Script";
+}
+
+.slideshow {
+  padding: 1em;
 }
 
 .schedule-calendar {
@@ -56,19 +52,19 @@
   width: 100%;
 }
 
-.left-side, 
+.left-side,
 .calendar {
   flex: 1 1 50%;
-  max-width: 50%; 
+  max-width: 50%;
   box-sizing: border-box;
 }
 
-.date, 
+.date,
 .schedule {
   font-size: 2rem;
   text-align: center;
   margin-right: 20px;
-  -webkit-text-stroke: 0.5px #ddd5f3; 
+  -webkit-text-stroke: 0.5px #ddd5f3;
 }
 
 .magazine {
@@ -94,5 +90,5 @@
   padding: 20px; /* Add some padding to the footer */
   margin-top: auto; /* Pushes the footer to the bottom */
   width: 100%;
-  -webkit-text-stroke: 0.2px white; 
+  -webkit-text-stroke: 0.2px white;
 }

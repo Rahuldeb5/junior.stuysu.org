@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -63,14 +63,14 @@
   font-family: Lora;
   margin-left: 2rem;
   font-weight: 400;
-  -webkit-text-stroke: 2px #ddd5f3; 
+  -webkit-text-stroke: 2px #ddd5f3;
 }
 
 .sub-box .name-typography {
   font-family: Lora;
   font-weight: 400;
   margin-top: 0.5rem;
-  -webkit-text-stroke: px #ddd5f3; 
+  -webkit-text-stroke: px #ddd5f3;
 }
 
 .sub-box .typography {
@@ -86,5 +86,5 @@
   background-color: white;
   text-align: center;
   position: relative;
-  -webkit-text-stroke: 0.2px white; 
+  -webkit-text-stroke: 0.2px white;
 }

@@ -43,7 +43,7 @@ const Navbar = (props) => {
             About
           </Link>
           <Box className="nav-dropdown">
-              Events
+            Events
             <Box className="dropdown-content">
               <Link href="/jprom" className="nav-menu-item">
                 JProm
@@ -55,7 +55,7 @@ const Navbar = (props) => {
           </Box>
 
           <Box className="nav-dropdown">
-              Resources
+            Resources
             <Box className="dropdown-content">
               <Link href="/newsletters" className="nav-menu-item">
                 Newsletters

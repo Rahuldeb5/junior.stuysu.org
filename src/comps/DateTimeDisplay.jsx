@@ -45,6 +45,7 @@ const DateTimeDisplay = () => {
       <Typography className="date" variant="p" align="left">
         {date + " "}
       </Typography>
+      <br />
       <Typography className="time" variant="p" align="left">
         {time + " "}
       </Typography>
