@@ -9,7 +9,7 @@ body {
 }
 .about-page {
   background-color: #ede8f5;
-  color: #3d52a0;
+  color: #0e2b54;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;
   overflow-x: hidden; /* Prevents horizontal overflow */
