@@ -1,8 +1,9 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
+/* HOME PAGE  */
 .home-page {
-  background-color: #ddd5f3;
+  background-color: #ede8f5;
   color: #0e2b54;
   min-height: 100vh;
   width: 100vw;
@@ -15,7 +16,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 100%;
 }
 
@@ -29,72 +29,102 @@
   z-index: 1;
 }
 
-/* Title and Slideshow horizontally spaced across the screen
-.title-slideshow {
-  animation-name: leftwardsSlide;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-} */
+/* TITLE  */
 .title {
-  text-align: left;
   display: flex;
-  justify-content: flex-start;
-  flex: 1 1 50%;
-  max-width: 50%;
-  font-weight: normal;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .title .typography {
-  font-size: 15rem;
-  font-family: "Dancing Script";
+  font-size: 10rem;
+  font-family: "Playfair Display";
+}
+
+/* SLIDESHOW  */
+.slideshow-container {
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .slideshow {
-  padding: 1em;
+  padding: 0.1em;
+  display: flex;
+  box-sizing: border-box;
 }
 
+.slideshow-carousel {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* SCHEDULE + CALENDAR  */
 .schedule-calendar {
-  padding-top: 100px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
   width: 100%;
 }
 
+.left-section,
+.calendar-section {
+  flex: 1 1 50%;
+  max-width: 49%;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-title,
+.calendar-title {
+  font-size: 5rem;
+  font-family: "Lora" !important;
+  text-align: center;
+}
+
 .left-side,
 .calendar {
   flex: 1 1 50%;
-  max-width: 50%;
   box-sizing: border-box;
+  border: 5px solid #0e2b54;
+  gap: 2px;
 }
 
 .date,
 .schedule {
+  padding-top: 10px;
   font-size: 2rem;
   text-align: center;
-  margin-right: 20px;
-  -webkit-text-stroke: 0.5px #ddd5f3;
+}
+
+/* MAGAZINE */
+.magazine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px; /* Add padding to the left */
+  width: 50%; /* Make the container take up the left half */
+  height: auto;
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 .magazine {
   margin-top: 40px;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  gap: 20px;
-  box-sizing: border-box;
+  width: 80%; /* Adjust the width of the magazine content within the container */
+  height: auto;
 }
 
-.magazine-container .magazine-title {
-  font-family: "Lora";
-  margin-top: 40px;
+.magazine-title {
+  padding-top: 50px;
+  font-size: 5rem;
+  font-family: "Lora" !important;
 }
 
+/* FOOTER  */
 .footer {
   font-family: "Lora";
   background-color: white;
@@ -105,27 +135,28 @@
   -webkit-text-stroke: 0.2px white;
 }
 
+/* ANIMATIONS  */
 @keyframes downwardsSlide {
   from {
-      transform: translateY(-600px);
+    transform: translateY(-600px);
   }
   to {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 @keyframes rightwardsSlide {
   from {
-      transform: translateX(-600px);
+    transform: translateX(-600px);
   }
   to {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 @keyframes leftwardsSlide {
   from {
-      transform: translateX(600px);
+    transform: translateX(600px);
   }
   to {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }

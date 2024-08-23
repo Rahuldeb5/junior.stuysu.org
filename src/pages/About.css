@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 .about-page {
-  background-color: #ddd5f3;
+  background-color: #ede8f5;
   color: #0e2b54;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;
@@ -34,7 +34,7 @@ body {
 }
 
 .box-IT {
-  justify-content: center; 
+  justify-content: center;
   display: flex;
   flex-wrap: wrap; /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
   gap: 16px;

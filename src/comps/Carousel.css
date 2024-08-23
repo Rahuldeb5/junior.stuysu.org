@@ -8,8 +8,7 @@
 
 .carousel {
   width: 100%;
-  max-width: 600px;
-  min-width: 300px;
+  max-width: 34em;
   height: auto;
   z-index: 2;
 }

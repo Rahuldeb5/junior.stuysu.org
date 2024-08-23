@@ -21,36 +21,53 @@ export default function Home() {
       <Box className="content">
         <Box className="title">
           <Typography className="typography" variant="h1" align="center">
-            Junior <br />
-            Caucus
+            Junior Caucus
           </Typography>
         </Box>
-
+        {/* <Box className="slideshow-container"> */}
         <Box className="slideshow">
           <Carousel className="slideshow-carousel" />
         </Box>
-
+        {/* </Box> */}
         <Box className="schedule-calendar">
-          <Box className="left-side">
-            <Box className="date">
-              <DateTimeDisplay />
-            </Box>
-            <Box className="schedule">
-              <Schedule />
+          <Box className="left-section">
+            <Typography className="schedule-title" variant="h1" align="center">
+              Schedule
+            </Typography>
+            <Box className="left-side">
+              <Box className="date">
+                <DateTimeDisplay />
+              </Box>
+              <Box className="schedule">
+                <Schedule />
+              </Box>
             </Box>
           </Box>
 
-          <Box className="calendar">
-            <Calendar />
+          <Box className="calendar-section">
+            <Typography className="calendar-title" variant="h1" align="center">
+              Calendar
+            </Typography>
+            <Box className="calendar">
+              <Calendar />
+            </Box>
           </Box>
         </Box>
 
-        <Box classname="magazine-container">
-          <Typography className="magazine-title" variant="h1" align="center">
-            Magazines
-          </Typography>
-          <Box className="magazine">
-            <InstagramEmbed url={magazineUrl} />
+        <Box className="magazine-design">
+          <Box className="magazine-container">
+            <Box>
+              <Typography
+                className="magazine-title"
+                variant="h1"
+                align="center"
+              >
+                Magazine
+              </Typography>
+            </Box>
+            <Box className="magazine">
+              <InstagramEmbed url={magazineUrl} />
+            </Box>
           </Box>
         </Box>
       </Box>
