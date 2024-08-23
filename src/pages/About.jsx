@@ -209,7 +209,7 @@ export default function About() {
           <Typography className="title-typography" variant="h1">
             I/T
           </Typography>
-          <Box className="box-item">
+          <Box className="box-IT">
             <Box className="sub-box">
               <img
                 src={Info.IT[0].img}

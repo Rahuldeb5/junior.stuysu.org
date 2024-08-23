@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 .home-page {
@@ -19,11 +20,22 @@
 }
 
 .navbar {
+  animation-name: rightwardsSlide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
   position: relative;
   width: 100%;
   z-index: 1;
 }
 
+/* Title and Slideshow horizontally spaced across the screen
+.title-slideshow {
+  animation-name: leftwardsSlide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+} */
 .title {
   text-align: left;
   display: flex;
@@ -91,4 +103,29 @@
   margin-top: auto; /* Pushes the footer to the bottom */
   width: 100%;
   -webkit-text-stroke: 0.2px white;
+}
+
+@keyframes downwardsSlide {
+  from {
+      transform: translateY(-600px);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+@keyframes rightwardsSlide {
+  from {
+      transform: translateX(-600px);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+@keyframes leftwardsSlide {
+  from {
+      transform: translateX(600px);
+  }
+  to {
+      transform: translateY(0);
+  }
 }
