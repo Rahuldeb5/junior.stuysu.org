@@ -1,9 +1,10 @@
 :root {
   --fc-border-color: #0e2b54;
-  --fc-small-font-size: .85em;
+  --fc-small-font-size: 0.85em;
 }
 
-.fc .fc-col-header-cell-cushion { /* needs to be same precedence */
+.fc .fc-col-header-cell-cushion {
+  /* needs to be same precedence */
   padding-top: 10px; /* an override! */
   padding-bottom: 10px; /* an override! */
 }

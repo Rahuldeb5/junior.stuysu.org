@@ -34,7 +34,7 @@ body {
 }
 
 .box-IT {
-  justify-content: center; 
+  justify-content: center;
   display: flex;
   flex-wrap: wrap; /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
   gap: 16px;

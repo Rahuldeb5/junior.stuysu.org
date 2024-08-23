@@ -9,7 +9,6 @@
   margin: 4px 0; /* Space between items within left and right schedules */
   -webkit-text-stroke: 0.5px black;
   font-size: 1em;
-
 }
 
 .left-schedule,
@@ -57,5 +56,5 @@
 
 .time-left,
 .time-into {
-  font-family: "Lora"!important
+  font-family: "Lora" !important;
 }

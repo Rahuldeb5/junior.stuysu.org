@@ -25,9 +25,9 @@ export default function Home() {
           </Typography>
         </Box>
         {/* <Box className="slideshow-container"> */}
-          <Box className="slideshow">
-            <Carousel className="slideshow-carousel" />
-          </Box>
+        <Box className="slideshow">
+          <Carousel className="slideshow-carousel" />
+        </Box>
         {/* </Box> */}
         <Box className="schedule-calendar">
           <Box className="left-section">
@@ -36,7 +36,7 @@ export default function Home() {
             </Typography>
             <Box className="left-side">
               <Box className="date">
-                <DateTimeDisplay/>
+                <DateTimeDisplay />
               </Box>
               <Box className="schedule">
                 <Schedule />
@@ -49,7 +49,7 @@ export default function Home() {
               Calendar
             </Typography>
             <Box className="calendar">
-              <Calendar/>
+              <Calendar />
             </Box>
           </Box>
         </Box>
@@ -57,7 +57,11 @@ export default function Home() {
         <Box className="magazine-design">
           <Box className="magazine-container">
             <Box>
-              <Typography className="magazine-title" variant="h1" align="center">
+              <Typography
+                className="magazine-title"
+                variant="h1"
+                align="center"
+              >
                 Magazine
               </Typography>
             </Box>
