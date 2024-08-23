@@ -108,11 +108,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 50px; /* Add padding to the left */
+  width: 50%; /* Make the container take up the left half */
+  height: auto;
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 .magazine {
   margin-top: 40px;
-  width: 50%;
+  width: 80%; /* Adjust the width of the magazine content within the container */
   height: auto;
 }
 

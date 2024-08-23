@@ -54,14 +54,16 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Box className="magazine-container">
-          <Box>
-            <Typography className="magazine-title" variant="h1" align="center">
-              Magazine
-            </Typography>
-          </Box>
-          <Box className="magazine">
-            <InstagramEmbed url={magazineUrl} />
+        <Box className="magazine-design">
+          <Box className="magazine-container">
+            <Box>
+              <Typography className="magazine-title" variant="h1" align="center">
+                Magazine
+              </Typography>
+            </Box>
+            <Box className="magazine">
+              <InstagramEmbed url={magazineUrl} />
+            </Box>
           </Box>
         </Box>
       </Box>
