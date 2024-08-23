@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { useState, useEffect, useCallback } from "react";
-import { Box, Link } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
 
 const Navbar = (props) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,22 +37,16 @@ const Navbar = (props) => {
         <Box className="menu">
           <Link
             href="/about"
-            className={currPageGet(props.page, "About")}
+            className="nav-menu-item"
             style={{ fontSize: "1.5rem" }}
           >
             About
           </Link>
           <Box className="nav-dropdown">
-            <Link
-              href="#"
-              className="nav-menu-item"
-              style={{ fontSize: "1.5rem" }}
-            >
-              Events
-            </Link>
+            Events
             <Box className="dropdown-content">
               <Link href="/jprom" className="nav-menu-item">
-                Jprom
+                JProm
               </Link>
               <Link href="/other" className="nav-menu-item">
                 Other
@@ -61,13 +55,7 @@ const Navbar = (props) => {
           </Box>
 
           <Box className="nav-dropdown">
-            <Link
-              href="#"
-              className="nav-menu-item"
-              style={{ fontSize: "1.5rem" }}
-            >
-              Resources
-            </Link>
+            Resources
             <Box className="dropdown-content">
               <Link href="/newsletters" className="nav-menu-item">
                 Newsletters

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -36,12 +38,14 @@
 }
 
 .sub-box {
+  display: inline-flex;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  flex: 1 1 calc(50% - 16px); /* Each sub-box takes up 50% of the container's width minus the gap */
+  gap: 20px;
+  flex: 1 1 calc(50% - 20px); /* Each sub-box takes up 50% of the container's width minus the gap */
   max-width: 50%; /* Limits the width of each sub-box */
+  border: 10px black;
 }
 
 .sub-box img {
@@ -56,26 +60,31 @@
 }
 
 .content .title-typography {
-  font-family: Poppins;
+  font-family: Lora;
   margin-left: 2rem;
   font-weight: 400;
+  -webkit-text-stroke: 2px #ddd5f3;
 }
 
 .sub-box .name-typography {
-  font-family: Poppins;
+  font-family: Lora;
   font-weight: 400;
   margin-top: 0.5rem;
+  -webkit-text-stroke: px #ddd5f3;
 }
 
 .sub-box .typography {
-  font-family: Poppins;
+  font-family: Lora;
   font-weight: 300;
   text-align: justify;
   padding: 0.5rem 1.5rem;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .footer {
   background-color: white;
   text-align: center;
   position: relative;
+  -webkit-text-stroke: 0.2px white;
 }

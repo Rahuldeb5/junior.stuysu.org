@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 .home-page {
   background-color: #ddd5f3;
   color: #0e2b54;
@@ -10,14 +12,10 @@
 }
 
 .content {
-  flex: 1;
-  padding: 20px;
-  margin-top: 60px;
-  width: 100%;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Distributes content to take up available space */
+  align-items: flex-start;
+  width: 100%;
 }
 
 .navbar {
@@ -26,58 +24,71 @@
   z-index: 1;
 }
 
-/* Title and Slideshow horizontally spaced across the screen */
-.title-slideshow {
+.title {
+  text-align: left;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
+  justify-content: flex-start;
+  flex: 1 1 50%;
+  max-width: 50%;
+  font-weight: normal;
+  box-sizing: border-box;
 }
 
-.title {
-  flex: 1;
-  padding-top: 20px;
-  margin-right: 20px;
-  text-align: left; /* Align title to the left */
+.title .typography {
+  font-size: 15rem;
+  font-family: "Dancing Script";
 }
 
 .slideshow {
-  flex: 1;
-  margin-left: 20px;
+  padding: 1em;
 }
 
-/* Schedule and DateTimeDisplay left-aligned */
+.schedule-calendar {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
+.left-side,
+.calendar {
+  flex: 1 1 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
 .date,
 .schedule {
-  margin-bottom: 20px;
-  text-align: left;
-  width: 100%;
-}
-
-/* Calendar and Magazine horizontally spaced across the screen */
-.calendar-magazine {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch; /* Ensures both children have the same height */
-  width: 100%;
-}
-
-.calendar,
-.magazine {
-  flex: 1;
+  font-size: 2rem;
+  text-align: center;
   margin-right: 20px;
-  display: flex;
-  flex-direction: column; /* Allows for further content alignment within the elements */
+  -webkit-text-stroke: 0.5px #ddd5f3;
 }
 
 .magazine {
-  margin-right: 0; /* Remove margin on the right side of the magazine */
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.magazine-container .magazine-title {
+  font-family: "Lora";
+  margin-top: 40px;
 }
 
 .footer {
+  font-family: "Lora";
   background-color: white;
   text-align: center;
   padding: 20px; /* Add some padding to the footer */
   margin-top: auto; /* Pushes the footer to the bottom */
   width: 100%;
+  -webkit-text-stroke: 0.2px white;
 }
