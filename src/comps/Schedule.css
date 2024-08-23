@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 .schedules-specifics {
   display: flex;
   flex-direction: row; /* Stack children vertically */
@@ -26,6 +28,7 @@
 .period-name,
 .period-time {
   margin: 4px 0; /* Space between items within left and right schedules */
+  -webkit-text-stroke: 0.5px #0e2b54;
 }
 
 .period-name {
@@ -36,7 +39,16 @@
   font-size: 1.5em;
 }
 
-.left,
-.into {
-  padding: 0.2em;
+.time {
+  padding-top: 25px;
+}
+
+.time-into-container,
+.time-left-container {
+  padding: 0.25em;
+}
+
+.time-left,
+.time-into {
+  font-family: "Lora"!important
 }

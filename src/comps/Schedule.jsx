@@ -150,14 +150,14 @@ const Schedule = () => {
       </Box>
       {/* FIX CSS: KALIMUL */}
       <Box className="time">
-        <Box className="into">
-          <Typography variant="h4" color={"green"}>
-            Time Into: {Math.round(minutes)}
+        <Box className="time-into-container">
+          <Typography className="time-into" variant="h3" color={"#588970"}>
+            Time Into Period: {Math.round(minutes)}
           </Typography>
         </Box>
-        <Box className="left">
-          <Typography variant="h4" color={"red"}>
-            Time Left: {Math.round(minutesLeft)}
+        <Box className="time-left-container">
+          <Typography className="time-left" variant="h3" color={"#ad2831"}>
+            Time Left in Period: {Math.round(minutesLeft)}
           </Typography>
         </Box>
       </Box>
