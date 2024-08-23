@@ -24,11 +24,11 @@ export default function Home() {
             Junior Caucus
           </Typography>
         </Box>
-        <Box className="slideshow-container">
+        {/* <Box className="slideshow-container"> */}
           <Box className="slideshow">
             <Carousel className="slideshow-carousel" />
           </Box>
-        </Box>
+        {/* </Box> */}
         <Box className="schedule-calendar">
           <Box className="left-section">
             <Typography className="schedule-title" variant="h1" align="center">

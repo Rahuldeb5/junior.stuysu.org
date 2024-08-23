@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 /* HOME PAGE  */
 .home-page {
@@ -41,26 +43,25 @@
 }
 
 .title .typography {
-  font-size: 15rem;
-  font-family: "Dancing Script";
+  font-size: 10rem;
+  font-family: "Playfair Display";
 }
 
 /* SLIDESHOW  */
 .slideshow-container {
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .slideshow {
-  padding: 1em;
+  padding: 0.1em;
   display: flex;
-  box-sizing: border-box; /* Include padding in width/height calculation */
-  max-width: 750px; /* Set a max width to maintain a reasonable size */
-  width: 100%; /* Take up full available width */
+  box-sizing: border-box;
+
 }
 
 .slideshow-carousel {
-  width: 100%; /* Make sure the carousel takes up the full width of the slideshow div */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -77,7 +78,7 @@
   flex: 1 1 50%;
   max-width: 49%;
   display: flex;
-  flex-direction: column; /* Stack title above content */
+  flex-direction: column;
 }
 
 .schedule-title,
@@ -89,7 +90,7 @@
 
 .left-side,
 .calendar {
-  flex: 1 1 50%; /* Allow content to fill remaining space */
+  flex: 1 1 50%;
   box-sizing: border-box;
   border: 5px solid #0e2b54;
   gap: 2px;
