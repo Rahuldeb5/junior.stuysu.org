@@ -94,8 +94,8 @@ const Schedule = () => {
           );
         })}
       </Box>
-      {/* imo unecessary feature: */}
-      {/* <Box className="time-left">
+      {/* FIX CSS: KALIMUL */}
+      <Box className="time-left">
         <Typography variant="h4" color={"green"}>
           Time Into: {Math.round(minutes)}
         </Typography>
@@ -103,7 +103,7 @@ const Schedule = () => {
         <Typography variant="h4" color={"red"}>
           Time Left: {Math.round(minutesLeft)}
         </Typography>
-      </Box> */}
+      </Box>
     </Box>
   );
 };
@@ -132,7 +132,7 @@ const getDayInfo = (DayType) => {
       return Data.Conference.schedule;
     case "Homeroom":
       return Data.Homeroom.schedule;
-    case "Extended":
+    case "Extended Homeroom":
       return Data["Extended Homeroom"].schedule;
     case "Regular":
       return Data.Regular.schedule;

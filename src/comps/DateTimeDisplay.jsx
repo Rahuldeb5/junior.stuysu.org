@@ -40,7 +40,7 @@ const DateTimeDisplay = () => {
   return (
     <Box>
       <Typography className="day" variant="p" align="left">
-        {day + " "}
+        {day + ", "}
       </Typography>
       <Typography className="date" variant="p" align="left">
         {date + " "}
