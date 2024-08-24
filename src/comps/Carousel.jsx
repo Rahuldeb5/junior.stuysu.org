@@ -26,7 +26,7 @@ const Carousel = () => {
   };
 
   return (
-    <Box className="carousel-slideshow">
+    <Box className="slideshow">
       <ReactCarousel responsive={responsive} className="carousel" infinite>
         {Data.map((item, index) => (
           <Box key={index} className="image-container">
