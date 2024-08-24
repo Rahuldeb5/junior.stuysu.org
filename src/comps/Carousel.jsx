@@ -1,8 +1,8 @@
+import { Box } from "@mui/material";
 import React from "react";
-import "./Carousel.css";
 import ReactCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Box } from "@mui/material";
+import "./Carousel.css";
 
 const Carousel = () => {
   const responsive = {
