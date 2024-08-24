@@ -35,7 +35,10 @@ return (
       <Box className="slideshow-container">
          */}
          <Box className="slideshow">
-            <Carousel className="slideshow-carousel" />
+            <Typography className="header2" variant="h2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            </Typography>
+            <br/><br/><br/><Carousel className="slideshow-carousel" />
          </Box>
          {/* 
       </Box>
