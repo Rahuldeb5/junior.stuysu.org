@@ -1,8 +1,8 @@
+import { Box, Typography } from "@mui/material";
 import React from "react";
-import "./Carousel.css";
 import ReactCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Box } from "@mui/material";
+import "./Carousel.css";
 import Data from "../data/caption-slideshow.json";
 
 const Carousel = () => {
@@ -31,6 +31,9 @@ const Carousel = () => {
         {Data.map((item, index) => (
           <Box key={index} className="image-container">
             <img src={item.image} alt={`Image ${index + 1}`} />
+            <Typography variant="caption" className="caption">
+              {item.caption}
+            </Typography>
           </Box>
         ))}
       </ReactCarousel>

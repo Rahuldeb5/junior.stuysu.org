@@ -1,13 +1,14 @@
-import "./Home.css";
 import Navbar from "../comps/Navbar";
+import "./Home.css";
 // import Contact from "../comps/Contact";
-import { Typography, Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { InstagramEmbed } from "react-social-media-embed";
-import DateTimeDisplay from "../comps/DateTimeDisplay";
 import Calendar from "../comps/Calendar";
-import Schedule from "../comps/Schedule";
 import Carousel from "../comps/Carousel";
 import Contact from "../comps/Contact";
+import DateTimeDisplay from "../comps/DateTimeDisplay";
+import Schedule from "../comps/Schedule";
+import RandomQuote from "../comps/RandomQuote";
 
 export default function Home() {
   const magazineUrl = "https://www.instagram.com/p/C-lwzBvPwGD/";
@@ -17,18 +18,32 @@ export default function Home() {
       <Box className="navbar">
         <Navbar />
       </Box>
-
       <Box className="content">
         <Box className="title">
           <Typography className="typography" variant="h1" align="center">
-            Junior Caucus
+            -Junior-
           </Typography>
         </Box>
-        {/* <Box className="slideshow-container"> */}
+        <Box className="title">
+          <Typography className="typography" variant="h1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caucus-
+          </Typography>
+        </Box>
+        <Box className="blurb">
+          <RandomQuote />
+        </Box>
+        {/* 
+      <Box className="slideshow-container">
+         */}
         <Box className="slideshow">
+          <br />
+          <br />
+          <br />
           <Carousel className="slideshow-carousel" />
         </Box>
-        {/* </Box> */}
+        {/* 
+      </Box>
+      */}
         <Box className="schedule-calendar">
           <Box className="left-section">
             <Typography className="schedule-title" variant="h1" align="center">
@@ -43,7 +58,6 @@ export default function Home() {
               </Box>
             </Box>
           </Box>
-
           <Box className="calendar-section">
             <Typography className="calendar-title" variant="h1" align="center">
               Calendar
@@ -53,7 +67,6 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
-
         <Box className="magazine-design">
           <Box className="magazine-container">
             <Box>
@@ -65,13 +78,14 @@ export default function Home() {
                 Magazine
               </Typography>
             </Box>
-            <Box className="magazine">
-              <InstagramEmbed url={magazineUrl} />
+            <Box className="magazine-border">
+              <Box className="magazine">
+                <InstagramEmbed url={magazineUrl} />
+              </Box>
             </Box>
           </Box>
         </Box>
       </Box>
-
       <Box className="footer">
         <Contact />
       </Box>
