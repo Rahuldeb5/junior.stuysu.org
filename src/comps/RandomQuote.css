@@ -1,0 +1,8 @@
+.random-quote {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.random-quote.fade-out {
+  opacity: 0;
+}

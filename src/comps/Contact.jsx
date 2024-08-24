@@ -87,6 +87,10 @@ const Contact = () => {
           Rahul Deb{" "}
         </Link>
       </Typography>
+      <Typography variant="body1" align="center">
+        Web Developers: Kalimul Kaif, David Lee, Kanchanok Zhang (Ting Ting),
+        Jiewen Huang, Ardian Agoes, Alvin Sze
+      </Typography>
     </Box>
   );
 };

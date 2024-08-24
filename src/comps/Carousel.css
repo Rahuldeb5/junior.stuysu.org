@@ -22,3 +22,14 @@
   height: 400px;
   object-fit: fill;
 }
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0e2b54;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}

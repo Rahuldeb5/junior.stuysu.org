@@ -8,70 +8,74 @@ import Carousel from "../comps/Carousel";
 import Contact from "../comps/Contact";
 import DateTimeDisplay from "../comps/DateTimeDisplay";
 import Schedule from "../comps/Schedule";
+import RandomQuote from "../comps/RandomQuote";
+
 export default function Home() {
-const magazineUrl = "https://www.instagram.com/p/C-lwzBvPwGD/";
-return (
-<Box className="home-page">
-   <Box className="navbar">
-      <Navbar />
-   </Box>
-   <Box className="content">
-      <Box className="title">
-         <Typography className="typography" variant="h1" align="center">
+  const magazineUrl = "https://www.instagram.com/p/C-lwzBvPwGD/";
+
+  return (
+    <Box className="home-page">
+      <Box className="navbar">
+        <Navbar />
+      </Box>
+      <Box className="content">
+        <Box className="title">
+          <Typography className="typography" variant="h1" align="center">
             -Junior-
-         </Typography>
-      </Box>
-      <Box className="title">
-         <Typography className="typography" variant="h1">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caucus-
-         </Typography>
-      </Box>
-      <Box className="blurb">
-          <Typography className="typography" variant="body1">
-            Pro Scientia Atque Sapientia; Bridging the Gap™
           </Typography>
-      </Box>
-      {/* 
+        </Box>
+        <Box className="title">
+          <Typography className="typography" variant="h1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caucus-
+          </Typography>
+        </Box>
+        <Box className="blurb">
+          <RandomQuote />
+        </Box>
+        {/* 
       <Box className="slideshow-container">
          */}
-         <Box className="slideshow">
-            <br/><br/><br/><Carousel className="slideshow-carousel" />
-         </Box>
-         {/* 
+        <Box className="slideshow">
+          <br />
+          <br />
+          <br />
+          <Carousel className="slideshow-carousel" />
+        </Box>
+        {/* 
       </Box>
       */}
-      <Box className="schedule-calendar">
-         <Box className="left-section">
+        <Box className="schedule-calendar">
+          <Box className="left-section">
             <Typography className="schedule-title" variant="h1" align="center">
-               Schedule
+              Schedule
             </Typography>
             <Box className="left-side">
-               <Box className="date">
-                  <DateTimeDisplay />
-               </Box>
-               <Box className="schedule">
-                  <Schedule />
-               </Box>
+              <Box className="date">
+                <DateTimeDisplay />
+              </Box>
+              <Box className="schedule">
+                <Schedule />
+              </Box>
             </Box>
-         </Box>
-         <Box className="calendar-section">
+          </Box>
+          <Box className="calendar-section">
             <Typography className="calendar-title" variant="h1" align="center">
-               Calendar
+              Calendar
             </Typography>
             <Box className="calendar">
-               <Calendar />
+              <Calendar />
             </Box>
-         </Box>
-      </Box>
-      <Box className="magazine-design">
-         <Box className="magazine-container">
+          </Box>
+        </Box>
+        <Box className="magazine-design">
+          <Box className="magazine-container">
             <Box>
               <Typography
-                  className="magazine-title"
-                  variant="h1"
-                  align="center"
-                  >
-                  Magazine
+                className="magazine-title"
+                variant="h1"
+                align="center"
+              >
+                Magazine
               </Typography>
             </Box>
             <Box className="magazine-border">
@@ -79,12 +83,12 @@ return (
                 <InstagramEmbed url={magazineUrl} />
               </Box>
             </Box>
-         </Box>
+          </Box>
+        </Box>
       </Box>
-   </Box>
-   <Box className="footer">
-      <Contact />
-   </Box>
-</Box>
-);
+      <Box className="footer">
+        <Contact />
+      </Box>
+    </Box>
+  );
 }
