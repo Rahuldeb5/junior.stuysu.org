@@ -3,6 +3,7 @@ import "./Carousel.css";
 import ReactCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Box } from "@mui/material";
+import Data from "../data/caption-slideshow.json";
 
 const Carousel = () => {
   const responsive = {
@@ -24,19 +25,12 @@ const Carousel = () => {
     },
   };
 
-  const carouselImages = [
-    "/images/carousel1.png",
-    "/images/carousel2.png",
-    "/images/carousel3.png",
-    "/images/carousel4.png",
-  ];
-
   return (
-    <Box className="slideshow">
+    <Box className="carousel-slideshow">
       <ReactCarousel responsive={responsive} className="carousel" infinite>
-        {carouselImages.map((image, index) => (
+        {Data.map((item, index) => (
           <Box key={index} className="image-container">
-            <img src={image} alt={`Image ${index + 1}`} />
+            <img src={item.image} alt={`Image ${index + 1}`} />
           </Box>
         ))}
       </ReactCarousel>
