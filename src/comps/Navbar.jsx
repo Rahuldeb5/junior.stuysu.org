@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { useState, useEffect, useCallback } from "react";
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Link } from "@mui/material";
 
 const Navbar = (props) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -79,8 +79,8 @@ const Navbar = (props) => {
   );
 };
 
-const currPageGet = (page, currPage) => {
-  return currPage === page ? "nav-menu-item current-page" : "nav-menu-item";
-};
+// const currPageGet = (page, currPage) => {
+//   return currPage === page ? "nav-menu-item current-page" : "nav-menu-item";
+// };
 
 export default Navbar;

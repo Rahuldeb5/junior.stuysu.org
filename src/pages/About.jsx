@@ -22,6 +22,7 @@ export default function About() {
               <img
                 src={Info.Presidents[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -42,6 +43,7 @@ export default function About() {
               <img
                 src={Info.Presidents[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -70,6 +72,7 @@ export default function About() {
               <img
                 src={Info.chiefOfStaff[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -90,6 +93,7 @@ export default function About() {
               <img
                 src={Info.chiefOfStaff[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -118,6 +122,7 @@ export default function About() {
               <img
                 src={Info.Events[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -138,6 +143,7 @@ export default function About() {
               <img
                 src={Info.Events[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -166,6 +172,7 @@ export default function About() {
               <img
                 src={Info.Internals[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -186,6 +193,7 @@ export default function About() {
               <img
                 src={Info.Internals[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -214,6 +222,7 @@ export default function About() {
               <img
                 src={Info.IT[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -242,6 +251,7 @@ export default function About() {
               <img
                 src={Info.Finance[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -262,6 +272,7 @@ export default function About() {
               <img
                 src={Info.Finance[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -290,6 +301,7 @@ export default function About() {
               <img
                 src={Info.Graphics[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -310,6 +322,7 @@ export default function About() {
               <img
                 src={Info.Graphics[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -338,6 +351,7 @@ export default function About() {
               <img
                 src={Info.Outreach[0].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"
@@ -358,6 +372,7 @@ export default function About() {
               <img
                 src={Info.Outreach[1].img}
                 style={{ width: "100%", height: "auto" }}
+                alt="about person"
               />
               <Typography
                 className="name-typography"

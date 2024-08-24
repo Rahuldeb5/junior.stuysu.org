@@ -30,7 +30,7 @@ const Carousel = () => {
       <ReactCarousel responsive={responsive} className="carousel" infinite>
         {Data.map((item, index) => (
           <Box key={index} className="image-container">
-            <img src={item.image} alt={`Image ${index + 1}`} />
+            <img src={item.image} alt={`Carousel ${index + 1}`} />
             <Typography variant="caption" className="caption">
               {item.caption}
             </Typography>
