@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
 /* HOME PAGE  */
 .home-page {
@@ -11,6 +12,7 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  padding-top: 150px;
 }
 
 .content {
@@ -43,10 +45,10 @@
 }
 
 .title .typography {
-  font-size: 9rem;
-  font-family: "Playfair Display";
+  font-size: 16rem;
+  font-family: "Great Vibes";
+  letter-spacing: 0px;
 }
-
 
 .slideshow {
   padding-top: 50px;
@@ -56,6 +58,7 @@
   box-sizing: border-box;
   padding-right: 10px;
   padding-bottom: 50px;
+  z-index: 0;
 }
 
 .slideshow-carousel {
@@ -63,8 +66,8 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  width: 50%
-
+  width: 50%;
+  z-index: 0;
 }
 
 /* SCHEDULE + CALENDAR  */
@@ -73,6 +76,7 @@
   justify-content: space-between;
   align-items: stretch;
   width: 100%;
+  z-index: 0;
 }
 
 .left-section,
@@ -86,7 +90,7 @@
 .schedule-title,
 .calendar-title {
   font-size: 5rem;
-  font-family: "Lora" !important;
+  font-family: "Merienda" !important;
   text-align: center;
 }
 
@@ -138,7 +142,7 @@
 .magazine-title {
   padding-top: 50px;
   font-size: 5rem;
-  font-family: "Lora" !important;
+  font-family: "Merienda" !important;
 }
 
 /* FOOTER  */
@@ -151,6 +155,7 @@
   width: 100%;
   -webkit-text-stroke: 0.2px white;
 }
+
 .blurb {
   animation-name: leftwardsSlide;
   animation-duration: 1s;
@@ -159,7 +164,9 @@
   font-size: 1.5rem;
   text-align: left;
   font-style: italic;
+  margin-left: 25rem;
 }
+
 /* ANIMATIONS  */
 @keyframes downwardsSlide {
   from {
