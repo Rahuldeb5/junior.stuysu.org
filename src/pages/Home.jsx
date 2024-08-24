@@ -18,12 +18,17 @@ return (
    <Box className="content">
       <Box className="title">
          <Typography className="typography" variant="h1" align="center">
-            Junior Caucus
+            -Junior-
+         </Typography>
+      </Box>
+      <Box className="title">
+         <Typography className="typography" variant="h1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caucus-
          </Typography>
       </Box>
       <Box className="blurb">
-          <Typography className="typography" variant="body1" align="center">
-            <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+          <Typography className="typography" variant="body1">
+            Pro Scientia Atque Sapientia; Bridging the Gap™
           </Typography>
       </Box>
       {/* 
