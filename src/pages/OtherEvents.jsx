@@ -5,7 +5,9 @@ import Navbar from "../comps/Navbar";
 export default function OtherEvents() {
   return (
     <Box className="other-events-page">
-      <Navbar {...{ page: "OtherEvents" }} />
+      <Box className="navbar">
+        <Navbar {...{ page: "OtherEvents" }} />
+      </Box>
     </Box>
   );
 }

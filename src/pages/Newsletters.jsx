@@ -5,7 +5,9 @@ import Navbar from "../comps/Navbar";
 export default function Newsletters() {
   return (
     <Box className="newsletters-page">
-      <Navbar {...{ page: "Newsletters" }} />
+      <Box className="navbar">
+        <Navbar {...{ page: "Newsletters" }} />
+      </Box>
     </Box>
   );
 }

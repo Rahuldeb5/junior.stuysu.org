@@ -5,7 +5,9 @@ import Navbar from "../comps/Navbar";
 export default function Magazines() {
   return (
     <Box className="magazines-page">
-      <Navbar {...{ page: "Magazines" }} />
+      <Box className="navbar">
+        <Navbar {...{ page: "Magazines" }} />
+      </Box>
     </Box>
   );
 }

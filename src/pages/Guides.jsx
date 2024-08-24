@@ -5,7 +5,9 @@ import Navbar from "../comps/Navbar";
 export default function Guides() {
   return (
     <Box className="guides-page">
-      <Navbar {...{ page: "Guides" }} />
+      <Box className="navbar">
+        <Navbar {...{ page: "Guides" }} />
+      </Box>
     </Box>
   );
 }
