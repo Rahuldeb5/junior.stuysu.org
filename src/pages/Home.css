@@ -32,35 +32,39 @@
 /* TITLE  */
 .title {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  align-items: left;
+  justify-content: left;
   box-sizing: border-box;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .title .typography {
-  font-size: 10rem;
+  font-size: 9rem;
   font-family: "Playfair Display";
 }
 
-/* SLIDESHOW  */
-.slideshow-container {
-  /* display: flex;
-  justify-content: flex-end; */
-}
 
 .slideshow {
-  padding: 0.1em;
+  padding-top: 50px;
   display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   box-sizing: border-box;
+  padding-right: 10px;
+  padding-bottom: 50px;
 }
 
 .slideshow-carousel {
-  width: 100%;
   box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 50%
+
 }
 
 /* SCHEDULE + CALENDAR  */
