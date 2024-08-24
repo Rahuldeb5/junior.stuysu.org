@@ -3,7 +3,6 @@ import React from "react";
 import ReactCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Carousel.css";
-import { Box } from "@mui/material";
 import Data from "../data/caption-slideshow.json";
 
 const Carousel = () => {
