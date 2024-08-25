@@ -20,7 +20,7 @@ export default function Jprom() {
               For Junior Prom to be as affordable as possible, Junior Caucus has
               several initiatives dedicated towards fundraising to contribute to
               this cause. The intended goal is to raise $15,000 dollars to lower
-              costs for around $50 per student.
+              costs to around $50 per student.
             </Typography>
           </Box>
         </Box>
