@@ -21,12 +21,12 @@ export default function Home() {
       <Box className="content">
         <Box className="title">
           <Typography className="typography" variant="h1" align="center">
-            -Junior-
+            Junior
           </Typography>
         </Box>
         <Box className="title">
           <Typography className="typography" variant="h1">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Caucus-
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caucus
           </Typography>
         </Box>
         <Box className="blurb">

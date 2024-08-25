@@ -184,24 +184,30 @@
 @keyframes downwardsSlide {
   from {
     transform: translateY(-600px);
+    filter: blur(5px);
   }
   to {
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 @keyframes rightwardsSlide {
   from {
     transform: translateX(-600px);
+    filter: blur(5px);
   }
   to {
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 @keyframes leftwardsSlide {
   from {
     transform: translateX(600px);
+    filter: blur(5px);
   }
   to {
     transform: translateY(0);
+    filter: blur(0);
   }
 }

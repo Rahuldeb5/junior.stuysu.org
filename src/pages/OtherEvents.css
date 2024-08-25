@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-.title {
-  text-align: center;
+.otherevents-title {  
+  display: flex;
+  justify-content: center;
 }
 
 .other-page {
@@ -34,3 +37,4 @@
   width: 100%;
   box-sizing: border-box;
 }
+

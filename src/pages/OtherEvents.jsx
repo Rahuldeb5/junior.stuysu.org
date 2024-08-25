@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import "./OtherEvents.css";
 import Navbar from "../comps/Navbar";
+import "./OtherEvents.css";
 
 export default function OtherEvents() {
   return (
@@ -10,7 +10,7 @@ export default function OtherEvents() {
       </Box>
       <Box className="content">
         <Box className="info">
-          <Typography variant="h1" className="title">
+          <Typography variant="h1" className="otherevents-title" style={{ fontFamily: 'Baskervville SC' }}>
             No Events Yet!
           </Typography>
         </Box>
