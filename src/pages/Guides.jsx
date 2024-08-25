@@ -20,6 +20,7 @@ export default function Guides() {
                   title={guide.title}
                   link={guide.link}
                   date={guide.date}
+                  blurb={guide.blurb}
                 />
               ))
             }
