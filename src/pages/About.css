@@ -76,6 +76,19 @@ body {
   margin-left: 2rem;
   font-weight: 400;
 }
+.content .copresidents {
+  border-right: 5px solid;
+  width: 35%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s steps(200),
+    cursor .4s step-end infinite alternate;
+  font-family: Lora;
+  margin-left: 2rem;
+  font-weight: 400;
+  margin: auto;
+}
 
 .sub-box .name-typography {
   font-family: Lora;
@@ -84,10 +97,15 @@ body {
 }
 
 .sub-box .typography {
+  border-style: inset;
+  border-color:white;
+  background-color:#0e2b54;
+  color: white;
+  border-radius: 25px;
   font-family: Lora;
   font-weight: 300;
   text-align: justify, center;
-  padding: 0.5rem 1.5rem;
+  padding: 2rem;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -97,4 +115,15 @@ body {
   text-align: center;
   position: relative;
   -webkit-text-stroke: 0.2px white;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
 }

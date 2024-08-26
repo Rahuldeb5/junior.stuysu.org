@@ -36,11 +36,11 @@ const Navbar = (props) => {
         </Box>
         <Box className="menu">
           <Link
-            href="/about"
+            href="/people"
             className="nav-menu-item"
             style={{ fontSize: "1.5rem" }}
           >
-            About
+            People
           </Link>
           <Box className="nav-dropdown">
             Events
