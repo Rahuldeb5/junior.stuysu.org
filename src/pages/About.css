@@ -110,12 +110,6 @@ body {
   margin-right: 40px;
 }
 
-.footer {
-  background-color: white;
-  text-align: center;
-  position: relative;
-  -webkit-text-stroke: 0.2px white;
-}
 @keyframes typing {
   from {
     width: 0;

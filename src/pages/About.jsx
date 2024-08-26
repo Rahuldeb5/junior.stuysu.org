@@ -392,10 +392,6 @@ export default function About() {
           </Box>
         </Box>
       </Box>
-
-      <Box className="footer">
-        <Contact />
-      </Box>
     </Box>
   );
 }

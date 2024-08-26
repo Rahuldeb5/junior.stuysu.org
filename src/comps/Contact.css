@@ -1,32 +1,52 @@
 .footer {
   background-color: white;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px 0; /* Adjust padding as needed */
-  margin: 0; /* Remove any default margin */
-  text-align: center; /* Center the text */
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
 }
 
 .icons-container {
   display: flex;
-  justify-content: center; /* Center the icons horizontally */
-  align-items: center; /* Center the icons vertically */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .icons {
   display: flex;
-  gap: 15px; /* Adjust the gap between icons */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  gap: 15px;
+  padding: 0;
+  margin: 0;
 }
 
 .logo-ref img {
   height: 25px;
   width: 25px;
-  margin: 0; /* Remove any margin around images */
-  padding: 0px; /* Reduce padding around images */
+  margin: 0;
+  padding: 0px;
+}
+
+.developer-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.developer-column {
+  text-align: center;
+  padding: 0 20px; /* Adjust the padding for spacing between text and divider */
+}
+
+.divider {
+  width: 1px;
+  background-color: black;
+  height: 5em; /* Explicitly set a height for the divider */
+  z-index: 1;
+  align-self: stretch; /* Ensures the divider takes the full height of the container */
 }
