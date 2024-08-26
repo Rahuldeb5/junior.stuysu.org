@@ -49,9 +49,7 @@
     border-style: inset;
     border-radius: 30px;
     border-color: #0e2b54;
-    padding: 20px;
     border-width: 3px;
-    margin-bottom: 60px;
 }
 .guide-card:hover{
     background-color: white;
