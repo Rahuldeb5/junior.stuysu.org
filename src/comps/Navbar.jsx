@@ -40,7 +40,7 @@ const Navbar = (props) => {
             className="nav-menu-item"
             style={{ fontSize: "1.5rem" }}
           >
-            About
+            People
           </Link>
           <Box className="nav-dropdown">
             Events
