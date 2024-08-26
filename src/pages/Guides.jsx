@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
-import "./Guides.css";
+import GuideCard from "../comps/GuideCard";
 import Navbar from "../comps/Navbar";
 import Guide from "../data/guides.json";
-import GuideCard from "../comps/GuideCard";
+import "./Guides.css";
 
 export default function Guides() {
 
