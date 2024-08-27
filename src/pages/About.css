@@ -79,18 +79,17 @@ body {
   padding-top: 100px;
 }
 .content .copresidents {
-  border-right: 5px solid;
-  width: 35%;
+  width: 100%;
   white-space: nowrap;
   display: inline-block;
   overflow: hidden;
   animation:
-    typing 2s steps(200),
-    cursor .4s step-end infinite alternate;
+  typing 3.5s steps(200, end);
   font-family: Lora;
-  margin-left: 2rem;
+  margin: 0 auto;  
   font-weight: 400;
   margin: auto;
+  white-space: nowrap;
 }
 
 .sub-box .name-typography {
@@ -126,11 +125,5 @@ body {
 @keyframes typing {
   from {
     width: 0;
-  }
-}
-
-@keyframes cursor {
-  50% {
-    border-color: transparent;
   }
 }
