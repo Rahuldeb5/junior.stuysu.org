@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 
 /* HOME PAGE  */
 .home-page {
@@ -45,13 +49,15 @@
 }
 
 .title .typography {
-  font-size: 16rem;
-  font-family: "Great Vibes";
-  letter-spacing: 0px;
+  font-size: 13rem;
+  font-family: "Cinzel Decorative";
+  letter-spacing: -10px;
+  font-weight: 700;
+  padding-left: 100px;
 }
 
 .slideshow {
-  padding-top: 50px;
+  padding-top: 125px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -170,14 +176,16 @@
 }
 
 .blurb {
+  display: flex;
   animation-name: leftwardsSlide;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
-  font-size: 1.5rem;
   text-align: left;
   font-style: italic;
-  margin-left: 25rem;
+  font-weight: 400;
+  padding-left: 110px;
+  padding-top: 50px;
 }
 
 /* ANIMATIONS  */
