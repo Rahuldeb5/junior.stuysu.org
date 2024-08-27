@@ -23,3 +23,11 @@
   flex-direction: column; /* Stack sections vertically */
   width: 100%;
 }
+
+.dropdown-item {
+  padding: 25px 25px 25px 25px;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+}

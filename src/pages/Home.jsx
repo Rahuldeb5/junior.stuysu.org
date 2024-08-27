@@ -19,15 +19,20 @@ export default function Home() {
         <Navbar />
       </Box>
       <Box className="content">
-        <Box className="title">
-          <Typography className="typography" variant="h1" align="center">
-            Junior
-          </Typography>
-        </Box>
-        <Box className="title">
-          <Typography className="typography" variant="h1">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caucus
-          </Typography>
+        <Box className="title-design">
+          <Box className="header">
+            <Box className="title">
+              <Typography className="typography" variant="h1" align="center">
+                Junior <br/>
+              </Typography>
+            </Box>
+            <Box className="title">
+              <Typography className="typography" variant="h1" align="center">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caucus
+              </Typography>
+            </Box>
+          </Box>
+          <img class="design" src="../images/wtc.png" alt="design logo" />
         </Box>
         <Box className="blurb">
           <RandomQuote />

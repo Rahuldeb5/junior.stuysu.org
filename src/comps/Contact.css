@@ -1,5 +1,5 @@
 .footer {
-  background-color: white;
+  background-color: #A8A6CD;
   position: relative;
   bottom: 0;
   left: 0;
@@ -7,6 +7,9 @@
   padding: 10px 0;
   margin: 0;
   text-align: center;
+  color: #433F83;
+  -webkit-text-stroke: 1px #433F83;
+  border-top: 3px solid rgb(255, 255, 255);
 }
 
 .icons-container {
@@ -45,7 +48,7 @@
 
 .divider {
   width: 1px;
-  background-color: black;
+  background-color: #433F83;
   height: 5em; /* Explicitly set a height for the divider */
   z-index: 1;
   align-self: stretch; /* Ensures the divider takes the full height of the container */

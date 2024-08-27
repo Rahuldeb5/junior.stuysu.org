@@ -37,9 +37,9 @@ const DropdownBoxes = () => {
     return(
         <Box className="dropdown-container">
             <Box className="junior"
-            sx={{border: '1px solid #ccc', padding: 2, marginBottom: 2, cursor: 'pointer'}}
+            sx={{padding: 2, marginBottom: 2, cursor: 'pointer'}}
             onClick={() => handleToggle(1)}>
-                <Typography variant='h4'>Junior Magazines</Typography>
+                <Typography variant='h4' className="magazineTitle">Junior Magazines</Typography>
                 <Collapse in={openBox === 1}>
                     <Box className="dropdown">
                         {juniorMagazines.map((item) => (
@@ -54,9 +54,9 @@ const DropdownBoxes = () => {
                 </Collapse>
             </Box>
             <Box className="sophomore"
-            sx={{border: '1px solid #ccc', padding: 2, marginBottom: 2, cursor: 'pointer'}}
+            sx={{padding: 2, marginBottom: 2, cursor: 'pointer'}}
             onClick={() => handleToggle(2)}>
-                <Typography variant='h4'>Sophomore Magazines</Typography>
+                <Typography variant='h4' className="magazineTitle">Sophomore Magazines</Typography>
                 <Collapse in={openBox === 2}>
                     <Box className="dropdown">
                         {sophomoreMagazines.map((item) => (
@@ -71,9 +71,9 @@ const DropdownBoxes = () => {
                 </Collapse>
             </Box>
             <Box className="freshman"
-            sx={{border: '1px solid #ccc', padding: 2, marginBottom: 2, cursor: 'pointer'}}
+            sx={{padding: 2, marginBottom: 2, cursor: 'pointer'}}
             onClick={() => handleToggle(3)}>
-                <Typography variant='h4'>Freshman Magazines</Typography>
+                <Typography variant='h4' className="magazineTitle">Freshman Magazines</Typography>
                 <Collapse in={openBox === 3}>
                     <Box className="dropdown">
                         {freshmanMagazines.map((item) => (

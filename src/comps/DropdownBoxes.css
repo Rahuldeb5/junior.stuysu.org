@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+.freshman, .sophomore, .junior {
+    background-color: #0e2b54;
+    border-style: inset;
+    border-radius: 30px;
+    border-color: #ffffff;
+    border-width: 5px;
+  }
+  
+  .freshman:hover, .sophomore:hover, .junior:hover {
+    background-color: #A8A6CD;
+  }
+
+  .magazineTitle{
+    font-family: "Baskervville SC"!important;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000000;
+  }
+
+  .dropdown-item:hover{
+    transform: scale(1.05);
+  }

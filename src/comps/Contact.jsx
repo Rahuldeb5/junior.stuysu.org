@@ -4,7 +4,7 @@ import { Box, Link, Typography } from "@mui/material";
 
 const Contact = () => {
   return (
-    <Box className="footer">
+    <Box>
       <Box className="icons-container">
         <Box className="icons" align="center">
           <Link

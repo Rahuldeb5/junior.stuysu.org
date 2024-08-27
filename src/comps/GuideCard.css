@@ -8,6 +8,7 @@
     width: 100%;
     z-index: 0;
 }
+
 .guide-head .guide-title {
     padding-top: 30px;
     padding-left: 50px;
@@ -51,6 +52,7 @@
     border-color: #0e2b54;
     border-width: 3px;
 }
+
 .guide-card:hover{
     background-color: white;
 }
