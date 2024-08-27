@@ -84,6 +84,9 @@ export default function Home() {
               </Box>
             </Box>
           </Box>
+          <Box className="design-container">
+            <img src="/images/stuyvesant.png" className="stuyvesant-image"/>
+          </Box>
         </Box>
       </Box>
       <Box className="footer">
