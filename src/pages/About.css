@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -46,7 +47,7 @@ body {
   display: flex;
   flex-wrap: wrap; /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
   gap: 16px;
-  margin-top: 16px; /* Adds space between the title and the boxes */
+  margin-top: 30px; /* Adds space between the title and the boxes */
 }
 
 .sub-box {
@@ -75,28 +76,32 @@ body {
   font-family: Lora;
   margin-left: 2rem;
   font-weight: 400;
+  padding-top: 100px;
 }
 .content .copresidents {
-  border-right: 5px solid;
-  width: 35%;
+  width: 100%;
   white-space: nowrap;
+  display: inline-block;
   overflow: hidden;
   animation:
-    typing 2s steps(200),
-    cursor .4s step-end infinite alternate;
+  typing 3.5s steps(200, end);
   font-family: Lora;
-  margin-left: 2rem;
+  margin: 0 auto;  
   font-weight: 400;
   margin: auto;
+  white-space: nowrap;
 }
 
 .sub-box .name-typography {
-  font-family: Lora;
-  font-weight: 400;
+  font-weight: 900;
   margin-top: 0.5rem;
+  text-shadow:    
+  1px 1px 0 #000; 
+
 }
 
 .sub-box .typography {
+  padding: 10px;
   border-style: inset;
   border-color:white;
   background-color:#0e2b54;
@@ -105,9 +110,10 @@ body {
   font-family: Lora;
   font-weight: 300;
   text-align: justify, center;
-  padding: 2rem;
   margin-left: 40px;
   margin-right: 40px;
+  font-size: 20px;
+
 }
 
 .footer {
@@ -119,11 +125,5 @@ body {
 @keyframes typing {
   from {
     width: 0;
-  }
-}
-
-@keyframes cursor {
-  50% {
-    border-color: transparent;
   }
 }

@@ -25,9 +25,6 @@
 }
 
 .caption {
-  align-items: flex-start;
-  display: flex;
-  justify-content: flex-start; 
   border-style: inset;
   border-radius: 25px;
   padding: 20px;
@@ -35,11 +32,13 @@
   font-weight: 400;
   border-width: 3px;
   margin-bottom: 300px;
+  color:white
 }
 
 .caption-container{
+  padding-top: 10px;
   display: flex;
-  justify-content: flex-start; 
-  align-items: flex-start;
+  justify-content: center; 
+  align-items: center;
 
 }
