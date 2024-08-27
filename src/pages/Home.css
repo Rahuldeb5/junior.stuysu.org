@@ -38,14 +38,16 @@
   animation-timing-function: ease-in;
   animation-delay: 0s;
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 40%;
   box-sizing: border-box;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-right: 10px;
-  padding-left: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 60%;
 }
 
 .title .typography {
@@ -53,7 +55,6 @@
   font-family: "Cinzel Decorative";
   letter-spacing: -10px;
   font-weight: 700;
-  padding-left: 100px;
 }
 
 .slideshow {
@@ -184,7 +185,7 @@
   text-align: left;
   font-style: italic;
   font-weight: 400;
-  padding-left: 110px;
+  padding-left: 150px;
   padding-top: 50px;
 }
 
