@@ -11,20 +11,26 @@ export default function Jprom() {
 
       <Box className="content">
         <Box className="info">
-        <Typography variant="h3" className="header" style={{ fontFamily: 'Baskervville SC'}}>
-          Our Fundraising Initiatives:
-        </Typography>
-        <Box className="caption-container">
-          <Box className="caption">
-            <Typography variant="body" className="desc">
-              For Junior Prom to be as affordable as possible, Junior Caucus has
-              several initiatives dedicated towards fundraising to contribute to
-              this cause. The intended goal is to raise $15,000 dollars to lower
-              costs to around $50 per student.
+          <Box className="fundRaising">
+            <Typography
+              variant="h3"
+              className="header"
+              style={{ fontFamily: "Baskervville SC" }}
+            >
+              Our Fundraising Initiatives:
             </Typography>
           </Box>
+          <Box className="caption-container">
+            <Box className="caption">
+              <Typography variant="body" className="desc">
+                For Junior Prom to be as affordable as possible, Junior Caucus
+                has several initiatives dedicated towards fundraising to
+                contribute to this cause. The intended goal is to raise $15,000
+                dollars to lower costs to around $50 per student.
+              </Typography>
+            </Box>
+          </Box>
         </Box>
-      </Box>
       </Box>
     </Box>
   );

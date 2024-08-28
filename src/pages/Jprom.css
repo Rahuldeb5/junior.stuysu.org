@@ -11,7 +11,10 @@
   flex-direction: column;
   padding-top: 5rem;
 }
-
+.fundRaising {
+  display: flex;
+  justify-content: center;
+}
 .navbar {
   position: relative;
   width: 100%;
@@ -32,13 +35,12 @@
   font-weight: 400;
   border-width: 3px;
   margin-bottom: 300px;
-  color:white
+  color: white;
 }
 
-.caption-container{
+.caption-container {
   padding-top: 10px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-
 }

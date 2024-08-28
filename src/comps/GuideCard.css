@@ -1,56 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
 
-.guide-head{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    width: 100%;
-    z-index: 0;
+.guide-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  z-index: 0;
 }
+
 .guide-head .guide-title {
-    padding-top: 30px;
-    padding-left: 50px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    font-size: 4rem;
-    flex: 1 1 85%;
-    overflow: hidden;
-    color: #0e2b54;
+  padding-top: 30px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 4rem;
+  flex: 1 1 85%;
+  overflow: hidden;
+  color: #0e2b54;
 }
 
-.guide-head .guide-date{
-    padding-top: 30px;
-    padding-right: 50px;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    font-size: 2rem;
-    flex: 1 1 15%;
-    overflow: hidden;
-    color: #0e2b54;
+.guide-head .guide-date {
+  padding-top: 30px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  font-size: 2rem;
+  flex: 1 1 15%;
+  overflow: hidden;
+  color: #0e2b54;
 }
 
-.guide-blurb{
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    font-size: 2rem;
-    overflow: hidden;
-    color: #0e2b54;
+.guide-blurb {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 2rem;
+  overflow: hidden;
+  color: #0e2b54;
 }
 
 .guide-card {
-    background-color: transparent;
-    border-style: inset;
-    border-radius: 30px;
-    border-color: #0e2b54;
-    border-width: 3px;
+  background-color: transparent;
+  border-style: inset;
+  border-radius: 30px;
+  border-color: #0e2b54;
+  border-width: 3px;
 }
-.guide-card:hover{
-    background-color: white;
+
+.guide-card:hover {
+  background-color: white;
 }

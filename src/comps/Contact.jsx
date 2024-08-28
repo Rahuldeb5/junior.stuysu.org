@@ -4,7 +4,7 @@ import { Box, Link, Typography } from "@mui/material";
 
 const Contact = () => {
   return (
-    <Box className="footer">
+    <Box>
       <Box className="icons-container">
         <Box className="icons" align="center">
           <Link
@@ -87,10 +87,23 @@ const Contact = () => {
           Rahul Deb{" "}
         </Link>
       </Typography>
+      <br />
       <Typography variant="body1" align="center">
-        Web Developers: Kalimul Kaif, David Lee, Kanchanok Zhang (Ting Ting),
-        Jiewen Huang, Ardian Agoes, Alvin Sze
+        Special thanks to our Junior Caucus IT Team:
       </Typography>
+      <Box className="developer-columns">
+        <Box className="developer-column" align="center">
+          <Typography variant="body1">Kalimul Kaif</Typography>
+          <Typography variant="body1">David Lee</Typography>
+          <Typography variant="body1">Ting Ting Zhang</Typography>
+        </Box>
+        <Box className="divider" />
+        <Box className="developer-column" align="center">
+          <Typography variant="body1">Jiewen Huang</Typography>
+          <Typography variant="body1">Ardian Agoes</Typography>
+          <Typography variant="body1">Alvin Sze</Typography>
+        </Box>
+      </Box>
     </Box>
   );
 };
