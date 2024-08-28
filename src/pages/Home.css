@@ -60,7 +60,7 @@
   text-overflow: ellipsis;
   justify-content: space-between;
   flex-direction: column;
-  padding-right: 10px;
+  padding-right: 10em;
   width: 100%;
 }
 
