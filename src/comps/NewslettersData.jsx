@@ -47,7 +47,7 @@ export default function NewslettersData() {
         onClick={() => handleToggle(1)}
       >
         <Typography variant="h2" className="magazineTitle">
-          Past Magazines
+          Past Newsletters
         </Typography>
         <Collapse in={openBox === 1}>
           <Box className="dropdown">
