@@ -43,7 +43,6 @@
   flex: 1 1 40%;
   box-sizing: border-box;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
   justify-content: space-between;
   flex-direction: column;
