@@ -10,7 +10,11 @@ export default function OtherEvents() {
       </Box>
       <Box className="content">
         <Box className="info">
-          <Typography variant="h1" className="otherevents-title" style={{ fontFamily: 'Baskervville SC' }}>
+          <Typography
+            variant="h1"
+            className="otherevents-title"
+            style={{ fontFamily: "Baskervville SC" }}
+          >
             No Events Yet!
           </Typography>
         </Box>

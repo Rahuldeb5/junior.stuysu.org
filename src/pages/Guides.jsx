@@ -5,7 +5,6 @@ import Guide from "../data/guides.json";
 import "./Guides.css";
 
 export default function Guides() {
-
   return (
     <Box className="guides-page">
       <Box className="navbar">
@@ -14,16 +13,16 @@ export default function Guides() {
       <Box className="content">
         <Box className="guides-super">
           <Box className="guides-container">
-            {
-              Guide.slice().reverse().map((guide) => (
+            {Guide.slice()
+              .reverse()
+              .map((guide) => (
                 <GuideCard
                   title={guide.title}
                   link={guide.link}
                   date={guide.date}
                   blurb={guide.blurb}
                 />
-              ))
-            }
+              ))}
           </Box>
         </Box>
       </Box>

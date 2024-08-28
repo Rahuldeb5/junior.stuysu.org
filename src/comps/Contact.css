@@ -1,5 +1,5 @@
 .footer {
-  background-color: #A8A6CD;
+  background-color: #a8a6cd;
   position: relative;
   bottom: 0;
   left: 0;
@@ -48,7 +48,7 @@
 
 .divider {
   width: 1px;
-  background-color: #433F83;
+  background-color: #433f83;
   height: 5em; /* Explicitly set a height for the divider */
   z-index: 1;
   align-self: stretch; /* Ensures the divider takes the full height of the container */

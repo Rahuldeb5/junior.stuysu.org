@@ -36,7 +36,11 @@ const RandomQuote = () => {
 
   return (
     <Box className={`random-quote ${fadeClass}`}>
-      <Typography className="typography" variant="body1" style={{fontFamily: 'Mate', fontSize: 20}}>
+      <Typography
+        className="typography"
+        variant="body1"
+        style={{ fontFamily: "Mate", fontSize: 20 }}
+      >
         {currentQuote}
       </Typography>
     </Box>

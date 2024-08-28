@@ -5,7 +5,7 @@
   width: 100%;
   z-index: 1e6;
   border-bottom: 3px solid rgb(255, 255, 255);
-  background-color: #A8A6CD;
+  background-color: #a8a6cd;
   position: fixed;
   top: 0;
 }
@@ -38,7 +38,7 @@
   font-size: 1rem;
   font-style: normal;
   text-decoration: none;
-  color: #433F83;
+  color: #433f83;
   font-weight: 500;
   line-height: normal;
   list-style: none;
