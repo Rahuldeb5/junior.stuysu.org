@@ -50,9 +50,10 @@
   border-style: inset;
   border-radius: 30px;
   border-color: #0e2b54;
-  border-width: 3px;
+  border-width: 5px;
+  text-shadow: 1px 1px 4px;
 }
 
 .guide-card:hover {
-  background-color: white;
+  background-color: #a8a6cd;
 }

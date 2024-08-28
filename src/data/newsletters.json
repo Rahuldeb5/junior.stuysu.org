@@ -1,8 +1,29 @@
 [
   {
-    "month": "September",
-    "theme": "Ivy League Universities",
+    "title": "Ivy League Universities",
     "blurb": "This month, the Internals Department presents information about the Ivy League universities (Princeton, Harvard, Yale, Columbia, Brown, Dartmouth, University of Pennsylvania, and Cornell). Learn all about what these top colleges are looking for, popular majors and minora, application details, and Stuyvesant-specific statistics!",
-    "pdf": "/pdfs/september.pdf"
+    "pdf": "../../pdfs/magazines/september.pdf#toolbar=0"
+  },
+
+  {
+    "title": "Test 2",
+    "blurb": "This month, the Internals Department presents information about the Ivy League universities (Princeton, Harvard, Yale, Columbia, Brown, Dartmouth, University of Pennsylvania, and Cornell). Learn all about what these top colleges are looking for, popular majors and minora, application details, and Stuyvesant-specific statistics!",
+    "pdf": "../../pdfs/magazines/september.pdf#toolbar=0"
+  },
+
+  {
+    "title": "Test 3",
+    "blurb": "This month, the Internals Department presents information about the Ivy League universities (Princeton, Harvard, Yale, Columbia, Brown, Dartmouth, University of Pennsylvania, and Cornell). Learn all about what these top colleges are looking for, popular majors and minora, application details, and Stuyvesant-specific statistics!",
+    "pdf": "../../pdfs/magazines/september.pdf#toolbar=0"
+  },
+  {
+    "title": "Test 4",
+    "blurb": "This month, the Internals Department presents information about the Ivy League universities (Princeton, Harvard, Yale, Columbia, Brown, Dartmouth, University of Pennsylvania, and Cornell). Learn all about what these top colleges are looking for, popular majors and minora, application details, and Stuyvesant-specific statistics!",
+    "pdf": "../../pdfs/magazines/september.pdf#toolbar=0"
+  },
+  {
+    "title": "[Latest Newspaper]",
+    "blurb": "This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper. This is the latest newspaper.",
+    "pdf": "../../pdfs/magazines/september.pdf#toolbar=0"
   }
 ]

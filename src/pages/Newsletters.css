@@ -1,7 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+
+body {
+  text-align: center;
+}
+
 .navbar {
   position: relative;
   width: 100%;
   z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  padding: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* NEWSLETTERS PAGE */
+.newsletters-page {
+  background-color: #ede8f5;
+  color: #000000;
+  min-height: 100vh; /* Allows the content to extend beyond the viewport */
+  width: 100vw;
+  overflow-x: hidden; /* Prevents horizontal overflow */
+  overflow-y: auto; /* Allows vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.newsletters-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.newsletters-container {
+  padding-top: 100px;
+}
+
+/* TITLE */
+.newsletters-container .newsletters-title {
+  font-family: Lora;
+  font-weight: 400;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  overflow: hidden;
+  animation: typing 2s steps(200, end);
+}
+
+.newsletters-title {
+  text-shadow: 1px 1px 4px #0e2b54;
+  border-top: 5px ridge #0e2b54;
+  border-bottom: 5px ridge #0e2b54;
+  border-left: none;
+  border-right: none;
+}
+
+.latest-title {
+  padding-top: 2rem;
+  text-shadow: 1px 1px 4px #0e2b54;
+  font-family: "Baskervville SC" !important;
+}
+
+/* LIST STYLES */
+.latest-title-div {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  width: 100%;
+  white-space: nowrap;
+  animation: fadeInAnimation ease 7.5s;
+  margin-bottom: 20px;
+}
+
+.latest-embed-blurb-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 35px;
+  background-color: #0e2b54;
+  color: white;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.latest-newsletter-embed,
+.latest-newsletter-blurb {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.latest-embed-blurb-div .latest-newsletter-embed {
+  border-style: solid;
+  border: 1px gray;
+}
+
+.latest-embed-blurb-div .latest-newsletter-blurb {
+  background-color: #0e2b54;
+  color: white;
+  font-family: Lora;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 2.1rem;
+}
+
+.latest-newsletter-blurb {
+  background-color: transparent!important;
+}
+
+/* .newsletter-item {
+  padding: 1rem;
+  gap: 20px;
+  border: 10px black;
+}
+
+.newsletter-month {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #0e2b54;
+}
+
+.newsletter-theme {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: #0e2b54;
+  margin-bottom: 10px;
+}
+
+.newsletter-item .newsletter-blurb {
+  font-family: Lora;
+  padding: 10px;
+  border-style: inset;
+  border-color: white;
+  background-color:#0e2b54;
+  color: white;
+  border-radius: 25px;
+  font-weight: 300;
+  text-align: justify, center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+} */
+
+.newsletter-link {
+  display: inline-block; /* Ensures link behaves as a block for spacing */
+  font-size: 1rem; /* Normal font size */
+  color: #007bff; /* Primary color for link */
+  text-decoration: none; /* Remove underline */
+  margin-top: 10px;
+}
+
+.newsletter-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #0056b3; /* Darker shade for hover effect */
+}
+
+.magazineTitle {
+  padding: 20px;
+}
+
+.old-newsletters, .latest-embed-blurb-div {
+  background-color: #0e2b54;
+  border-style: inset;
+  border-radius: 30px;
+  border-color: #ffffff;
+  border-width: 5px;
+}
+
+.old-newsletters:hover, .latest-embed-blurb-div:hover {
+  background-color: #a8a6cd;
+  border-style: dashed;
+}
+
+.newsletter-title {
+  padding-top: 25px;
+  font-family: "Baskervville SC" !important;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #0e2b54;
+}
+
+.newsletter-blurb {
+  font-family: "Lora"!important;
+  padding: 20px;
+}
+
+.old-newsletters .newsletter-title {
+  padding-top: 0;
+  font-family: "Baskervville SC" !important;
+  color:#ffffff;
+  width: 37.5rem;
+  border-top: 3px ridge #ffffff;
+  border-bottom: 3px ridge #ffffff;
+}
+
+.newsletter-title-blurb {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
+  border-radius: 30px;
+}
+
+.newsletter-blurb {
+  color: rgb(255, 255, 255);
+}
+
+.newsletter-item {
+  padding: 20px;
+  border-top: 5px dotted white;
+}
+
+.module {
+  padding: 10px;
+}
+
+.newsletter-item:hover {
+    background-color:#0e2b54;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 30px;
+    color: white;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body {

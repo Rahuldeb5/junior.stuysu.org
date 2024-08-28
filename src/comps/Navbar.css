@@ -171,7 +171,7 @@ a:link {
 }
 
 .head-nav {
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -179,7 +179,7 @@ a:link {
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
-    filter: blur(20px);
+    filter: blur(15px);
   }
   100% {
     opacity: 1;
