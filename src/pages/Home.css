@@ -75,6 +75,7 @@
   font-family: "Cinzel Decorative";
   letter-spacing: -10px;
   font-weight: 700;
+  padding-left: 100px;
 }
 
 .slideshow {
@@ -142,31 +143,31 @@
 }
 
 /* MAGAZINE */
-.magazine-container {
+.magazine-design{
   padding-top: 100px;
   display: flex;
   justify-content: space-between;
-  width: 49%;
-  flex-direction: column;
-  height: auto;
+  width: 100%;
+  align-items: stretch;
+  gap: 2px;
+}
+
+.magazine-container {
   box-sizing: border-box; /* Ensure padding is included in the width */
+  flex: 1 1 49%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .magazine-border {
-  width: 100%;
+  width: 96.5%;
   box-sizing: border-box;
   border-style: solid;
   border-width: 6px;
   border-color: #0e2b54;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  line-height: 1;
-  flex: 1 1 50%;
-  gap: 2px;
-  overflow: hidden;
+  flex: 1 1 49%;
 }
 
 .magazine {
@@ -180,9 +181,40 @@
 }
 
 .magazine-title {
+  display: flex;
   font-size: 5rem;
   font-family: "Lora" !important;
   padding-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-container{
+  padding-top: 500px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  margin: 0, auto;
+  width: 49%;
+  height: auto;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  gap: 2px;
+}
+
+.stuyvesant-image {
+  width: 100%; /* Adjust the width of the magazine content within the container */
+  height: 50%;
+  overflow: hidden;
+  flex: 1 1 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  margin: 0, auto;
 }
 
 /* FOOTER  */
@@ -197,7 +229,6 @@
 }
 
 .blurb {
-  display: flex;
   animation-name: leftwardsSlide;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -210,7 +241,6 @@
   font-weight: 400;
   padding-top: 50px;
 }
-
 /* ANIMATIONS  */
 @keyframes downwardsSlide {
   from {

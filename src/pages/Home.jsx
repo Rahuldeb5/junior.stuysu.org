@@ -75,11 +75,7 @@ export default function Home() {
         <Box className="magazine-design">
           <Box className="magazine-container">
             <Box>
-              <Typography
-                className="magazine-title"
-                variant="h1"
-                align="center"
-              >
+              <Typography className="magazine-title" variant="h1" align="center">
                 Magazine
               </Typography>
             </Box>
@@ -88,6 +84,9 @@ export default function Home() {
                 <InstagramEmbed url={magazineUrl} />
               </Box>
             </Box>
+          </Box>
+          <Box className="design-container">
+            <img src="/images/stuyvesant.png" className="stuyvesant-image"/>
           </Box>
         </Box>
       </Box>
