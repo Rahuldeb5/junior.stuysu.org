@@ -31,7 +31,11 @@ const Carousel = () => {
         {Data.map((item, index) => (
           <Box key={index} className="image-container">
             <img src={item.image} alt={`Carousel ${index + 1}`} />
-            <Typography variant="caption" className="caption" style={{ fontFamily: 'Baskervville SC' }}>
+            <Typography
+              variant="caption"
+              className="caption"
+              style={{ fontFamily: "Baskervville SC" }}
+            >
               {item.caption}
             </Typography>
           </Box>

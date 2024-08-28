@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 
 /* HOME PAGE  */
 .home-page {
@@ -31,6 +30,21 @@
   z-index: 1;
 }
 
+.design {
+  width: 25%;
+  margin-left: 10rem;
+  animation-name: leftwardsSlide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+}
+
+.title-design {
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
 /* TITLE  */
 .title {
   animation-name: rightwardsSlide;
@@ -38,13 +52,22 @@
   animation-timing-function: ease-in;
   animation-delay: 0s;
   display: flex;
-  flex: 1 1 40%;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   white-space: nowrap;
   text-overflow: ellipsis;
   justify-content: space-between;
   flex-direction: column;
-  max-width: 40%;
+  padding-right: 10em;
+  width: 100%;
+}
+
+.header {
+  padding-top: 50px;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 60%;
 }
 
 .title .typography {
@@ -210,14 +233,13 @@
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
-  display: flex;
-  flex: 1 1 40%;
-  box-sizing: border-box;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  justify-content: space-between;
-  flex-direction: column;
-  max-width: 40%;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-left: 79rem;
+  text-align: left;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 50px;
 }
 /* ANIMATIONS  */
 @keyframes downwardsSlide {
