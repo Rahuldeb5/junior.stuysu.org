@@ -7,6 +7,8 @@
 
 /* HOME PAGE  */
 .home-page {
+  background-position: center;
+  background-size: cover;
   background-color: #ede8f5;
   color: #0e2b54;
   min-height: 100vh;
@@ -37,6 +39,21 @@
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
+}
+
+.svg1 {
+  max-width:100%;
+  max-height:100%;
+  margin-left: -1.5em;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.svg2 {
+  max-width:100%;
+  max-height:100%;
+  margin-left: -1.5em;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 .title-design {
@@ -78,8 +95,22 @@
   padding-left: 100px;
 }
 
+.backgroundInsert1 {
+  background-image: url(../../public/images/svg3.png);
+  margin-left: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert2 {
+  background-image: url(../../public/images/svg4.png);
+  margin-left: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+
 .slideshow {
-  padding-top: 50px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -114,6 +145,8 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  padding-left: .1em;
+  padding-right: .1em;
 }
 
 .schedule-title,
@@ -133,6 +166,7 @@
   margin: 0;
   line-height: 1;
   overflow: hidden;
+  padding-right: 2em;
 }
 
 .date,

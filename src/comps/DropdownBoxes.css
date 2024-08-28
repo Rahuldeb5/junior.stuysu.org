@@ -14,14 +14,40 @@
 .sophomore:hover,
 .junior:hover {
   background-color: #a8a6cd;
+  border-style: dashed;
 }
 
-.magazineTitle {
+.magazineTitle, .monthTitle  {
   font-family: "Baskervville SC" !important;
   color: #ffffff;
-  text-shadow: 1px 1px 3px #000000;
+  text-shadow: 1px 1px 10px #0e2b54;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
 }
 
 .dropdown-item:hover {
   transform: scale(1.05);
+  .monthTitle {
+    background-color:#0e2b54;
+    border-style: dashed;
+  }
+}
+
+.monthTitle {
+  font-family: "Baskervville SC" !important;
+  color:#ffffff;
+  border-style: inset;
+  border-width: 3px;
+  border-radius: 30px;
+  width: 37.5rem;
+}
+
+.magazine-pdf {
+  padding-top: 15px;
 }

@@ -8,7 +8,7 @@
   margin: 0;
   text-align: center;
   color: #ede8f5;
-  -webkit-text-stroke: 1px #ede8f5;
+  -webkit-text-stroke: 0.5px #ede8f5;
   border-top: 3px solid rgb(255, 255, 255);
 }
 
@@ -47,8 +47,8 @@
 }
 
 .divider {
-  width: 1px;
-  background-color: #433f83;
+  width: 2px;
+  background-color: #EDE8F4;
   height: 5em; /* Explicitly set a height for the divider */
   z-index: 1;
   align-self: stretch; /* Ensures the divider takes the full height of the container */
