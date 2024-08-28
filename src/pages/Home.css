@@ -58,6 +58,16 @@
   justify-content: space-between;
   flex-direction: column;
   max-width: 60%;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 50%;
+}
+
+.header {
+  padding-top: 50px;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 60%;
 }
 
 .title .typography {
@@ -192,9 +202,14 @@
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-top: 20px;
+  margin-right: 200px;
   text-align: left;
   font-style: italic;
   font-weight: 400;
+  margin-left: 25rem;
   padding-left: 150px;
   padding-top: 50px;
 }
