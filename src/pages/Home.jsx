@@ -41,9 +41,6 @@ export default function Home() {
       <Box className="slideshow-container">
          */}
         <Box className="slideshow">
-          <br />
-          <br />
-          <br />
           <Carousel className="slideshow-carousel" />
         </Box>
         {/* 

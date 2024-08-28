@@ -79,7 +79,7 @@
 }
 
 .slideshow {
-  padding-top: 125px;
+  padding-top: 50px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -193,7 +193,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 00px;
+  padding-top: 0px;
   margin: 0, auto;
   width: 100%;
   height: auto;
