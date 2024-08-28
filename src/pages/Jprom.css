@@ -11,7 +11,10 @@
   flex-direction: column;
   padding-top: 5rem;
 }
-
+.fundRaising {
+  display: flex;
+  justify-content: center;
+}
 .navbar {
   position: relative;
   width: 100%;

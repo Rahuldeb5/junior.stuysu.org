@@ -11,13 +11,15 @@ export default function Jprom() {
 
       <Box className="content">
         <Box className="info">
-          <Typography
-            variant="h3"
-            className="header"
-            style={{ fontFamily: "Baskervville SC" }}
-          >
-            Our Fundraising Initiatives:
-          </Typography>
+          <Box className="fundRaising">
+            <Typography
+              variant="h3"
+              className="header"
+              style={{ fontFamily: "Baskervville SC" }}
+            >
+              Our Fundraising Initiatives:
+            </Typography>
+          </Box>
           <Box className="caption-container">
             <Box className="caption">
               <Typography variant="body" className="desc">
