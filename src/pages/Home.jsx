@@ -28,7 +28,7 @@ export default function Home() {
             </Box>
             <Box className="title">
               <Typography className="typography" variant="h1">
-                Caucus
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caucus
               </Typography>
             </Box>
           </Box>
