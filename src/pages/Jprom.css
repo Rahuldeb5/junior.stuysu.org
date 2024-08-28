@@ -32,13 +32,12 @@
   font-weight: 400;
   border-width: 3px;
   margin-bottom: 300px;
-  color:white
+  color: white;
 }
 
-.caption-container{
+.caption-container {
   padding-top: 10px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-
 }

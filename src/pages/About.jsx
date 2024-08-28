@@ -28,7 +28,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Presidents[0].name}
               </Typography>
@@ -50,8 +50,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
-
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Presidents[1].name}
               </Typography>
@@ -81,7 +80,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.chiefOfStaff[0].name}
               </Typography>
@@ -103,7 +102,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.chiefOfStaff[1].name}
               </Typography>
@@ -133,7 +132,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Events[0].name}
               </Typography>
@@ -155,7 +154,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Events[1].name}
               </Typography>
@@ -185,7 +184,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Internals[0].name}
               </Typography>
@@ -207,7 +206,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Internals[1].name}
               </Typography>
@@ -237,7 +236,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.IT[0].name}
               </Typography>
@@ -267,7 +266,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Finance[0].name}
               </Typography>
@@ -289,7 +288,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Finance[1].name}
               </Typography>
@@ -319,7 +318,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Graphics[0].name}
               </Typography>
@@ -341,7 +340,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Graphics[1].name}
               </Typography>
@@ -371,7 +370,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Outreach[0].name}
               </Typography>
@@ -393,7 +392,7 @@ export default function About() {
                 className="name-typography"
                 variant="h4"
                 sx={{ textAlign: "center" }}
-                style={{ fontFamily: 'Baskervville SC' }}
+                style={{ fontFamily: "Baskervville SC" }}
               >
                 {Info.Outreach[1].name}
               </Typography>
@@ -408,12 +407,6 @@ export default function About() {
           </Box>
         </Box>
       </Box>
-
-      <Box className="footer">
-        <Contact />
-      </Box>
     </Box>
   );
 }
-
-

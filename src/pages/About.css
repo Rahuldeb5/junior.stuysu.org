@@ -83,10 +83,9 @@ body {
   white-space: nowrap;
   display: inline-block;
   overflow: hidden;
-  animation:
-  typing 3.5s steps(200, end);
+  animation: typing 3.5s steps(200, end);
   font-family: Lora;
-  margin: 0 auto;  
+  margin: 0 auto;
   font-weight: 400;
   margin: auto;
   white-space: nowrap;
@@ -95,16 +94,14 @@ body {
 .sub-box .name-typography {
   font-weight: 900;
   margin-top: 0.5rem;
-  text-shadow:    
-  1px 1px 0 #000; 
-
+  text-shadow: 1px 1px 0 #000;
 }
 
 .sub-box .typography {
   padding: 10px;
   border-style: inset;
-  border-color:white;
-  background-color:#0e2b54;
+  border-color: white;
+  background-color: #0e2b54;
   color: white;
   border-radius: 25px;
   font-family: Lora;
@@ -113,17 +110,16 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 20px;
-
 }
 
-.footer {
-  background-color: white;
-  text-align: center;
-  position: relative;
-  -webkit-text-stroke: 0.2px white;
-}
 @keyframes typing {
   from {
     width: 0;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
   }
 }
