@@ -41,9 +41,6 @@ export default function Home() {
       <Box className="slideshow-container">
          */}
         <Box className="slideshow">
-          <br />
-          <br />
-          <br />
           <Carousel className="slideshow-carousel" />
         </Box>
         {/* 
@@ -72,6 +69,9 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
+        <Box className="design-container">
+            <img src="/images/stuyvesant.png" className="stuyvesant-image"/>
+        </Box>
         <Box className="magazine-design">
           <Box className="magazine-container">
             <Box>
@@ -84,9 +84,6 @@ export default function Home() {
                 <InstagramEmbed url={magazineUrl} />
               </Box>
             </Box>
-          </Box>
-          <Box className="design-container">
-            <img src="/images/stuyvesant.png" className="stuyvesant-image"/>
           </Box>
         </Box>
       </Box>
