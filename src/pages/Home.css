@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 
 /* HOME PAGE  */
 .home-page {
@@ -34,23 +38,26 @@
   animation-timing-function: ease-in;
   animation-delay: 0s;
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 40%;
   box-sizing: border-box;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-right: 10px;
-  padding-left: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 60%;
 }
 
 .title .typography {
-  font-size: 16rem;
-  font-family: "Great Vibes";
-  letter-spacing: 0px;
+  font-size: 13rem;
+  font-family: "Cinzel Decorative";
+  letter-spacing: -10px;
+  font-weight: 700;
 }
 
 .slideshow {
-  padding-top: 50px;
+  padding-top: 125px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -169,14 +176,16 @@
 }
 
 .blurb {
+  display: flex;
   animation-name: leftwardsSlide;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
-  font-size: 1.5rem;
   text-align: left;
   font-style: italic;
-  margin-left: 25rem;
+  font-weight: 400;
+  padding-left: 150px;
+  padding-top: 50px;
 }
 
 /* ANIMATIONS  */
