@@ -6,7 +6,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 
 /* HOME PAGE  */
+
+.home-page-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .home-page {
+  display: flex;
+  flex-direction: column;
   background-position: center;
   background-size: cover;
   background-color: #ede8f5;
@@ -15,15 +24,15 @@
   width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
-  display: flex;
-  flex-direction: column;
   padding-top: 150px;
 }
 
-.content {
+.home-content {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .navbar {
@@ -32,13 +41,27 @@
   z-index: 1;
 }
 
+.wtc-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+}
+
 .design {
-  width: 25%;
-  margin-left: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: auto;
   animation-name: leftwardsSlide;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
+  max-width: 1000px;
 }
 
 .svg1 {
@@ -138,15 +161,22 @@
   z-index: 0;
 }
 
-.left-section,
+.left-section {
+  flex: 1 1 50%;
+  max-width: 49%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 1.5em;
+}
+
 .calendar-section {
   flex: 1 1 50%;
   max-width: 49%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-left: .1em;
-  padding-right: .1em;
+  padding-right: 1em;
 }
 
 .schedule-title,
@@ -253,7 +283,6 @@
   font-family: "Lora";
   background-color: white;
   text-align: center;
-  padding: 20px; /* Add some padding to the footer */
   margin-top: auto; /* Pushes the footer to the bottom */
   width: 100%;
   -webkit-text-stroke: 0.2px white;
@@ -265,12 +294,18 @@
   animation-timing-function: ease-in;
   animation-delay: 0s;
   font-size: 1.5rem;
-  text-align: right;
-  padding-left: 79rem;
-  text-align: left;
+  text-align: center;
   font-style: italic;
   font-weight: 400;
   padding-top: 50px;
+}
+
+.blurb-design{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
 }
 /* ANIMATIONS  */
 @keyframes downwardsSlide {
