@@ -3,3 +3,9 @@
   width: 100%;
   z-index: 1;
 }
+
+body {
+  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
+  background-position: center;
+  background-size: cover;
+}

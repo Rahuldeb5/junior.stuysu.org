@@ -64,7 +64,7 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        <Box className="backgroundInsert3">
         <Box className="chiefStaff">
           <Typography className="title-typography" variant="h1">
             Chief of Staff
@@ -116,7 +116,8 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        </Box>
+        <Box className="backgroundInsert4">
         <Box className="events">
           <Typography className="title-typography" variant="h1">
             Events
@@ -168,7 +169,8 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        </Box>
+        <Box className="backgroundInsert8">
         <Box className="internals">
           <Typography className="title-typography" variant="h1">
             Internals
@@ -220,7 +222,8 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        </Box>
+        <Box className="backgroundInsert9">
         <Box className="it">
           <Typography className="title-typography" variant="h1">
             I/T
@@ -250,7 +253,7 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        <Box className="backgroundInsert5">
         <Box className="finance">
           <Typography className="title-typography" variant="h1">
             Finance
@@ -302,7 +305,9 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        </Box>
+        </Box>
+        <Box className="backgroundInsert6">
         <Box className="graphics">
           <Typography className="title-typography" variant="h1">
             Graphics
@@ -354,7 +359,8 @@ export default function About() {
             </Box>
           </Box>
         </Box>
-
+        </Box>
+        <Box className="backgroundInsert7">
         <Box className="outreach">
           <Typography className="title-typography" variant="h1">
             Outreach
@@ -403,6 +409,7 @@ export default function About() {
               >
                 {Info.Outreach[1].bio}
               </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>

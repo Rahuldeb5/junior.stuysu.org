@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
 
 .magazines-page {
-  background-color: #ede8f5;
+  background-image: url(../../public/images/backgroundMAGAZINES.svg);
+  background-position: center;
+  background-size: cover;
   color: #0e2b54;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;

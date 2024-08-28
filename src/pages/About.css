@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 .about-page {
-  background-color: #ede8f5;
+  background-color: white;
   color: #0e2b54;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;
@@ -38,8 +38,6 @@ body {
 .box-IT {
   justify-content: center;
   display: flex;
-  flex-wrap: wrap; /* Allows sub-boxes to wrap to the next line if they exceed the container's width */
-  gap: 16px;
   margin-top: 16px; /* Adds space between the title and the boxes */
 }
 
@@ -117,7 +115,56 @@ body {
     width: 0;
   }
 }
-
+.backgroundInsert3 {
+  background-image: url(../../public/images/svg5.svg);
+  margin-left: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert4 {
+  background-image: url(../../public/images/svg6.svg);
+  margin-left: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert5 {
+  background-image: url(../../public/images/svg7.svg);
+  margin-left: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert6 {
+  background-image: url(../../public/images/svg8.svg);
+  margin-left: -1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert7 {
+  background-image: url(../../public/images/svg9.svg);
+  margin-left: -2.5em;
+  margin-bottom: -1.1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert8 {
+  background-image: url(../../public/images/svg10.svg);
+  margin-left: -2.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
+.backgroundInsert9 {
+  background-image: url(../../public/images/svg11.svg);
+  margin-left: -2.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: show;
+}
 @keyframes cursor {
   50% {
     border-color: transparent;

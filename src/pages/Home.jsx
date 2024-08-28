@@ -37,18 +37,19 @@ export default function Home() {
         <Box className="blurb">
           <RandomQuote />
         </Box>
+          <img class="svg1" src="../images/svg.png" alt='divider' />
+          <img class="svg2" src="../images/svg2.png" alt='divider' />
         {/* 
       <Box className="slideshow-container">
          */}
+
         <Box className="slideshow">
-          <br />
-          <br />
-          <br />
           <Carousel className="slideshow-carousel" />
         </Box>
         {/* 
       </Box>
       */}
+      <Box className="backgroundInsert1">
         <Box className="schedule-calendar">
           <Box className="left-section">
             <Typography className="schedule-title" variant="h1" align="center">
@@ -72,6 +73,8 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
+        </Box>
+        <Box className="backgroundInsert2">
         <Box className="magazine-design">
           <Box className="magazine-container">
             <Box>
@@ -94,6 +97,7 @@ export default function Home() {
       <Box className="footer">
         <Contact />
       </Box>
+    </Box>
     </Box>
   );
 }
