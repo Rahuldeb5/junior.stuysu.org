@@ -73,16 +73,13 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
+        <Box className="design-container">
+            <img src="/images/stuyvesant.png" className="stuyvesant-image"/>
         </Box>
-        <Box className="backgroundInsert2">
         <Box className="magazine-design">
           <Box className="magazine-container">
             <Box>
-              <Typography
-                className="magazine-title"
-                variant="h1"
-                align="center"
-              >
+              <Typography className="magazine-title" variant="h1" align="center">
                 Magazine
               </Typography>
             </Box>
