@@ -1,5 +1,7 @@
 .footer {
-  background-color: #a8a6cd;
+  font-weight: 400;
+  padding-top: 10px;
+  background-color: #ede8f5;
   position: relative;
   bottom: 0;
   left: 0;
@@ -7,16 +9,17 @@
   padding: 10px 0;
   margin: 0;
   text-align: center;
-  color: #ede8f5;
-  -webkit-text-stroke: 0.5px #ede8f5;
+  color: #0e2b54;
+  -webkit-text-stroke: 0.5px #0e2b54;
   border-top: 3px solid rgb(255, 255, 255);
+  overflow: hidden;
 }
 
 .icons-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 

@@ -18,7 +18,7 @@ export default function Home() {
       <Box className="navbar">
         <Navbar />
       </Box>
-      <Box className="content">
+      <Box className="home-content">
         <Box className="title-design">
           <Box className="header">
             <Box className="title">
@@ -32,10 +32,14 @@ export default function Home() {
               </Typography>
             </Box>
           </Box>
+          <Box class="blurb-design">
+            <Box class="wtc-container">
           <img class="design" src="../images/wtc.png" alt="design logo" />
-        </Box>
-        <Box className="blurb">
-          <RandomQuote />
+          <Box className="blurb">
+              <RandomQuote />
+            </Box>
+          </Box>
+          </Box> 
         </Box>
           <img class="svg1" src="../images/svg.png" alt='divider' />
           <img class="svg2" src="../images/svg2.png" alt='divider' />
@@ -90,9 +94,9 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
-      </Box>
-      <Box className="footer">
+        <Box className="footer">
         <Contact />
+      </Box>
       </Box>
     </Box>
     </Box>
