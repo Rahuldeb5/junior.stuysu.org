@@ -34,15 +34,15 @@ export default function Home() {
           </Box>
           <Box class="blurb-design">
             <Box class="wtc-container">
-          <img class="design" src="../images/wtc.png" alt="design logo" />
-          <Box className="blurb">
-              <RandomQuote />
+              <img class="design" src="../images/wtc.png" alt="design logo" />
+              <Box className="blurb">
+                <RandomQuote />
+              </Box>
             </Box>
           </Box>
-          </Box> 
         </Box>
-          <img class="svg1" src="../images/svg.png" alt='divider' />
-          <img class="svg2" src="../images/svg2.png" alt='divider' />
+        <img class="svg1" src="../images/svg.png" alt="divider" />
+        <img class="svg2" src="../images/svg2.png" alt="divider" />
         {/* 
       <Box className="slideshow-container">
          */}
@@ -53,52 +53,64 @@ export default function Home() {
         {/* 
       </Box>
       */}
-      <Box className="backgroundInsert1">
-        <Box className="schedule-calendar">
-          <Box className="left-section">
-            <Typography className="schedule-title" variant="h1" align="center">
-              Schedule
-            </Typography>
-            <Box className="left-side">
-              <Box className="date">
-                <DateTimeDisplay />
-              </Box>
-              <Box className="schedule">
-                <Schedule />
-              </Box>
-            </Box>
-          </Box>
-          <Box className="calendar-section">
-            <Typography className="calendar-title" variant="h1" align="center">
-              Calendar
-            </Typography>
-            <Box className="calendar">
-              <Calendar />
-            </Box>
-          </Box>
-        </Box>
-        <Box className="design-container">
-            <img src="/images/stuyvesant.png" className="stuyvesant-image"/>
-        </Box>
-        <Box className="magazine-design">
-          <Box className="magazine-container">
-            <Box>
-              <Typography className="magazine-title" variant="h1" align="center">
-                Magazine
+        <Box className="backgroundInsert1">
+          <Box className="schedule-calendar">
+            <Box className="left-section">
+              <Typography
+                className="schedule-title"
+                variant="h1"
+                align="center"
+              >
+                Schedule
               </Typography>
+              <Box className="left-side">
+                <Box className="date">
+                  <DateTimeDisplay />
+                </Box>
+                <Box className="schedule">
+                  <Schedule />
+                </Box>
+              </Box>
             </Box>
-            <Box className="magazine-border">
-              <Box className="magazine">
-                <InstagramEmbed url={magazineUrl} />
+            <Box className="calendar-section">
+              <Typography
+                className="calendar-title"
+                variant="h1"
+                align="center"
+              >
+                Calendar
+              </Typography>
+              <Box className="calendar">
+                <Calendar />
               </Box>
             </Box>
           </Box>
+          <Box className="design-container">
+            <img src="/images/stuyvesant.png" className="stuyvesant-image" />
+          </Box>
+          <Box className="magazine-design">
+            <Box className="magazine-container">
+              <Box>
+                <Typography
+                  className="magazine-title"
+                  variant="h1"
+                  align="center"
+                >
+                  Magazine
+                </Typography>
+              </Box>
+              <Box className="magazine-border">
+                <Box className="magazine">
+                  <InstagramEmbed url={magazineUrl} />
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box className="footer">
+            <Contact />
+          </Box>
         </Box>
-        <Box className="footer">
-        <Contact />
       </Box>
-      </Box>
-    </Box>
     </Box>
   );
 }

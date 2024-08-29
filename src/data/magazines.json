@@ -1,88 +1,88 @@
 {
-    "freshmanMagazines": [
-        {
-            "url": "/pdfs/magazines/freshman/december.pdf#toolbar=0",
-            "title": "December",
-            "color": "#486c84"
-        },
-        {
-            "url": "/pdfs/magazines/freshman/january.pdf#toolbar=0",
-            "title": "January",
-            "color": "#f0e4e4"
-        },
-        {
-            "url": "/pdfs/magazines/freshman/february.pdf#toolbar=0",
-            "title": "February",
-            "color": "#ffe4dc"
-        },
-        {
-            "url": "/pdfs/magazines/freshman/march.pdf#toolbar=0",
-            "title": "March",
-            "color": "#d0ecbc"
-        },
-        {
-            "url": "/pdfs/magazines/freshman/april.pdf#toolbar=0",
-            "title": "April",
-            "color": "#ffccac"
-        }
-    ],
-    "sophomoreMagazines": [
-        {
-            "url": "/pdfs/magazines/sophomore/september.pdf#toolbar=0",
-            "title": "September",
-            "color": "#fcfbd3"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/october.pdf#toolbar=0",
-            "title": "October",
-            "color": "#ffccac"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/november.pdf#toolbar=0",
-            "title": "November",
-            "color": "#ffcc9c"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/december.pdf#toolbar=0",
-            "title": "December",
-            "color": "#a8c4c4"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/january.pdf#toolbar=0",
-            "title": "January",
-            "color": "#052e64"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/february.pdf#toolbar=0",
-            "title": "February",
-            "color": "#ffb4dc"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/march.pdf#toolbar=0",
-            "title": "March",
-            "color": "#a8ac94"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/april.pdf#toolbar=0",
-            "title": "April",
-            "color": "#ccbda4"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/may.pdf#toolbar=0",
-            "title": "May",
-            "color": "#fffcf4"
-        },
-        {
-            "url": "/pdfs/magazines/sophomore/june.pdf#toolbar=0",
-            "title": "June",
-            "color": "#ffcc7c"
-        }
-    ],
-    "juniorMagazines": [
-        {
-            "url": "/pdfs/magazines/sophomore/january.pdf#toolbar=0",
-            "title": "Test",
-            "color": "#000000"
-        }
-    ]
+  "freshmanMagazines": [
+    {
+      "url": "/pdfs/magazines/freshman/december.pdf#toolbar=0",
+      "title": "December",
+      "color": "#486c84"
+    },
+    {
+      "url": "/pdfs/magazines/freshman/january.pdf#toolbar=0",
+      "title": "January",
+      "color": "#f0e4e4"
+    },
+    {
+      "url": "/pdfs/magazines/freshman/february.pdf#toolbar=0",
+      "title": "February",
+      "color": "#ffe4dc"
+    },
+    {
+      "url": "/pdfs/magazines/freshman/march.pdf#toolbar=0",
+      "title": "March",
+      "color": "#d0ecbc"
+    },
+    {
+      "url": "/pdfs/magazines/freshman/april.pdf#toolbar=0",
+      "title": "April",
+      "color": "#ffccac"
+    }
+  ],
+  "sophomoreMagazines": [
+    {
+      "url": "/pdfs/magazines/sophomore/september.pdf#toolbar=0",
+      "title": "September",
+      "color": "#fcfbd3"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/october.pdf#toolbar=0",
+      "title": "October",
+      "color": "#ffccac"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/november.pdf#toolbar=0",
+      "title": "November",
+      "color": "#ffcc9c"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/december.pdf#toolbar=0",
+      "title": "December",
+      "color": "#a8c4c4"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/january.pdf#toolbar=0",
+      "title": "January",
+      "color": "#052e64"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/february.pdf#toolbar=0",
+      "title": "February",
+      "color": "#ffb4dc"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/march.pdf#toolbar=0",
+      "title": "March",
+      "color": "#a8ac94"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/april.pdf#toolbar=0",
+      "title": "April",
+      "color": "#ccbda4"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/may.pdf#toolbar=0",
+      "title": "May",
+      "color": "#fffcf4"
+    },
+    {
+      "url": "/pdfs/magazines/sophomore/june.pdf#toolbar=0",
+      "title": "June",
+      "color": "#ffcc7c"
+    }
+  ],
+  "juniorMagazines": [
+    {
+      "url": "/pdfs/magazines/sophomore/january.pdf#toolbar=0",
+      "title": "Test",
+      "color": "#000000"
+    }
+  ]
 }

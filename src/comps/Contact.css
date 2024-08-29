@@ -51,7 +51,7 @@
 
 .divider {
   width: 2px;
-  background-color: #EDE8F4;
+  background-color: #ede8f4;
   height: 5em; /* Explicitly set a height for the divider */
   z-index: 1;
   align-self: stretch; /* Ensures the divider takes the full height of the container */
