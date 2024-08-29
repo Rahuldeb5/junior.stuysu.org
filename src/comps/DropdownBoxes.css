@@ -17,7 +17,8 @@
   border-style: dashed;
 }
 
-.magazineTitle, .monthTitle  {
+.magazineTitle,
+.monthTitle {
   font-family: "Baskervville SC" !important;
   color: #ffffff;
   text-shadow: 1px 1px 10px #0e2b54;
@@ -40,7 +41,7 @@
 
 .monthTitle {
   font-family: "Baskervville SC" !important;
-  color:#ffffff;
+  color: #ffffff;
   border-style: inset;
   border-width: 3px;
   border-radius: 30px;

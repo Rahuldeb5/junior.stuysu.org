@@ -24,10 +24,19 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.juniorMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-                <Typography className="monthTitle" variant="h5" style={{ backgroundColor: item.color}}>
+                <Typography
+                  className="monthTitle"
+                  variant="h5"
+                  style={{ backgroundColor: item.color }}
+                >
                   {item.title}
                 </Typography>
-                <embed className="magazine-pdf" src={item.url} width="600em" height="600em" />
+                <embed
+                  className="magazine-pdf"
+                  src={item.url}
+                  width="600em"
+                  height="600em"
+                />
               </Box>
             ))}
           </Box>
@@ -45,10 +54,19 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.sophomoreMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-                <Typography className="monthTitle" variant="h5" style={{ backgroundColor: item.color}}>
+                <Typography
+                  className="monthTitle"
+                  variant="h5"
+                  style={{ backgroundColor: item.color }}
+                >
                   {item.title}
                 </Typography>
-                <embed className="magazine-pdf" src={item.url} width="600em" height="600em" />
+                <embed
+                  className="magazine-pdf"
+                  src={item.url}
+                  width="600em"
+                  height="600em"
+                />
               </Box>
             ))}
           </Box>
@@ -57,7 +75,8 @@ const DropdownBoxes = () => {
       <Box
         className="freshman"
         sx={{ padding: 2, marginBottom: 2, cursor: "pointer" }}
-        onClick={() => handleToggle(3)} align="center"
+        onClick={() => handleToggle(3)}
+        align="center"
       >
         <Typography variant="h4" className="magazineTitle">
           Freshman Magazines
@@ -66,10 +85,19 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.freshmanMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-              <Typography className="monthTitle" variant="h5" style={{ backgroundColor: item.color}}>
-                {item.title}
-              </Typography>
-                <embed className="magazine-pdf" src={item.url} width="600em" height="600em" />
+                <Typography
+                  className="monthTitle"
+                  variant="h5"
+                  style={{ backgroundColor: item.color }}
+                >
+                  {item.title}
+                </Typography>
+                <embed
+                  className="magazine-pdf"
+                  src={item.url}
+                  width="600em"
+                  height="600em"
+                />
               </Box>
             ))}
           </Box>

@@ -76,7 +76,13 @@ body {
   font-weight: 400;
 }
 
-.chiefStaff, .internals, .it, .graphics, .finance, .events, .outreach {
+.chiefStaff,
+.internals,
+.it,
+.graphics,
+.finance,
+.events,
+.outreach {
   padding-top: 100px;
 }
 
@@ -114,7 +120,8 @@ body {
   font-size: 20px;
 }
 
-.copresidents, .title-typography {
+.copresidents,
+.title-typography {
   border-top: 5px ridge #0e2b54;
   border-bottom: 5px ridge #0e2b54;
   border-left: none;

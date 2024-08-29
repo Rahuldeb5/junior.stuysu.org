@@ -4,6 +4,10 @@
 
 body {
   text-align: center;
+  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
+  background-position-y: 15em;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -22,7 +26,6 @@ body {
 
 /* NEWSLETTERS PAGE */
 .newsletters-page {
-  background-color: #ede8f5;
   color: #000000;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;
@@ -116,7 +119,7 @@ body {
 }
 
 .latest-newsletter-blurb {
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 
 /* .newsletter-item {
@@ -173,7 +176,8 @@ body {
   padding: 20px;
 }
 
-.old-newsletters, .latest-embed-blurb-div {
+.old-newsletters,
+.latest-embed-blurb-div {
   background-color: #0e2b54;
   border-style: inset;
   border-radius: 30px;
@@ -181,7 +185,8 @@ body {
   border-width: 5px;
 }
 
-.old-newsletters:hover, .latest-embed-blurb-div:hover {
+.old-newsletters:hover,
+.latest-embed-blurb-div:hover {
   background-color: #a8a6cd;
   border-style: dashed;
 }
@@ -194,14 +199,14 @@ body {
 }
 
 .newsletter-blurb {
-  font-family: "Lora"!important;
+  font-family: "Lora" !important;
   padding: 20px;
 }
 
 .old-newsletters .newsletter-title {
   padding-top: 0;
   font-family: "Baskervville SC" !important;
-  color:#ffffff;
+  color: #ffffff;
   width: 37.5rem;
   border-top: 3px ridge #ffffff;
   border-bottom: 3px ridge #ffffff;
@@ -231,11 +236,11 @@ body {
 }
 
 .newsletter-item:hover {
-    background-color:#0e2b54;
-    border-style: dashed;
-    border-color: white;
-    border-radius: 30px;
-    color: white;
+  background-color: #0e2b54;
+  border-style: dashed;
+  border-color: white;
+  border-radius: 30px;
+  color: white;
 }
 
 @keyframes fadeInAnimation {
@@ -245,10 +250,4 @@ body {
   100% {
     opacity: 1;
   }
-}
-
-body {
-  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
-  background-position: center;
-  background-size: cover;
 }

@@ -51,21 +51,24 @@ export default function NewslettersData() {
         </Typography>
         <Collapse in={openBox === 1}>
           <Box className="dropdown">
-            {pastNewsletters.slice().reverse().map((item) => (
-              <Box className="module">
-                <Box className="newsletter-item">
-                  <Box className="newsletter-title-blurb">
-                    <Typography variant="h3" className="newsletter-title">
-                      {item.title}
-                    </Typography>
-                    <Typography className="newsletter-blurb">
-                      {item.blurb}
-                    </Typography>
+            {pastNewsletters
+              .slice()
+              .reverse()
+              .map((item) => (
+                <Box className="module">
+                  <Box className="newsletter-item">
+                    <Box className="newsletter-title-blurb">
+                      <Typography variant="h3" className="newsletter-title">
+                        {item.title}
+                      </Typography>
+                      <Typography className="newsletter-blurb">
+                        {item.blurb}
+                      </Typography>
+                    </Box>
+                    <embed src={item.pdf} width="600em" height="600em" />
                   </Box>
-                  <embed src={item.pdf} width="600em" height="600em" />
                 </Box>
-              </Box>
-            ))}
+              ))}
           </Box>
         </Collapse>
       </Box>
