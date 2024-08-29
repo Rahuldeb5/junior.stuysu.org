@@ -1,36 +1,14 @@
 import { useState } from "react";
 import "./DropdownBoxes.css";
 import { Box, Collapse, Typography } from "@mui/material";
+import Data from "../data/magazines.json";
 
 const DropdownBoxes = () => {
-  const [openBox, setOpenBox] = useState(null);
+  const [openBox, setOpenBox] = useState(1);
 
   const handleToggle = (boxNumber) => {
     setOpenBox(openBox === boxNumber ? null : boxNumber);
   };
-
-  const freshmanMagazines = [
-    { url: "/pdfs/magazines/freshman/december.pdf#toolbar=0", title: "December" },
-    { url: "/pdfs/magazines/freshman/january.pdf#toolbar=0", title: "January" },
-    { url: "/pdfs/magazines/freshman/february.pdf#toolbar=0", title: "February" },
-    { url: "/pdfs/magazines/freshman/march.pdf#toolbar=0", title: "March" },
-    { url: "/pdfs/magazines/freshman/april.pdf#toolbar=0", title: "April" },
-  ];
-
-  const sophomoreMagazines = [
-    { url: "/pdfs/magazines/sophomore/january.pdf#toolbar=0", title: "January" },
-    { url: "/pdfs/magazines/sophomore/february.pdf#toolbar=0", title: "February" },
-    { url: "/pdfs/magazines/sophomore/march.pdf#toolbar=0", title: "March" },
-    { url: "/pdfs/magazines/sophomore/april.pdf#toolbar=0", title: "April" },
-    { url: "/pdfs/magazines/sophomore/may.pdf#toolbar=0", title: "May" },
-    { url: "/pdfs/magazines/sophomore/june.pdf#toolbar=0", title: "June" },
-    { url: "/pdfs/magazines/sophomore/september.pdf#toolbar=0", title: "September" },
-    { url: "/pdfs/magazines/sophomore/october.pdf#toolbar=0", title: "October" },
-    { url: "/pdfs/magazines/sophomore/november.pdf#toolbar=0", title: "November" },
-    { url: "/pdfs/magazines/sophomore/december.pdf#toolbar=0", title: "December" },
-  ];
-
-  const juniorMagazines = [];
 
   return (
     <Box className="dropdown-container">
@@ -44,9 +22,9 @@ const DropdownBoxes = () => {
         </Typography>
         <Collapse in={openBox === 1}>
           <Box className="dropdown">
-            {juniorMagazines.map((item, index) => (
+            {Data.juniorMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-                <Typography className="monthTitle" variant="h5">
+                <Typography className="monthTitle" variant="h5" style={{ backgroundColor: item.color}}>
                   {item.title}
                 </Typography>
                 <embed className="magazine-pdf" src={item.url} width="600em" height="600em" />
@@ -65,9 +43,9 @@ const DropdownBoxes = () => {
         </Typography>
         <Collapse in={openBox === 2}>
           <Box className="dropdown">
-            {sophomoreMagazines.map((item, index) => (
+            {Data.sophomoreMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-                <Typography className="monthTitle" variant="h5">
+                <Typography className="monthTitle" variant="h5" style={{ backgroundColor: item.color}}>
                   {item.title}
                 </Typography>
                 <embed className="magazine-pdf" src={item.url} width="600em" height="600em" />
@@ -86,9 +64,9 @@ const DropdownBoxes = () => {
         </Typography>
         <Collapse in={openBox === 3}>
           <Box className="dropdown">
-            {freshmanMagazines.map((item, index) => (
+            {Data.freshmanMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-              <Typography className="monthTitle" variant="h5">
+              <Typography className="monthTitle" variant="h5" style={{ backgroundColor: item.color}}>
                 {item.title}
               </Typography>
                 <embed className="magazine-pdf" src={item.url} width="600em" height="600em" />

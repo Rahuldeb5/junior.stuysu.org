@@ -34,7 +34,6 @@
 .dropdown-item:hover {
   transform: scale(1.05);
   .monthTitle {
-    background-color:#0e2b54;
     border-style: dashed;
   }
 }
