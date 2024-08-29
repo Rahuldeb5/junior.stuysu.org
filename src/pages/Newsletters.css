@@ -4,6 +4,10 @@
 
 body {
   text-align: center;
+  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
+  background-position-y: 15em;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -22,7 +26,6 @@ body {
 
 /* NEWSLETTERS PAGE */
 .newsletters-page {
-  background-color: #ede8f5;
   color: #000000;
   min-height: 100vh; /* Allows the content to extend beyond the viewport */
   width: 100vw;
@@ -245,10 +248,4 @@ body {
   100% {
     opacity: 1;
   }
-}
-
-body {
-  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
-  background-position: center;
-  background-size: cover;
 }
