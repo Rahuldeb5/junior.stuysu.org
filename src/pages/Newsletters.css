@@ -62,7 +62,6 @@ body {
 }
 
 .newsletters-title {
-  text-shadow: 1px 1px 4px #0e2b54;
   border-top: 5px ridge #0e2b54;
   border-bottom: 5px ridge #0e2b54;
   border-left: none;
@@ -71,7 +70,6 @@ body {
 
 .latest-title {
   padding-top: 2rem;
-  text-shadow: 1px 1px 4px #0e2b54;
   font-family: "Baskervville SC" !important;
 }
 

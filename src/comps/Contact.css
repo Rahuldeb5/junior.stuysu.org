@@ -9,8 +9,8 @@
   padding: 10px 0;
   margin: 0;
   text-align: center;
-  color: #0e2b54;
-  -webkit-text-stroke: 0.5px #0e2b54;
+  color: #444484;
+  -webkit-text-stroke: 0.5px #444484;
   border-top: 3px solid rgb(255, 255, 255);
   overflow: hidden;
 }
@@ -42,6 +42,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .developer-column {

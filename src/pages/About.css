@@ -25,6 +25,7 @@ body {
   position: relative;
   width: 100%;
   z-index: 1;
+  padding-bottom: 50px;
 }
 
 .content {
@@ -96,8 +97,7 @@ body {
   margin: 0 auto;
   font-weight: 400;
   margin: auto;
-  white-space: nowrap;
-}
+  white-space: nowrap;}
 
 .sub-box .name-typography {
   font-weight: 900;
