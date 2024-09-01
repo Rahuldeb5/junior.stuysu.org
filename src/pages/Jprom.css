@@ -16,6 +16,7 @@
   margin-top: 5em;
   border-radius: 15%;
   max-width: 100em;
+  border-color: #444484;
 }
 .jprom-page {
   background-image: url(../../public/images/backgroundJPROM.svg);
@@ -53,6 +54,7 @@
 
 .caption {
   border-style: inset;
+  border-color: #444484;
   border-radius: 25px;
   padding: 30px;
   background-color: #0e2b54;
