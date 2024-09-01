@@ -35,7 +35,7 @@ export default function Jprom() {
           </Box>
           </Box>
           <img 
-          src = "/images/davidHotImage.png"
+          src = "/images/davidImage.png"
           alt = "jpromimage"
           className = "jpromImage"/>
         </Box>

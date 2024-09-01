@@ -11,11 +11,11 @@
 .jpromImage{
   border-style: inset;
   border-color:white;
-  border-radius: 15%;
-  max-width: 100em;
   height: 35em;
   margin-right: 15em;
   margin-top: 5em;
+  border-radius: 15%;
+  max-width: 100em;
 }
 .jprom-page {
   background-image: url(../../public/images/backgroundJPROM.svg);
