@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
 
+.fundraisingTitleCaption{
+  display: flex;
+  flex-direction: column;
+}
+.fundraisingImg{
+  display: flex;
+  flex-direction: row;
+}
+.jpromImage{
+  border-style: inset;
+  border-color:white;
+  height: 35em;
+  margin-right: 15em;
+  margin-top: 5em;
+  border-radius: 15%;
+  max-width: 100em;
+  border-color: #444484;
+}
 .jprom-page {
   background-image: url(../../public/images/backgroundJPROM.svg);
   background-position: center;
@@ -15,8 +33,13 @@
 }
 .fundRaising {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  max-width: 75%;
+  padding-left: 60px;
+  overflow: hidden;
+  text-wrap: nowrap
 }
+
 .navbar {
   position: relative;
   width: 100%;
@@ -31,18 +54,24 @@
 
 .caption {
   border-style: inset;
+  border-color: #444484;
   border-radius: 25px;
-  padding: 20px;
+  padding: 30px;
   background-color: #0e2b54;
   font-weight: 400;
   border-width: 3px;
   margin-bottom: 300px;
   color: white;
+  font-size: 30px;
+  max-width: 75%;
+  line-height: 50px;
 }
 
 .caption-container {
-  padding-top: 10px;
+  padding-top: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding-left: 60px;
 }

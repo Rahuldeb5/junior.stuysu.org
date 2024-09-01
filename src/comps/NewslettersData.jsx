@@ -16,7 +16,7 @@ export default function NewslettersData() {
 
   return (
     <Box className="newsletters-container">
-      <Typography variant="h1" className="newsletters-title">
+      <Typography variant="h1" className="newsletters-title" style={{ fontFamily: "Baskervville SC" }}>
         Newsletters
       </Typography>
       <Box className="newsletters-list">

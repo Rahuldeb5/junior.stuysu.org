@@ -38,7 +38,7 @@ const Navbar = (props) => {
           <Link
             href="/people"
             className="nav-menu-item"
-            style={{ fontSize: "1.5rem" }}
+            style={{ fontSize: "1.75rem" }}
           >
             People
           </Link>

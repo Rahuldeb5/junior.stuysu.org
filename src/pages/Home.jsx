@@ -86,7 +86,7 @@ export default function Home() {
             </Box>
           </Box>
           <Box className="design-container">
-            <img src="/images/stuyvesant.png" className="stuyvesant-image" />
+            <img src="/images/stuyvesant.png" alt="stuy" className="stuyvesant-image" />
           </Box>
           <Box className="magazine-design">
             <Box className="magazine-container">

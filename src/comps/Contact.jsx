@@ -40,6 +40,22 @@ const Contact = () => {
       <Typography variant="body1" align="center">
         © 2024 Junior Caucus.
       </Typography>
+      <Typography variant="body1" align="center" class="thanks">
+        Special thanks to our Junior Caucus IT Team:
+      </Typography>
+      <Box className="developer-columns">
+        <Box className="developer-column" align="center">
+          <Typography variant="body1">Kalimul Kaif</Typography>
+          <Typography variant="body1">David Lee</Typography>
+          <Typography variant="body1">Ting Ting Zhang</Typography>
+        </Box>
+        <Box className="divider" />
+        <Box className="developer-column" align="center">
+          <Typography variant="body1">Jiewen Huang</Typography>
+          <Typography variant="body1">Ardian Agoes</Typography>
+          <Typography variant="body1">Alvin Sze</Typography>
+        </Box>
+      </Box>
       <Typography variant="body1" align="center">
         Co-Presidents:
         <Link
@@ -92,22 +108,6 @@ const Contact = () => {
         </Link>
       </Typography>
       <br />
-      <Typography variant="body1" align="center">
-        Special thanks to our Junior Caucus IT Team:
-      </Typography>
-      <Box className="developer-columns">
-        <Box className="developer-column" align="center">
-          <Typography variant="body1">Kalimul Kaif</Typography>
-          <Typography variant="body1">David Lee</Typography>
-          <Typography variant="body1">Ting Ting Zhang</Typography>
-        </Box>
-        <Box className="divider" />
-        <Box className="developer-column" align="center">
-          <Typography variant="body1">Jiewen Huang</Typography>
-          <Typography variant="body1">Ardian Agoes</Typography>
-          <Typography variant="body1">Alvin Sze</Typography>
-        </Box>
-      </Box>
     </Box>
   );
 };

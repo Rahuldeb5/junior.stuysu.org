@@ -11,7 +11,10 @@ export default function Jprom() {
 
       <Box className="content">
         <Box className="info">
-          <Box className="fundRaising">
+          <Box className="fundraisingImg">
+          <Box className="fundraisingTitleCaption">
+
+            <Box className="fundRaising">
             <Typography
               variant="h3"
               className="header"
@@ -22,7 +25,7 @@ export default function Jprom() {
           </Box>
           <Box className="caption-container">
             <Box className="caption">
-              <Typography variant="body" className="desc">
+              <Typography variant="body" className="desc" style={{ fontFamily: "Baskervville SC" }}>
                 For Junior Prom to be as affordable as possible, Junior Caucus
                 has several initiatives dedicated towards fundraising to
                 contribute to this cause. The intended goal is to raise $15,000
@@ -30,6 +33,12 @@ export default function Jprom() {
               </Typography>
             </Box>
           </Box>
+          </Box>
+          <img 
+          src = "/images/davidImage.png"
+          alt = "jpromimage"
+          className = "jpromImage"/>
+        </Box>
         </Box>
       </Box>
     </Box>

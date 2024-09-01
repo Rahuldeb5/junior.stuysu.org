@@ -19,7 +19,7 @@
   background-position: center;
   background-size: cover;
   background-color: #ede8f5;
-  color: #0e2b54;
+  color: #444484;
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
@@ -175,20 +175,22 @@
 
 .left-section {
   flex: 1 1 50%;
-  max-width: 49%;
+  max-width: 48%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-left: 1.5em;
+  padding-left: 11.5em;
+  padding-right: 50px;
 }
 
 .calendar-section {
   flex: 1 1 50%;
-  max-width: 49%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-right: 1em;
+  padding-right:11.5em;
+  padding-left: 50px;
 }
 
 .schedule-title,
@@ -196,13 +198,14 @@
   font-size: 5rem;
   font-family: "Lora" !important;
   text-align: center;
+  
 }
 
 .left-side,
 .calendar {
   flex: 1 1 50%;
   box-sizing: border-box;
-  border: 5px solid #0e2b54;
+  border: 3px solid #0e2b54;
   gap: 2px;
   padding: 0;
   margin: 0;
@@ -239,7 +242,7 @@
   width: 100%;
   box-sizing: border-box;
   border-style: solid;
-  border-width: 6px;
+  border-width: 3px;
   border-color: #0e2b54;
   justify-content: center;
 }
