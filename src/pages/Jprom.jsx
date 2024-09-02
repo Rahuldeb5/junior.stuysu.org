@@ -12,33 +12,37 @@ export default function Jprom() {
       <Box className="content">
         <Box className="info">
           <Box className="fundraisingImg">
-          <Box className="fundraisingTitleCaption">
-
-            <Box className="fundRaising">
-            <Typography
-              variant="h3"
-              className="header"
-              style={{ fontFamily: "Baskervville SC" }}
-            >
-              Our Fundraising Initiatives:
-            </Typography>
-          </Box>
-          <Box className="caption-container">
-            <Box className="caption">
-              <Typography variant="body" className="desc" style={{ fontFamily: "Baskervville SC" }}>
-                For Junior Prom to be as affordable as possible, Junior Caucus
-                has several initiatives dedicated towards fundraising to
-                contribute to this cause. The intended goal is to raise $15,000
-                dollars to lower costs to around $50 per student.
-              </Typography>
+            <Box className="fundraisingTitleCaption">
+              <Box className="fundRaising">
+                <Typography
+                  variant="h3"
+                  className="header"
+                  style={{ fontFamily: "Baskervville SC" }}
+                >
+                  Our Fundraising Initiatives:
+                </Typography>
+              </Box>
+              <Box className="caption-container">
+                <Box className="caption">
+                  <Typography
+                    variant="body"
+                    className="desc"
+                    style={{ fontFamily: "Baskervville SC" }}
+                  >
+                    For Junior Prom to be as affordable as possible, Junior
+                    Caucus has several initiatives dedicated towards fundraising
+                    to contribute to this cause. The intended goal is to raise
+                    $15,000 dollars to lower costs to around $50 per student.
+                  </Typography>
+                </Box>
+              </Box>
             </Box>
+            <img
+              src="/images/davidImage.png"
+              alt="jpromimage"
+              className="jpromImage"
+            />
           </Box>
-          </Box>
-          <img 
-          src = "/images/davidImage.png"
-          alt = "jpromimage"
-          className = "jpromImage"/>
-        </Box>
         </Box>
       </Box>
     </Box>

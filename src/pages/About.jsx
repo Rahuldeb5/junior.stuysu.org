@@ -14,7 +14,11 @@ export default function About() {
 
       <Box className="content">
         <Box className="presidents">
-          <Typography className="copresidents" variant="h1" style={{ fontFamily: "Baskervville SC" }}>
+          <Typography
+            className="copresidents"
+            variant="h1"
+            style={{ fontFamily: "Baskervville SC" }}
+          >
             Co-Presidents
           </Typography>
           <Box className="box-item">

@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
 
-.fundraisingTitleCaption{
+.fundraisingTitleCaption {
   display: flex;
   flex-direction: column;
 }
-.fundraisingImg{
+.fundraisingImg {
   display: flex;
   flex-direction: row;
 }
-.jpromImage{
+.jpromImage {
   border-style: inset;
-  border-color:white;
+  border-color: white;
   height: 35em;
   margin-right: 15em;
   margin-top: 5em;
@@ -37,7 +37,7 @@
   max-width: 75%;
   padding-left: 60px;
   overflow: hidden;
-  text-wrap: nowrap
+  text-wrap: nowrap;
 }
 
 .navbar {
