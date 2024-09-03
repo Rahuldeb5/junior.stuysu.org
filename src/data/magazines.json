@@ -95,10 +95,9 @@
   ],
   "juniorMagazines": [
     {
-      "url": "/pdfs/magazines/sophomore/january.pdf#toolbar=0",
-      "title": "January",
-      "color": "#0e2b54",
-      "textcolor": "white"
+      "url": "/pdfs/magazines/junior/september.pdf#toolbar=0",
+      "title": "September",
+      "color": "#ffecd4"
     }
   ]
 }
