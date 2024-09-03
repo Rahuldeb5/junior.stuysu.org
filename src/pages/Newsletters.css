@@ -2,35 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
 
-body {
-  text-align: center;
-  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
-  background-position-y: 15em;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .navbar {
   position: relative;
   width: 100%;
   z-index: 1;
 }
 
-.content {
+.newslettersContent {
+  background-image: url(../../public/images/backgroundNEWSLETTERS.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-x: hidden; 
+  overflow-y: auto; 
   display: flex;
-  flex-direction: column; /* Stack sections vertically */
   padding: 50px;
   width: 100%;
+  flex-direction: column;
   box-sizing: border-box;
 }
 
 /* NEWSLETTERS PAGE */
 .newsletters-page {
-  color: #000000;
-  min-height: 100vh; /* Allows the content to extend beyond the viewport */
-  width: 100vw;
-  overflow-x: hidden; /* Prevents horizontal overflow */
-  overflow-y: auto; /* Allows vertical scrolling */
+  color: #0e2b54;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -42,7 +36,7 @@ body {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  max-width: 1200px;
+  max-width: 85em;
   margin: 0 auto;
 }
 
@@ -52,7 +46,7 @@ body {
 
 /* TITLE */
 .newsletters-container .newsletters-title {
-  font-family: Lora;
+  font-family: "Baskervville SC";
   font-weight: 400;
   width: 100%;
   display: inline-block;
@@ -62,15 +56,17 @@ body {
 }
 
 .newsletters-title {
-  border-top: 5px ridge #0e2b54;
-  border-bottom: 5px ridge #0e2b54;
+  border-top: 5px ridge #444484;
+  border-bottom: 5px ridge #444484;
   border-left: none;
   border-right: none;
 }
 
 .latest-title {
-  padding-top: 2rem;
+  padding-top: 4rem;
   font-family: "Baskervville SC" !important;
+  text-decoration: none;
+  padding-bottom: 1.5rem;
 }
 
 /* LIST STYLES */
@@ -80,40 +76,47 @@ body {
   font-weight: 400;
   width: 100%;
   white-space: nowrap;
-  animation: fadeInAnimation ease 7.5s;
+  animation: fadeInAnimation ease 4s;
   margin-bottom: 20px;
 }
 
 .latest-embed-blurb-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   padding: 35px;
-  background-color: #0e2b54;
-  color: white;
-  border-radius: 25px;
+  background-color: #a8a6cd;
+  color: #0e2b54;
   margin-bottom: 20px;
 }
 
 .latest-newsletter-embed,
 .latest-newsletter-blurb {
-  flex: 1 1 50%;
-  max-width: 50%;
+  padding: 10px;
 }
 
+.latest-newsletter-item .latest-newsletter-blurb{
+  font-size: 20px;
+}
 .latest-embed-blurb-div .latest-newsletter-embed {
-  border-style: solid;
-  border: 1px gray;
+  border-style: solid !important;
+  border-color: transparent;
 }
 
 .latest-embed-blurb-div .latest-newsletter-blurb {
-  background-color: #0e2b54;
-  color: white;
-  font-family: Lora;
+  background-color: #a8a6cd;
+  text-shadow: 1px 1px 1px #0e2b54;
+  color: #0e2b54;
+  font-family: "Baskervville SC";
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 2.1rem;
+  padding-top: 20px;
+  font-size: 1.75rem;
+  padding-bottom: 30px;
+  border-bottom: 3px ridge #0e2b54;
 }
 
 .latest-newsletter-blurb {
@@ -131,14 +134,14 @@ body {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #0e2b54;
+  color: #444484;
 }
 
 .newsletter-theme {
   font-size: 2rem;
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  color: #0e2b54;
+  color: #444484;
   margin-bottom: 10px;
 }
 
@@ -147,7 +150,7 @@ body {
   padding: 10px;
   border-style: inset;
   border-color: white;
-  background-color:#0e2b54;
+  background-color:#444484;
   color: white;
   border-radius: 25px;
   font-weight: 300;
@@ -159,55 +162,64 @@ body {
 
 .newsletter-link {
   display: inline-block; /* Ensures link behaves as a block for spacing */
-  font-size: 1rem; /* Normal font size */
-  color: #007bff; /* Primary color for link */
+  font-size: 1.5rem; /* Normal font size */
+  color: #444484; /* Primary color for link */
   text-decoration: none; /* Remove underline */
   margin-top: 10px;
 }
 
 .newsletter-link:hover {
   text-decoration: underline; /* Add underline on hover */
-  color: #0056b3; /* Darker shade for hover effect */
+  color: #444484; /* Darker shade for hover effect */
 }
 
-.magazineTitle {
+.newslettersTitle {
   padding: 20px;
+  color: #0e2b54 !important;
+}
+.newslettersTitle:hover {
+  font-size: 4rem;
+  padding: 20px;
+  color: #0e2b54 !important;
+
 }
 
 .old-newsletters,
 .latest-embed-blurb-div {
-  background-color: #0e2b54;
-  border-style: inset;
-  border-radius: 30px;
-  border-color: #ffffff;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #444484;
   border-width: 5px;
+  border-radius: 30px;
 }
 
 .old-newsletters:hover,
 .latest-embed-blurb-div:hover {
-  background-color: #a8a6cd;
-  border-style: dashed;
+  border-style: solid !important;;
 }
 
 .newsletter-title {
-  padding-top: 25px;
+  padding-top: 2rem;
   font-family: "Baskervville SC" !important;
-  color: #ffffff;
-  text-shadow: 1px 1px 5px #0e2b54;
+  color: #0e2b54;
+  text-shadow: 1px 1px 1px #0e2b54;
 }
 
+
+
 .newsletter-blurb {
-  font-family: "Lora" !important;
-  padding: 20px;
+  font-family: "Baskervville SC" !important;
+  padding: 30px;
+  font-size: 1.5rem !important;
+  text-shadow: 1px 1px 1px #0e2b54;
+  border-bottom: 3px ridge #0e2b54;
 }
 
 .old-newsletters .newsletter-title {
   padding-top: 0;
   font-family: "Baskervville SC" !important;
-  color: #ffffff;
+  color: #0e2b54;
   width: 37.5rem;
-  border-top: 3px ridge #ffffff;
-  border-bottom: 3px ridge #ffffff;
 }
 
 .newsletter-title-blurb {
@@ -217,29 +229,22 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden !important;
-  border-radius: 30px;
 }
 
 .newsletter-blurb {
-  color: rgb(255, 255, 255);
+  color: #0e2b54;
 }
 
 .newsletter-item {
   padding: 20px;
-  border-top: 5px dotted white;
+  border-top: 5px solid #0e2b54;
 }
 
 .module {
   padding: 10px;
 }
 
-.newsletter-item:hover {
-  background-color: #0e2b54;
-  border-style: dashed;
-  border-color: white;
-  border-radius: 30px;
-  color: white;
-}
+
 
 @keyframes fadeInAnimation {
   0% {

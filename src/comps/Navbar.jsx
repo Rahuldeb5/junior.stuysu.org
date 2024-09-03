@@ -69,7 +69,7 @@ const Navbar = (props) => {
           <Link
             href="/magazines"
             className="nav-menu-item"
-            style={{ fontSize: "1.5rem" }}
+            style={{ fontSize: "1.75rem" }}
           >
             Magazines
           </Link>
