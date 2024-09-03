@@ -3,46 +3,68 @@
 .freshman,
 .sophomore,
 .junior {
-  background-color: #0e2b54;
-  border-style: inset;
-  border-radius: 30px;
-  border-color: #ffffff;
-  border-width: 5px;
+  background-color: transparent;
 }
 
 .freshman:hover,
 .sophomore:hover,
 .junior:hover {
-  background-color: #a8a6cd;
-  border-style: dashed;
 }
 
 .magazineTitle,
 .monthTitle {
   font-family: "Baskervville SC" !important;
   color: #ffffff;
-  text-shadow: 1px 1px 10px #0e2b54;
+  padding: 20px;
 }
 
-.dropdown-item {
+.magazineTitle{
+  font-size: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #0e2b54;
+  background-color: rgb(255 255 255 / 25%);
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #0e2b54;
+  border-width: 5px;
+}
+
+.junior .magazineTitle{
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #0e2b54;
+}
+.sophomore .magazineTitle{
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #0e2b54;
+}
+.freshman .magazineTitle{
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #0e2b54;
+}
+.magazineTitle:hover{
+  background-color: #a8a6cd;
+}
+
+.dropdown-item { 
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden !important;
 }
-
-.dropdown-item:hover {
-  transform: scale(1.05);
-  .monthTitle {
-    border-style: dashed;
-  }
+.dropdown-item-container{
+  background-color: #a8a6cd;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .monthTitle {
   font-family: "Baskervville SC" !important;
+  text-shadow: 1px 1px 2px #a8a6cd;
   color: #ffffff;
-  border-style: inset;
   border-width: 3px;
   border-radius: 30px;
   width: 37.5rem;

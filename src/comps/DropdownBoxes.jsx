@@ -4,7 +4,7 @@ import { Box, Collapse, Typography } from "@mui/material";
 import Data from "../data/magazines.json";
 
 const DropdownBoxes = () => {
-  const [openBox, setOpenBox] = useState(1);
+  const [openBox, setOpenBox] = useState(0);
 
   const handleToggle = (boxNumber) => {
     setOpenBox(openBox === boxNumber ? null : boxNumber);
@@ -24,10 +24,11 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.juniorMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
+                <Box className="dropdown-item-container">
                 <Typography
                   className="monthTitle"
                   variant="h5"
-                  style={{ backgroundColor: item.color }}
+                  style={{ backgroundColor: item.color, color: item.textcolor }}
                 >
                   {item.title}
                 </Typography>
@@ -37,6 +38,7 @@ const DropdownBoxes = () => {
                   width="600em"
                   height="600em"
                 />
+                </Box>
               </Box>
             ))}
           </Box>
@@ -54,10 +56,11 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.sophomoreMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
+                <Box className="dropdown-item-container">
                 <Typography
                   className="monthTitle"
                   variant="h5"
-                  style={{ backgroundColor: item.color }}
+                  style={{ backgroundColor: item.color, color: item.textcolor }}
                 >
                   {item.title}
                 </Typography>
@@ -67,6 +70,7 @@ const DropdownBoxes = () => {
                   width="600em"
                   height="600em"
                 />
+                </Box>
               </Box>
             ))}
           </Box>
@@ -85,10 +89,12 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.freshmanMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
+              <Box className="dropdown-item-container">
+
                 <Typography
                   className="monthTitle"
                   variant="h5"
-                  style={{ backgroundColor: item.color }}
+                  style={{ backgroundColor: item.color, color: item.textcolor}}
                 >
                   {item.title}
                 </Typography>
@@ -98,6 +104,8 @@ const DropdownBoxes = () => {
                   width="600em"
                   height="600em"
                 />
+                  </Box>
+
               </Box>
             ))}
           </Box>

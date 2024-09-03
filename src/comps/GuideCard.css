@@ -19,6 +19,7 @@
   flex: 1 1 85%;
   overflow: hidden;
   color: #0e2b54;
+  text-shadow: 1px 1px 2px #0e2b54;
 }
 
 .guide-head .guide-date {
@@ -47,7 +48,7 @@
 
 .guide-card {
   background-color: transparent;
-  border-style: inset;
+  border-style: solid;
   border-radius: 30px;
   border-color: #0e2b54;
   border-width: 5px;

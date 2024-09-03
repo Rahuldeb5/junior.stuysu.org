@@ -10,7 +10,7 @@ export default function Newsletters() {
       <Box className="navbar">
         <Navbar {...{ page: "Newsletters" }} />
       </Box>
-      <Box className="content">
+      <Box className="newslettersContent">
         <NewslettersData />
       </Box>
     </Box>

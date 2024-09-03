@@ -1,8 +1,7 @@
 import { Box, Collapse, Typography } from "@mui/material";
-import React from "react";
-import { useState } from "react";
-import "../pages/Newsletters.css";
+import React, { useState } from "react";
 import newsletters from "../data/newsletters.json";
+import "../pages/Newsletters.css";
 
 export default function NewslettersData() {
   const [openBox, setOpenBox] = useState(null);
@@ -28,19 +27,20 @@ export default function NewslettersData() {
           <Box className="latest-newsletter-item">
             <Box className="latest-title-div">
               <Typography variant="h2" className="latest-title">
-                <u> Latest News: {firstElement.title} </u>
+                 {firstElement.title} 
               </Typography>
             </Box>
             <Box className="latest-embed-blurb-div">
+              <Typography className="latest-newsletter-blurb">
+                {firstElement.blurb}
+              </Typography>
+              <hr className="line-break"/>
               <iframe
                 className="latest-newsletter-embed"
                 src={firstElement.pdf}
                 width="600em"
                 height="600em"
               ></iframe>
-              <Typography className="latest-newsletter-blurb">
-                {firstElement.blurb}
-              </Typography>
             </Box>
           </Box>
         </Box>
@@ -50,7 +50,9 @@ export default function NewslettersData() {
         sx={{ padding: 2, marginBottom: 2, cursor: "pointer" }}
         onClick={() => handleToggle(1)}
       >
-        <Typography variant="h2" className="magazineTitle">
+        <Typography variant="h2" 
+        className="newslettersTitle"
+        style={{ fontFamily: "Baskervville SC" }}>
           Past Newsletters
         </Typography>
         <Collapse in={openBox === 1}>
