@@ -97,7 +97,8 @@
     {
       "url": "/pdfs/magazines/junior/september.pdf#toolbar=0",
       "title": "September",
-      "color": "#ffecd4"
+      "color": "#ffecd4",
+      "textcolor": "black"
     }
   ]
 }
