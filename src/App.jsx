@@ -8,6 +8,7 @@ import OtherEvents from "./pages/OtherEvents";
 import Newsletters from "./pages/Newsletters";
 import Guides from "./pages/Guides";
 import Magazines from "./pages/Magazines";
+import Error from "./pages/Error";
 
 const App = () => {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/newsletters" element={<Newsletters />} />
           <Route path="/guides" element={<Guides />} />
           <Route path="/magazines" element={<Magazines />} />
+          <Route path="/error" element={<Error />} />
         </Routes>
       </BrowserRouter>
     </Box>

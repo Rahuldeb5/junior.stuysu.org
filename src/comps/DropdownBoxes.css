@@ -76,26 +76,3 @@
 .magazine-pdf {
   padding-top: 15px;
 }
-
-@media screen and (max-width: 430px) {
-  .dropdown {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-  }
-
-  .dropdown-item {
-    width: 100%; /* Full width to fit screen */
-    margin-bottom: 0; /* Add some spacing between items */
-  }
-
-  .monthTitle {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
-  }
-
-  .magazine-pdf {
-    width: 67%; /* Ensure the PDF fits the container width */
-    height: 23em; /* Adjust height to a percentage of the viewport height */
-    overflow: auto; /* Add scrollbars if content overflows */
-  }
-}
