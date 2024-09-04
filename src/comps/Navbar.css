@@ -177,6 +177,11 @@ a:link {
   animation-fill-mode: forwards;
 }
 
+.menu-button {
+  max-width: 1em;
+  height: auto;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
