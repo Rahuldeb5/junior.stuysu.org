@@ -12,7 +12,7 @@
   border-style: inset;
   border-color: white;
   height: 35em;
-  margin-right: 15em;
+  margin-right: 10em;
   margin-top: 5em;
   border-radius: 15%;
   max-width: 100em;
@@ -34,9 +34,18 @@
 .fundRaising {
   display: flex;
   justify-content: center;
-  max-width: 75%;
   overflow: hidden;
   text-wrap: nowrap;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the text */
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  overflow-wrap: break-word; /* Ensure long words break onto the next line */
+  padding-right: 4em;
 }
 
 .navbar {
@@ -73,4 +82,49 @@
   justify-content: left;
   align-items: left;
   padding-left: 60px;
+}
+
+@media screen and (max-width: 430px) {
+  .fundraisingImg {
+    flex-direction: column;
+    align-items: right;
+    padding-left: .75em; /* Remove left padding */
+    padding-right: .5em; /* Remove right padding */
+    margin: 0 auto; /* Center the content */
+  }
+
+  .jpromImage {
+    width: 100%; /* Ensure the image fits within the container */
+    max-width: 20em; /* Set a maximum width */
+    height: auto;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 1em; /* Adjust bottom margin for spacing */
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+
+  .fundRaising, .header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem !important; /* Smaller font size */
+    width: 100%; /* Ensure the text fits within the container */
+    padding: 0 10px; /* Add horizontal padding */
+    text-align: center; /* Center align text */
+  }
+
+  .caption-container {
+    padding: 10px; /* Adjust padding to fit within screen */
+    width: 100%; /* Ensure container fits within the screen */
+    max-width: 30em;
+  }
+
+  .caption {
+    font-size: 1.2rem; /* Smaller font size */
+    line-height: 1.4em; /* Adjust line height for readability */
+    padding: 10px; /* Reduce padding */
+    max-width: 100%; /* Ensure the caption fits within the container */
+    margin-bottom: 30px; /* Adjust bottom margin */
+    text-align: center; /* Center align text */
+  }
 }

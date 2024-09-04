@@ -10,6 +10,9 @@ const DropdownBoxes = () => {
     setOpenBox(openBox === boxNumber ? null : boxNumber);
   };
 
+  const isMobile = window.innerWidth <= 430;
+  const calculateMaxHeight = (length) => `${32 * length}em`;
+
   return (
     <Box className="dropdown-container">
       <Box
@@ -21,7 +24,8 @@ const DropdownBoxes = () => {
           Junior Magazines
         </Typography>
         <Collapse in={openBox === 1}>
-          <Box className="dropdown">
+          <Box className="dropdown"
+            sx={{maxHeight: isMobile ? calculateMaxHeight(Data.juniorMagazines.length) : "none"}}>
             {Data.juniorMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
                 <Box className="dropdown-item-container">
@@ -32,9 +36,10 @@ const DropdownBoxes = () => {
                 >
                   {item.title}
                 </Typography>
-                <embed
+                <object
                   className="magazine-pdf"
-                  src={item.url}
+                  type="application/pdf"
+                  data={item.url}
                   width="600em"
                   height="600em"
                 />
@@ -53,7 +58,8 @@ const DropdownBoxes = () => {
           Sophomore Magazines
         </Typography>
         <Collapse in={openBox === 2}>
-          <Box className="dropdown">
+          <Box className="dropdown"
+            sx={{maxHeight: isMobile ? calculateMaxHeight(Data.sophomoreMagazines.length) : "none"}}>
             {Data.sophomoreMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
                 <Box className="dropdown-item-container">
@@ -86,7 +92,8 @@ const DropdownBoxes = () => {
           Freshman Magazines
         </Typography>
         <Collapse in={openBox === 3}>
-          <Box className="dropdown">
+          <Box className="dropdown"
+            sx={{maxHeight: isMobile ? calculateMaxHeight(Data.freshmanMagazines.length) : "none"}}>
             {Data.freshmanMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
               <Box className="dropdown-item-container">

@@ -11,6 +11,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 430px) {
+  .otherevents-title {
+    font-size: 3em !important;
+  }
+}
+
 .other-page {
   background-image: url(../../public/images/backgroundOTHER.svg);
   background-position: center;
