@@ -3,11 +3,11 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 import Navbar from "../comps/Navbar.jsx";
 
-export default function Newsletters() {
+export default function Error() {
   return (
     <Box className="error-page">
       <Box className="navbar">
-        <Navbar {...{ page: "Newsletters" }} />
+        <Navbar />
       </Box>
       <Box className="content">
         <Typography variant="h1" className="error-title" style={{ fontFamily: "Baskervville SC" }}>
