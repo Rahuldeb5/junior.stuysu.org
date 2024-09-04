@@ -57,3 +57,34 @@
 .guide-card:hover {
   background-color: #a8a6cd;
 }
+
+@media screen and (max-width: 430px) {
+  .guide-head {
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+  }
+
+  .guide-head .guide-title {
+    padding-top: 20px;
+    padding-left: 0px;
+    font-size: 2rem;
+  }
+
+  .guide-head .guide-date {
+    padding-top: 10px; /* Adjust padding for date */
+    padding-right: 0px; /* Remove right padding */
+    padding-left: 0px; /* Align with title padding */
+    font-size: 1.5rem; /* Smaller font size for smaller screens */
+  }
+
+  .guide-blurb {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-size: 1.25rem; /* Smaller font size for smaller screens */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
+    text-align: center;  
+  }
+}
