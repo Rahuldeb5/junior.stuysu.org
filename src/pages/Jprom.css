@@ -117,13 +117,14 @@
     padding: 10px; /* Adjust padding to fit within screen */
     width: 100%; /* Ensure container fits within the screen */
     max-width: 30em;
+    margin-left: 3.5em;
   }
 
   .caption {
     font-size: 1.2rem; /* Smaller font size */
     line-height: 1.4em; /* Adjust line height for readability */
     padding: 10px; /* Reduce padding */
-    max-width: 100%; /* Ensure the caption fits within the container */
+    max-width: 75%; /* Ensure the caption fits within the container */
     margin-bottom: 30px; /* Adjust bottom margin */
     text-align: center; /* Center align text */
   }
