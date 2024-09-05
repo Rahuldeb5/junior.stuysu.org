@@ -84,8 +84,8 @@
 
 .menu .nav-menu-item:hover::before,
 .menu .nav-menu-item:hover::after {
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   border-color: #0e4187;
 }
 
@@ -178,8 +178,9 @@ a:link {
 }
 
 .menu-button {
-  max-width: 1em;
-  height: auto;
+  width: 1em;
+  height: 1em;
+  padding: 0;
 }
 
 @keyframes fadeInAnimation {
@@ -190,5 +191,38 @@ a:link {
   100% {
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .junior-logo {
+    max-width: 15rem;
+    margin-left: 5em;
+  }
+  .menu-button {
+    margin-left: 6.5em;
+  }
+  .nav-dropdown{
+    position:relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1;
+    flex-direction: column;
+  }
+  .nav-dropdown:hover .dropdown-content {
+    display: flex;
+  }
+  .menu .nav-menu-item:active, .nav-dropdown:active {
+    background-color: transparent!important;
+  }
+  .nav-dropdown:hover {
+    transform: scale(1)!important;
   }
 }
