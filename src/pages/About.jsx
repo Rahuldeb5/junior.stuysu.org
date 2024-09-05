@@ -71,7 +71,7 @@ export default function About() {
         <Box className="backgroundInsert3">
           <Box className="chiefStaff">
             <Typography className="title-typography" variant="h1">
-              Chief of Staff
+            &nbsp;&nbsp;Chief of Staff&nbsp;&nbsp;
             </Typography>
             <Box className="box-item">
               <Box className="sub-box">
@@ -124,7 +124,7 @@ export default function About() {
         <Box className="backgroundInsert4">
           <Box className="events">
             <Typography className="title-typography" variant="h1">
-              Events
+            &nbsp;&nbsp;Events&nbsp;&nbsp;
             </Typography>
             <Box className="box-item">
               <Box className="sub-box">
@@ -177,7 +177,7 @@ export default function About() {
         <Box className="backgroundInsert8">
           <Box className="internals">
             <Typography className="title-typography" variant="h1">
-              Internals
+            &nbsp;&nbsp;Internals&nbsp;&nbsp;
             </Typography>
             <Box className="box-item">
               <Box className="sub-box">
@@ -230,7 +230,7 @@ export default function About() {
         <Box className="backgroundInsert9">
           <Box className="it">
             <Typography className="title-typography" variant="h1">
-              I/T
+            &nbsp;&nbsp;I/T&nbsp;&nbsp;
             </Typography>
             <Box className="box-IT">
               <Box className="sub-box">
@@ -260,7 +260,7 @@ export default function About() {
           <Box className="backgroundInsert5">
             <Box className="finance">
               <Typography className="title-typography" variant="h1">
-                Finance
+              &nbsp;&nbsp;Finance&nbsp;&nbsp;
               </Typography>
               <Box className="box-item">
                 <Box className="sub-box">
@@ -314,7 +314,7 @@ export default function About() {
         <Box className="backgroundInsert6">
           <Box className="graphics">
             <Typography className="title-typography" variant="h1">
-              Graphics
+            &nbsp;&nbsp;Graphics&nbsp;&nbsp;
             </Typography>
             <Box className="box-item">
               <Box className="sub-box">
@@ -367,7 +367,7 @@ export default function About() {
         <Box className="backgroundInsert7">
           <Box className="outreach">
             <Typography className="title-typography" variant="h1">
-              Outreach
+            &nbsp;&nbsp;Outreach&nbsp;&nbsp;
             </Typography>
             <Box className="box-item">
               <Box className="sub-box">

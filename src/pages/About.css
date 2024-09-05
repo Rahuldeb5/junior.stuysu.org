@@ -8,6 +8,7 @@
 body {
   text-align: center;
 }
+
 .about-page {
   background-color: white;
   color: #0e2b54;
@@ -73,8 +74,8 @@ body {
 
 .content .title-typography {
   font-family: Lora;
-  margin-left: 2rem;
   font-weight: 400;
+  margin-top: 6rem;
 }
 
 .chiefStaff,
@@ -84,10 +85,10 @@ body {
 .finance,
 .events,
 .outreach {
-  padding-top: 100px;
+  margin-top: 30px; /* Adds space between the title and the boxes */
 }
 
-.content .copresidents {
+.presidents .copresidents {
   width: 100%;
   white-space: nowrap;
   display: inline-block;
@@ -98,6 +99,7 @@ body {
   font-weight: 400;
   margin: auto;
   white-space: nowrap;
+  font-size: 100px;
 }
 
 .sub-box .name-typography {
@@ -122,7 +124,7 @@ body {
 }
 
 .copresidents,
-.title-typography {
+.title-typography { 
   border-top: 5px ridge #0e2b54;
   border-bottom: 5px ridge #0e2b54;
   border-left: none;
@@ -195,5 +197,104 @@ body {
 @keyframes cursor {
   50% {
     border-color: transparent;
+  }
+}
+
+@media screen and (max-width: 430px) 
+{
+  
+.sub-box .name-typography {
+  font-weight: 700;
+  margin-top: 0.5rem;
+  text-shadow: 0px 0px 0 #000;
+  text-wrap: nowrap;
+}
+
+  .events, .internals, .it, .finance, .graphics, .outreach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copresidents,
+  .title-typography { 
+  border-top: 5px ridge #0e2b54;
+  border-bottom: 5px ridge #0e2b54;
+  border-left: none;
+  border-right: none;
+  max-width: 80%;
+}
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .presidents .copresidents {
+    font-size: 3rem;  
+  }
+
+  .sub-box img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+
+  .sub-box {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 10px black;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-item{
+    display: flex;
+    margin-top: 30px; /* Adds space between the title and the boxes */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: nowrap;
+  }
+
+  .sub-box .typography {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    min-width: 370px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+  }
+
+  .content .title-typography {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 3rem;  
+    margin: 0rem;
+  }
+
+  .chiefStaff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .backgroundInsert3, .backgroundInsert4, .backgroundInsert5, .backgroundInsert6, .backgroundInsert7, .backgroundInsert8, .backgroundInsert9{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 }
