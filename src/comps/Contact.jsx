@@ -47,13 +47,15 @@ const Contact = () => {
         <Box className="developer-column" align="center">
           <Typography variant="body1">Kalimul Kaif</Typography>
           <Typography variant="body1">David Lee</Typography>
-          <Typography variant="body1">Ting Ting Zhang</Typography>
+          <Typography variant="body1">Kanchanok Zhang</Typography>
+          <Typography variant="body1">Ruxia Chen</Typography>
         </Box>
         <Box className="divider" />
         <Box className="developer-column" align="center">
           <Typography variant="body1">Jiewen Huang</Typography>
           <Typography variant="body1">Ardian Agoes</Typography>
           <Typography variant="body1">Alvin Sze</Typography>
+          <Typography variant="body1">Rahul Deb</Typography>
         </Box>
       </Box>
       <Typography variant="body1" align="center">
