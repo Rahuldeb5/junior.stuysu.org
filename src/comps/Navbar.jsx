@@ -5,20 +5,29 @@ import { Box, Link } from "@mui/material";
 
 const Navbar = (props) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   const toggleMenu = useCallback(() => {
     setMenuOpen((prevMenuOpen) => !prevMenuOpen);
   }, []);
 
   useEffect(() => {
-    const hideMenu = () => {
-      if (window.innerHeight > 768 && menuOpen) {
-        toggleMenu();
+    const handleResize = () => {
+      if (window.innerWidth <= 430) {
+        if (!menuOpen) {
+          toggleMenu();
+        }
+      } else {
+        if (menuOpen) {
+          toggleMenu();
+        }
       }
     };
-    window.addEventListener("resize", hideMenu);
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
 
     return () => {
-      window.removeEventListener("resize", hideMenu);
+      window.removeEventListener("resize", handleResize);
     };
   }, [menuOpen, toggleMenu]);
 
@@ -34,6 +43,7 @@ const Navbar = (props) => {
             />
           </Link>
         </Box>
+        {!menuOpen ?
         <Box className="menu">
           <Link
             href="/people"
@@ -74,13 +84,36 @@ const Navbar = (props) => {
             Magazines
           </Link>
         </Box>
+        :
+        <Box className="menu">
+          <Box className="nav-dropdown">
+            <img className="menu-button" src="/images/menu-button.png" />
+            <Box className="dropdown-content">
+              <Link href="/people" className="nav-menu-item">
+                People
+              </Link>
+              <Link href="/jprom" className="nav-menu-item">
+                JProm
+              </Link>
+              <Link href="/other" className="nav-menu-item">
+                Events
+              </Link>
+              <Link href="/newsletters" className="nav-menu-item">
+                Newsletters
+              </Link>
+              <Link href="/guides" className="nav-menu-item">
+                Guides
+              </Link>
+              <Link href="/magazines" className="nav-menu-item">
+                Magazines
+              </Link>
+            </Box>
+          </Box>
+        </Box>
+        }
       </Box>
     </Box>
   );
 };
-
-// const currPageGet = (page, currPage) => {
-//   return currPage === page ? "nav-menu-item current-page" : "nav-menu-item";
-// };
 
 export default Navbar;

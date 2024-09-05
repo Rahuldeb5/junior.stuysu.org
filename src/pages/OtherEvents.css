@@ -38,10 +38,69 @@
   z-index: 1;
 }
 
-.content {
+
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
+.event-head {
   display: flex;
-  flex-direction: column; /* Stack sections vertically */
-  padding: 50px;
+  justify-content: space-between;
+  align-items: stretch;
   width: 100%;
-  box-sizing: border-box;
+  z-index: 0;
+}
+
+.event-head .event-title {
+  padding-top: 30px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  flex: 1 1 85%;
+  overflow: hidden;
+  color: #0e2b54;
+  text-shadow: 1px 1px 2px #0e2b54;
+}
+
+.event-blurb {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  overflow: hidden;
+  color: #0e2b54;
+}
+
+.events-card {
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 30px;
+  margin-top: 3em;
+  border-color: #0e2b54;
+  border-width: 5px;
+  display: flex;              /* Use flexbox */
+  flex-direction: column;     /* Ensure content is stacked vertically */
+  justify-content: left;    /* Center content horizontally */
+  align-items: left;        /* Center content vertically */
+  text-align: center;         /* Center text */
+  padding-right: 3em;
+}
+
+.events-card:hover {
+  background-color: #a8a6cd;
+}
+
+@media screen and (max-width: 430px) {
+  .event-title {
+    font-size: 1.75rem !important;
+  }
+
+  .event-blurb {
+    padding-top: 1.5em !important;
+    font-size: 1.25rem !important;
+  }
 }
