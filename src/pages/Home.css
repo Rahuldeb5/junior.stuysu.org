@@ -174,6 +174,7 @@
 }
 
 .left-section {
+  border-radius: 25px;
   flex: 1 1 50%;
   max-width: 50%;
   display: flex;
@@ -209,6 +210,7 @@
 
 .left-side,
 .calendar {
+  border-radius: 25px;
   flex: 1 1 50%;
   box-sizing: border-box;
   border: 3px solid #0e2b54;
