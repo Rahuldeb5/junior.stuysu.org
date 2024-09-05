@@ -175,12 +175,16 @@
 
 .left-section {
   flex: 1 1 50%;
-  max-width: 48%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-left: 11.5em;
-  padding-right: 50px;
+  padding-left: 7.5em;
+  padding-right: 2em;
+}
+
+.left-section .typography {
+  margin-left: 1em;
 }
 
 .calendar-section {
@@ -189,10 +193,13 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-right: 11.5em;
-  padding-left: 50px;
+  padding-right: 7.5em;
+  padding-left: 2em;
 }
 
+.schedule {
+  margin-left: 0.57em;
+}
 .schedule-title,
 .calendar-title {
   font-size: 5rem;
