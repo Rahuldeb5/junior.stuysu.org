@@ -18,8 +18,12 @@ export default function OtherEvents() {
             No Events Yet!
           </Typography>
         </Box>
-        <Link href={"https://forms.gle/qmo1yvGz1bVNkSdd8"} className="event-link" target="_blank">
-        <Box className="events-card">
+        <Link
+          href={"https://forms.gle/qmo1yvGz1bVNkSdd8"}
+          className="event-link"
+          target="_blank"
+        >
+          <Box className="events-card">
             <Box className="event-head">
               <Typography
                 variant="h1"
@@ -36,10 +40,14 @@ export default function OtherEvents() {
             >
               Rank the top three caucus events you want to happen most to least.
             </Typography>
-        </Box>
+          </Box>
         </Link>
-        <Link href={"https://forms.gle/RBzPQirb6jdtM2TFA"} className="event-link" target="_blank">
-        <Box className="events-card">
+        <Link
+          href={"https://forms.gle/RBzPQirb6jdtM2TFA"}
+          className="event-link"
+          target="_blank"
+        >
+          <Box className="events-card">
             <Box className="event-head">
               <Typography
                 variant="h1"
@@ -54,9 +62,10 @@ export default function OtherEvents() {
               className="event-blurb"
               style={{ fontFamily: "New Amsterdam" }}
             >
-              Fill out the form below so we can improve these newsletters and help you discover what colleges will be the fit for you!
+              Fill out the form below so we can improve these newsletters and
+              help you discover what colleges will be the fit for you!
             </Typography>
-        </Box>
+          </Box>
         </Link>
       </Box>
     </Box>

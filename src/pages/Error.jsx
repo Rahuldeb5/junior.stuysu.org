@@ -10,8 +10,12 @@ export default function Error() {
         <Navbar />
       </Box>
       <Box className="content">
-        <Typography variant="h1" className="error-title" style={{ fontFamily: "Baskervville SC" }}>
-            404 Error
+        <Typography
+          variant="h1"
+          className="error-title"
+          style={{ fontFamily: "Baskervville SC" }}
+        >
+          404 Error
         </Typography>
       </Box>
     </Box>

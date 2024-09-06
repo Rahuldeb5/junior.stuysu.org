@@ -11,7 +11,8 @@ import Schedule from "../comps/Schedule";
 import RandomQuote from "../comps/RandomQuote";
 
 export default function Home() {
-  const magazineUrl = "https://www.instagram.com/p/C_bW7dpP1kA/?igsh=MXV0dnNramVxYzhxYg%3D%3D";
+  const magazineUrl =
+    "https://www.instagram.com/p/C_bW7dpP1kA/?igsh=MXV0dnNramVxYzhxYg%3D%3D";
 
   return (
     <Box className="home-page">

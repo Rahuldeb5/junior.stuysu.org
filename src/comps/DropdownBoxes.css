@@ -18,7 +18,7 @@
   padding: 20px;
 }
 
-.magazineTitle{
+.magazineTitle {
   font-size: 100px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -30,24 +30,24 @@
   border-width: 5px;
 }
 
-.junior .magazineTitle{
+.junior .magazineTitle {
   font-size: 50px;
   text-shadow: 1px 1px 2px #0e2b54;
 }
-.sophomore .magazineTitle{
+.sophomore .magazineTitle {
   font-size: 50px;
   text-shadow: 1px 1px 2px #0e2b54;
 }
-.freshman .magazineTitle{
+.freshman .magazineTitle {
   font-size: 50px;
   text-shadow: 1px 1px 2px #0e2b54;
 }
-.magazineTitle:hover{
+.magazineTitle:hover {
   background-color: #a8a6cd;
   transform: scale(1.04);
 }
 
-.dropdown-item { 
+.dropdown-item {
   padding: 0;
   margin: 0;
   display: flex;
@@ -56,11 +56,11 @@
   align-items: center;
   overflow: hidden !important;
 }
-.dropdown-item-container{
+.dropdown-item-container {
   padding: 20px;
   border-radius: 1em;
   border-style: solid;
-  border-width: .5em;
+  border-width: 0.5em;
   border-color: #0e2b54;
 }
 

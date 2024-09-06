@@ -25,19 +25,22 @@ const DropdownBoxes = () => {
             {Data.juniorMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
                 <Box className="dropdown-item-container">
-                <Typography
-                  className="monthTitle"
-                  variant="h5"
-                  style={{ backgroundColor: item.color, color: item.textcolor }}
-                >
-                  {item.title}
-                </Typography>
-                <embed
-                  className="magazine-pdf"
-                  src={item.url}
-                  width="600em"
-                  height="600em"
-                />
+                  <Typography
+                    className="monthTitle"
+                    variant="h5"
+                    style={{
+                      backgroundColor: item.color,
+                      color: item.textcolor,
+                    }}
+                  >
+                    {item.title}
+                  </Typography>
+                  <embed
+                    className="magazine-pdf"
+                    src={item.url}
+                    width="600em"
+                    height="600em"
+                  />
                 </Box>
               </Box>
             ))}
@@ -57,19 +60,22 @@ const DropdownBoxes = () => {
             {Data.sophomoreMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
                 <Box className="dropdown-item-container">
-                <Typography
-                  className="monthTitle"
-                  variant="h5"
-                  style={{ backgroundColor: item.color, color: item.textcolor }}
-                >
-                  {item.title}
-                </Typography>
-                <embed
-                  className="magazine-pdf"
-                  src={item.url}
-                  width="600em"
-                  height="600em"
-                />
+                  <Typography
+                    className="monthTitle"
+                    variant="h5"
+                    style={{
+                      backgroundColor: item.color,
+                      color: item.textcolor,
+                    }}
+                  >
+                    {item.title}
+                  </Typography>
+                  <embed
+                    className="magazine-pdf"
+                    src={item.url}
+                    width="600em"
+                    height="600em"
+                  />
                 </Box>
               </Box>
             ))}
@@ -89,23 +95,24 @@ const DropdownBoxes = () => {
           <Box className="dropdown">
             {Data.freshmanMagazines.map((item, index) => (
               <Box key={index} className="dropdown-item">
-              <Box className="dropdown-item-container">
-
-                <Typography
-                  className="monthTitle"
-                  variant="h5"
-                  style={{ backgroundColor: item.color, color: item.textcolor}}
-                >
-                  {item.title}
-                </Typography>
-                <embed
-                  className="magazine-pdf"
-                  src={item.url}
-                  width="600em"
-                  height="600em"
-                />
-                  </Box>
-
+                <Box className="dropdown-item-container">
+                  <Typography
+                    className="monthTitle"
+                    variant="h5"
+                    style={{
+                      backgroundColor: item.color,
+                      color: item.textcolor,
+                    }}
+                  >
+                    {item.title}
+                  </Typography>
+                  <embed
+                    className="magazine-pdf"
+                    src={item.url}
+                    width="600em"
+                    height="600em"
+                  />
+                </Box>
               </Box>
             ))}
           </Box>

@@ -38,7 +38,6 @@
   z-index: 1;
 }
 
-
 @import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
 
@@ -82,11 +81,11 @@
   margin-top: 3em;
   border-color: #0e2b54;
   border-width: 5px;
-  display: flex;              /* Use flexbox */
-  flex-direction: column;     /* Ensure content is stacked vertically */
-  justify-content: left;    /* Center content horizontally */
-  align-items: left;        /* Center content vertically */
-  text-align: center;         /* Center text */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Ensure content is stacked vertically */
+  justify-content: left; /* Center content horizontally */
+  align-items: left; /* Center content vertically */
+  text-align: center; /* Center text */
   padding-right: 3em;
 }
 
