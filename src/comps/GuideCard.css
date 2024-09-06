@@ -83,8 +83,8 @@
     padding-left: 0px;
     padding-bottom: 10px;
     font-size: 1.25rem; /* Smaller font size for smaller screens */
-    justify-content: center;  /* Center content horizontally */
-    align-items: center;      /* Center content vertically */
-    text-align: center;  
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
   }
 }

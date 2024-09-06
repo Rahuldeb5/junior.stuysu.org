@@ -124,7 +124,7 @@ body {
 }
 
 .copresidents,
-.title-typography { 
+.title-typography {
   border-top: 5px ridge #0e2b54;
   border-bottom: 5px ridge #0e2b54;
   border-left: none;
@@ -200,17 +200,20 @@ body {
   }
 }
 
-@media screen and (max-width: 430px) 
-{
-  
-.sub-box .name-typography {
-  font-weight: 700;
-  margin-top: 0.5rem;
-  text-shadow: 0px 0px 0 #000;
-  text-wrap: nowrap;
-}
+@media screen and (max-width: 430px) {
+  .sub-box .name-typography {
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-shadow: 0px 0px 0 #000;
+    text-wrap: nowrap;
+  }
 
-  .events, .internals, .it, .finance, .graphics, .outreach {
+  .events,
+  .internals,
+  .it,
+  .finance,
+  .graphics,
+  .outreach {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,15 +221,15 @@ body {
   }
 
   .copresidents,
-  .title-typography { 
-  border-top: 5px ridge #0e2b54;
-  border-bottom: 5px ridge #0e2b54;
-  border-left: none;
-  border-right: none;
-  max-width: 80%;
-}
+  .title-typography {
+    border-top: 5px ridge #0e2b54;
+    border-bottom: 5px ridge #0e2b54;
+    border-left: none;
+    border-right: none;
+    max-width: 80%;
+  }
 
-  .content{
+  .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -234,7 +237,7 @@ body {
   }
 
   .presidents .copresidents {
-    font-size: 3rem;  
+    font-size: 3rem;
   }
 
   .sub-box img {
@@ -254,7 +257,7 @@ body {
     justify-content: center;
   }
 
-  .box-item{
+  .box-item {
     display: flex;
     margin-top: 30px; /* Adds space between the title and the boxes */
     flex-direction: column;
@@ -281,18 +284,24 @@ body {
   .content .title-typography {
     font-family: Lora;
     font-weight: 400;
-    font-size: 3rem;  
+    font-size: 3rem;
     margin: 0rem;
   }
 
-  .chiefStaff{
+  .chiefStaff {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
-  .backgroundInsert3, .backgroundInsert4, .backgroundInsert5, .backgroundInsert6, .backgroundInsert7, .backgroundInsert8, .backgroundInsert9{
+
+  .backgroundInsert3,
+  .backgroundInsert4,
+  .backgroundInsert5,
+  .backgroundInsert6,
+  .backgroundInsert7,
+  .backgroundInsert8,
+  .backgroundInsert9 {
     display: flex;
     flex-direction: column;
     margin: 0;

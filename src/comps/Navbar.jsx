@@ -43,74 +43,74 @@ const Navbar = (props) => {
             />
           </Link>
         </Box>
-        {!menuOpen ?
-        <Box className="menu">
-          <Link
-            href="/people"
-            className="nav-menu-item"
-            style={{ fontSize: "1.75rem" }}
-          >
-            People
-          </Link>
-          <Box className="nav-dropdown">
-            Events
-            <Box className="dropdown-content">
-              <Link href="/jprom" className="nav-menu-item">
-                JProm
-              </Link>
-              <Link href="/other" className="nav-menu-item">
-                Other
-              </Link>
+        {!menuOpen ? (
+          <Box className="menu">
+            <Link
+              href="/people"
+              className="nav-menu-item"
+              style={{ fontSize: "1.75rem" }}
+            >
+              People
+            </Link>
+            <Box className="nav-dropdown">
+              Events
+              <Box className="dropdown-content">
+                <Link href="/jprom" className="nav-menu-item">
+                  JProm
+                </Link>
+                <Link href="/other" className="nav-menu-item">
+                  Other
+                </Link>
+              </Box>
             </Box>
-          </Box>
 
-          <Box className="nav-dropdown">
-            Resources
-            <Box className="dropdown-content">
-              <Link href="/newsletters" className="nav-menu-item">
-                Newsletters
-              </Link>
-              <Link href="/guides" className="nav-menu-item">
-                Guides
-              </Link>
+            <Box className="nav-dropdown">
+              Resources
+              <Box className="dropdown-content">
+                <Link href="/newsletters" className="nav-menu-item">
+                  Newsletters
+                </Link>
+                <Link href="/guides" className="nav-menu-item">
+                  Guides
+                </Link>
+              </Box>
             </Box>
-          </Box>
 
-          <Link
-            href="/magazines"
-            className="nav-menu-item"
-            style={{ fontSize: "1.75rem" }}
-          >
-            Magazines
-          </Link>
-        </Box>
-        :
-        <Box className="menu">
-          <Box className="nav-dropdown">
-            <img className="menu-button" src="/images/menu-button.png" />
-            <Box className="dropdown-content">
-              <Link href="/people" className="nav-menu-item">
-                People
-              </Link>
-              <Link href="/jprom" className="nav-menu-item">
-                JProm
-              </Link>
-              <Link href="/other" className="nav-menu-item">
-                Events
-              </Link>
-              <Link href="/newsletters" className="nav-menu-item">
-                Newsletters
-              </Link>
-              <Link href="/guides" className="nav-menu-item">
-                Guides
-              </Link>
-              <Link href="/magazines" className="nav-menu-item">
-                Magazines
-              </Link>
+            <Link
+              href="/magazines"
+              className="nav-menu-item"
+              style={{ fontSize: "1.75rem" }}
+            >
+              Magazines
+            </Link>
+          </Box>
+        ) : (
+          <Box className="menu">
+            <Box className="nav-dropdown">
+              <img className="menu-button" src="/images/menu-button.png" />
+              <Box className="dropdown-content">
+                <Link href="/people" className="nav-menu-item">
+                  People
+                </Link>
+                <Link href="/jprom" className="nav-menu-item">
+                  JProm
+                </Link>
+                <Link href="/other" className="nav-menu-item">
+                  Events
+                </Link>
+                <Link href="/newsletters" className="nav-menu-item">
+                  Newsletters
+                </Link>
+                <Link href="/guides" className="nav-menu-item">
+                  Guides
+                </Link>
+                <Link href="/magazines" className="nav-menu-item">
+                  Magazines
+                </Link>
+              </Box>
             </Box>
           </Box>
-        </Box>
-        }
+        )}
       </Box>
     </Box>
   );

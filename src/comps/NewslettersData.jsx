@@ -27,14 +27,14 @@ export default function NewslettersData() {
           <Box className="latest-newsletter-item">
             <Box className="latest-title-div">
               <Typography variant="h2" className="latest-title">
-                 {firstElement.title} 
+                {firstElement.title}
               </Typography>
             </Box>
             <Box className="latest-embed-blurb-div">
               <Typography className="latest-newsletter-blurb">
                 {firstElement.blurb}
               </Typography>
-              <hr className="line-break"/>
+              <hr className="line-break" />
               <iframe
                 className="latest-newsletter-embed"
                 src={firstElement.pdf}
@@ -50,9 +50,11 @@ export default function NewslettersData() {
         sx={{ padding: 2, marginBottom: 2, cursor: "pointer" }}
         onClick={() => handleToggle(1)}
       >
-        <Typography variant="h2" 
-        className="newslettersTitle"
-        style={{ fontFamily: "Baskervville SC" }}>
+        <Typography
+          variant="h2"
+          className="newslettersTitle"
+          style={{ fontFamily: "Baskervville SC" }}
+        >
           Past Newsletters
         </Typography>
         <Collapse in={openBox === 1}>

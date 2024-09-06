@@ -88,8 +88,8 @@
   .fundraisingImg {
     flex-direction: column;
     align-items: right;
-    padding-left: .75em; /* Remove left padding */
-    padding-right: .5em; /* Remove right padding */
+    padding-left: 0.75em; /* Remove left padding */
+    padding-right: 0.5em; /* Remove right padding */
     margin: 0 auto; /* Center the content */
   }
 
@@ -104,7 +104,8 @@
     margin-right: 15em;
   }
 
-  .fundRaising, .header {
+  .fundRaising,
+  .header {
     display: flex;
     justify-content: center;
     font-size: 1.5rem !important; /* Smaller font size */
