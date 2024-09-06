@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  z-index: 1e6;
+  z-index: 1;
   border-bottom: 3px solid rgb(255, 255, 255);
   background-color: #a8a6cd;
   position: fixed;
