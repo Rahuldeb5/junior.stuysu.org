@@ -11,8 +11,7 @@
 .jpromImage {
   height: 35em;
   margin-right: 10em;
-  margin-top: 5em;
-  border-radius: 15%;
+  margin-top: 0em;
   max-width: 100em;
 }
 .jprom-page {
@@ -96,7 +95,7 @@
     height: auto;
     align-self: center;
     margin-top: 0;
-    margin-bottom: 1em; /* Adjust bottom margin for spacing */
+    margin-bottom: 1em; 
     margin-left: 15em;
     margin-right: 15em;
   }
