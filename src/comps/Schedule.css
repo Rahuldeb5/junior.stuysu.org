@@ -45,6 +45,20 @@
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 430px) {
+  .day-type {
+    font-size: 0.82em;
+  }
+
+  .period-name {
+    font-size: 0.55em;
+  }
+
+  .period-time {
+    font-size: 0.82em;
+  }
+}
+
 .time {
   padding-top: 25px;
 }
@@ -57,4 +71,6 @@
 .time-left,
 .time-into {
   font-family: "Lora" !important;
+  font-size: 0.75em !important;
+  padding-right: 1.1em;
 }

@@ -14,3 +14,26 @@
   border: 3px solid #0e2b54;
   z-index: 0;
 }
+
+.fc .fc-event-title,
+.fc .fc-event-title-container {
+  white-space: normal !important; /* Allow text to wrap */
+  word-wrap: break-word; /* Break long words */
+  overflow: visible; /* Ensure overflow is handled properly */
+  height: auto !important; /* Allow the height to adjust based on content */
+  line-height: 1.2em; /* Reduce line height if needed for better readability */
+}
+
+.fc .fc-event {
+  min-height: 40px; /* Ensure enough height for events with multiple lines */
+}
+
+@media only screen and (max-width: 430px) {
+  .fc .fc-event-title {
+    font-size: 0.75rem; /* Reduce font size for smaller screens */
+  }
+
+  .fc .fc-daygrid-day-events {
+    padding: 0px; /* Add some padding to ensure spacing */
+  }
+}

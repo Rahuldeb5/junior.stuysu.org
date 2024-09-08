@@ -10,14 +10,19 @@ export default function Error() {
         <Navbar />
       </Box>
       <Box className="content">
+        <Typography variant="body1" style={{ fontFamily: "Baskervville SC" }}>
+          You have entered Rahuldeb5's secret lair. Actually, this is me telling
+          you to see this page on a computer =)
+        </Typography>
         <Typography
           variant="h1"
           className="error-title"
           style={{ fontFamily: "Baskervville SC" }}
         >
-          404 Error
+          Return to the home page!
         </Typography>
       </Box>
+      <img src="/images/error.png" alt="errorImage" className="errorImage" />
     </Box>
   );
 }
