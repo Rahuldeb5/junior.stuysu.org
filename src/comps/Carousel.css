@@ -48,3 +48,21 @@
   display: inline;
   overflow: hidden;
 }
+
+@media screen and (max-width: 430px) {
+  .image-container img {
+    height: 20em;
+    width: 25em;
+  }
+
+  .image-container .caption {
+    font-size: 1rem;
+    bottom: 15px;
+  }
+
+  .slideshow {
+    margin-left: 7px;
+    height: 15em;
+    margin-bottom: 4em;
+  }
+}

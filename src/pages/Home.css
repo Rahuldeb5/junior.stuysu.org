@@ -156,6 +156,12 @@
   z-index: 0;
 }
 
+@media screen and (max-width: 430px) {
+  .slideshow {
+    padding-bottom: 0px;
+  }
+}
+
 .slideshow-carousel {
   box-sizing: border-box;
   display: flex;

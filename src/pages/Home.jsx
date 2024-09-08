@@ -45,13 +45,10 @@ export default function Home() {
           </Box>
         </Box>
 
-        {!mobile ? (
-          <Box className="slideshow">
-            <Carousel className="slideshow-carousel" />
-          </Box>
-        ) : (
-          <></>
-        )}
+        <Box className="slideshow">
+          <Carousel className="slideshow-carousel" />
+        </Box>
+
         <Box className="backgroundInsert1">
           <Box className="schedule-calendar">
             <Box className="left-section">
