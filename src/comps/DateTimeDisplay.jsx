@@ -5,6 +5,8 @@ import React, { useState, useEffect } from "react";
 const DateTimeDisplay = () => {
   const [currentDateTime, setCurrentDateTime] = new useState(new Date());
 
+  const isMobile = window.innerWidth <= 430;
+
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentDateTime(new Date());
@@ -42,10 +44,11 @@ const DateTimeDisplay = () => {
       <Typography className="day" variant="p" align="left">
         {day + ", "}
       </Typography>
+      {isMobile ? <br /> : <></>}
       <Typography className="date" variant="p" align="left">
         {date + " "}
       </Typography>
-      <br />
+      {isMobile ? <br /> : <></>}
       <Typography className="time" variant="p" align="left">
         {time + " "}
       </Typography>

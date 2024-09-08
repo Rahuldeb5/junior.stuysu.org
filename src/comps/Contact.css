@@ -57,3 +57,9 @@
   z-index: 1;
   align-self: stretch; /* Ensures the divider takes the full height of the container */
 }
+
+@media screen and (max-width: 430px) {
+  .contact-box {
+    padding-left: 1em;
+  }
+}

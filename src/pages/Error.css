@@ -22,7 +22,7 @@
   background-position: center;
   background-size: cover;
   color: #0e2b54;
-  min-height: 100vh; /* Allows the content to extend beyond the viewport */
+  min-height: 60em; /* Allows the content to extend beyond the viewport */
   width: 100vw;
   overflow-x: hidden; /* Prevents horizontal overflow */
   overflow-y: auto; /* Allows vertical scrolling */

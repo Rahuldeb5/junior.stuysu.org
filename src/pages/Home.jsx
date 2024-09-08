@@ -14,6 +14,8 @@ export default function Home() {
   const magazineUrl =
     "https://www.instagram.com/p/C_bW7dpP1kA/?igsh=MXV0dnNramVxYzhxYg%3D%3D";
 
+  const mobile = window.innerWidth <= 430;
+
   return (
     <Box className="home-page">
       <Box className="navbar">
@@ -42,18 +44,14 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
-        <img class="svg1" src="../images/svg.png" alt="divider" />
-        <img class="svg2" src="../images/svg2.png" alt="divider" />
-        {/* 
-      <Box className="slideshow-container">
-         */}
 
-        <Box className="slideshow">
-          <Carousel className="slideshow-carousel" />
-        </Box>
-        {/* 
-      </Box>
-      */}
+        {!mobile ? (
+          <Box className="slideshow">
+            <Carousel className="slideshow-carousel" />
+          </Box>
+        ) : (
+          <></>
+        )}
         <Box className="backgroundInsert1">
           <Box className="schedule-calendar">
             <Box className="left-section">

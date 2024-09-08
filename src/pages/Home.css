@@ -95,6 +95,7 @@
   float: left;
   display: flex;
   flex-direction: row;
+  padding-bottom: 15em;
 }
 
 /* TITLE  */
@@ -358,5 +359,72 @@
   to {
     transform: translateY(0);
     filter: blur(0);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header .title .typography {
+    font-size: 3.5em;
+    padding-left: 4em;
+    letter-spacing: -7.5px;
+  }
+
+  .title-design {
+    flex-direction: column;
+    padding-bottom: 5em;
+  }
+
+  .design {
+    width: 20em;
+  }
+  .blurb {
+    width: 15em;
+  }
+
+  .home-page {
+    padding-top: 9em;
+  }
+
+  .schedule-calendar {
+    flex-direction: column;
+  }
+
+  .left-section {
+    border-radius: 25px;
+    flex: 1 1 50%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-left: 2em;
+    padding-right: 0.5em;
+  }
+
+  .calendar-section {
+    flex: 1 1 50%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-right: 0.5em;
+    padding-left: 2em;
+    padding-top: 4em;
+  }
+
+  .schedule-title,
+  .calendar-title,
+  .magazine-title {
+    font-size: 5rem !important;
+  }
+
+  .stuyvesant-image {
+    width: 95%; /* Adjust the width of the magazine content within the container */
+    padding-top: 5em;
+    padding-left: 1.5em;
+  }
+
+  .magazine-container {
+    width: 95%;
+    padding-left: 1.5em;
   }
 }

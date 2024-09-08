@@ -2,8 +2,6 @@ import "./About.css";
 import { Box, Typography } from "@mui/material";
 import Navbar from "../comps/Navbar";
 import Info from "../data/people.json";
-import Contact from "../comps/Contact";
-// import Contact from "../comps/Contact";
 
 export default function About() {
   return (
