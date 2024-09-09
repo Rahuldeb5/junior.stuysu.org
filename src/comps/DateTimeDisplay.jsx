@@ -48,7 +48,7 @@ const DateTimeDisplay = () => {
       <Typography className="date" variant="p" align="left">
         {date + " "}
       </Typography>
-      {isMobile ? <br /> : <></>}
+      <br />
       <Typography className="time" variant="p" align="left">
         {time + " "}
       </Typography>

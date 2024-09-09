@@ -4,11 +4,15 @@
   font-size: 1.75em;
 }
 
+.day, .time {
+  padding-left: 1em;
+}
+
 @media screen and (max-width: 430px) {
   .day,
   .date,
   .time {
     font-size: 1.4em;
-    padding-left: 1em;
+    padding-left: .8em;
   }
 }
