@@ -10,7 +10,8 @@ export default function NewslettersData() {
     setOpenBox(openBox === boxNumber ? null : boxNumber);
   };
 
-  const firstElement = newsletters[newsletters.length - 1];
+  const firstElement = newsletters[newsletters.length - 2];
+  const secondElement = newsletters[newsletters.length - 1];
   let pastNewsletters = newsletters.slice(0, -1);
 
   return (
@@ -27,17 +28,17 @@ export default function NewslettersData() {
           <Box className="latest-newsletter-item">
             <Box className="latest-title-div">
               <Typography variant="h2" className="latest-title">
-                {firstElement.title}
+                {secondElement.title}
               </Typography>
             </Box>
             <Box className="latest-embed-blurb-div">
               <Typography className="latest-newsletter-blurb">
-                {firstElement.blurb}
+                {secondElement.blurb}
               </Typography>
               <hr className="line-break" />
               <iframe
                 className="latest-newsletter-embed"
-                src={firstElement.pdf}
+                src={secondElement.pdf}
                 width="600em"
                 height="600em"
               ></iframe>
@@ -67,13 +68,13 @@ export default function NewslettersData() {
                   <Box className="newsletter-item">
                     <Box className="newsletter-title-blurb">
                       <Typography variant="h3" className="newsletter-title">
-                        {item.title}
+                        {firstElement.title}
                       </Typography>
                       <Typography className="newsletter-blurb">
-                        {item.blurb}
+                        {firstElement.blurb}
                       </Typography>
                     </Box>
-                    <embed src={item.pdf} width="600em" height="600em" />
+                    <embed src={firstElement.pdf} width="600em" height="600em" />
                   </Box>
                 </Box>
               ))}

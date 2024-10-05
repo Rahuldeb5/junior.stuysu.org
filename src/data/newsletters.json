@@ -1,7 +1,13 @@
 [
   {
     "title": "September College Newsletter",
-    "blurb": "September College Newsletter provides a concise overview of various colleges, highlighting key statistics and insights. Stay informed with quick facts and comparisons to help you make the best educational choices.",
+    "blurb": "The September College Newsletter provides a concise overview of various colleges, highlighting key statistics and insights. Stay informed with quick facts and comparisons to help you make the best educational choices.",
     "pdf": "../../pdfs/newsletters/september.pdf#toolbar=0"
+  },
+  {
+    "title": "October College Newsletter",
+    "blurb": "The October College Newsletter provides some more rundowns of different colleges, highlighting key statistics and insights. Stay informed with quick facts and comparisons to help you make the best educational choices.",
+    "pdf": "../../pdfs/newsletters/october.pdf#toolbar=0"
   }
+  
 ]
