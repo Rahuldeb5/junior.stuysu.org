@@ -45,13 +45,17 @@ const Navbar = (props) => {
         </Box>
         {!menuOpen ? (
           <Box className="menu">
-            <Link
-              href="/people"
-              className="nav-menu-item"
-              style={{ fontSize: "1.75rem" }}
-            >
+            <Box className="nav-dropdown">
               People
-            </Link>
+              <Box className="dropdown-content">
+                <Link href="/people" className="nav-menu-item">
+                  Directors
+                </Link>
+                <Link href="/members" className="nav-menu-item">
+                  Members
+                </Link>
+              </Box>
+            </Box>
             <Box className="nav-dropdown">
               Events
               <Box className="dropdown-content">
