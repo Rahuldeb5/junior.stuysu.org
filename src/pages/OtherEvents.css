@@ -6,15 +6,39 @@
   box-sizing: border-box;
 }
 
+.otherevents-title-box {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-right: 710px
+}
+
 .otherevents-title {
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 3.5rem !important;
+  border: 100px;
+  border-color: #0e2b54;
+  background-color: transparent;
+  color: #0e2b54;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 50px;
+  text-shadow: 1px 1px 2px #0e2b54;
+  justify-content: left;
+  align-items: left;
 }
 
 @media screen and (max-width: 430px) {
   .otherevents-title {
     font-size: 3em !important;
   }
+}
+.event-content {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .other-page {
@@ -28,7 +52,7 @@
   overflow-y: auto; /* Allows vertical scrolling */
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 30px;
   padding-top: 5rem;
 }
 
@@ -59,7 +83,7 @@
   flex: 1 1 85%;
   overflow: hidden;
   color: #0e2b54;
-  text-shadow: 1px 1px 2px #0e2b54;
+  text-shadow: 1px 1px 10px #0e2b54;
 }
 
 .event-blurb {
@@ -89,6 +113,38 @@
   padding-right: 3em;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.info .otherevents-title-box{
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  align-items: left;
+}
+
+.photo-box {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.photo-box img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
 .events-card:hover {
   background-color: #a8a6cd;
 }
@@ -101,5 +157,39 @@
   .event-blurb {
     padding-top: 1.5em !important;
     font-size: 1.25rem !important;
+  }
+
+  .photo-box {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .otherevents-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .otherevents-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem !important;
+    border: 100px;
+    border-color: #0e2b54;
+    background-color: transparent;
+    color: #0e2b54;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 30px;
+    text-shadow: 1px 1px 2px #0e2b54;
+    justify-content: left;
+    align-items: left;
   }
 }

@@ -45,7 +45,7 @@ export default function About() {
                         <Box className="member-sub-box">
                             <img
                                 src={getMemberPhoto(member.Name)}
-                                style={{ display: "block", marginLeft: "auto", marginRight:"auto", paddingBottom: "25px"}}
+                                style={{display: "block", marginLeft: "auto", marginRight:"auto", paddingBottom: "25px"}}
                             />    
                             <Typography
                                 className="name-typography"

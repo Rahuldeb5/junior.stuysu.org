@@ -32,7 +32,7 @@
   justify-content: center;  
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .caucusMember {
@@ -60,10 +60,11 @@
   flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .member-sub-box {
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +105,7 @@
 
 @media screen and (max-width: 430px) {
   .caucusMember {
-    max-width: 95%;
+    max-width: 100%;
     white-space: nowrap;
     display: inline-block;
     overflow: hidden;
@@ -128,7 +129,20 @@
     align-items: center;
     gap: 20px;
     border: 10px black;
-    max-width: 80%;
+    max-width: 95%;
+  }
+
+  .bio-typography {
+    padding: 20px;
+    background-color: #0e2b54;
+    color: white;
+    border-radius: 25px;
+    font-family: Lora;
+    font-weight: 300;
+    justify-content: center;  
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.2rem !important;
   }
   
 }

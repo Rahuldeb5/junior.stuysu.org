@@ -8,15 +8,25 @@ export default function OtherEvents() {
       <Box className="navbar">
         <Navbar {...{ page: "OtherEvents" }} />
       </Box>
-      <Box className="content">
+      <Box className="event-content">
         <Box className="info">
+          <Box className="photo-box">
+            <img 
+            src="/images/UAtrium.jpg"
+            />
+                        <img 
+            src="/images/JuniorAtrium.jpg"
+            />
+          </Box>
+          <Box className="otherevents-title-box">
           <Typography
             variant="h1"
             className="otherevents-title"
             style={{ fontFamily: "Baskervville SC" }}
           >
-            No Events Yet!
+            10/08 Junior Atrium Photos
           </Typography>
+          </Box>
         </Box>
 
       </Box>
