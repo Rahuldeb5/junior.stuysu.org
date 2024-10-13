@@ -1,8 +1,8 @@
-import "./About.css";
 import { Box, Typography } from "@mui/material";
-import Navbar from "../comps/Navbar";
-import { useEffect, useState } from "react";
 import Papa from "papaparse"; // Use papaparse for parsing CSV
+import { useEffect, useState } from "react";
+import Navbar from "../comps/Navbar";
+import "./Members.css";
 
 export default function About() {
     const [data, setData] = useState([]);
@@ -22,40 +22,44 @@ export default function About() {
         fetchMemberData();
     }, []);
 
+    const getMemberPhoto = (name) => {
+        const pngName = name.trim().toLowerCase().replace(/\s+/g, "_");
+        return `/images/people/members/${pngName}.png`; 
+    };
+
     return (
-        <Box className="about-page">
+        <Box className="member-page">
             <Box className="navbar">
                 <Navbar {...{ page: "Members" }} />
             </Box>
-
+            <Typography
+            className="caucusMember"
+            variant="h1"
+            style={{ fontFamily: "Baskervville SC" }}
+          >
+            Caucus Members          
+            </Typography>
             <Box className="content">
                 {data.map((member, index) => (
-                    <Box className="box-item" key={index}>
-                        <Box className="sub-box">
+                    <Box className="member-box-item" key={index}>
+                        <Box className="member-sub-box">
                             <img
-                                src="https://www.shutterstock.com/shutterstock/photos/2397912103/display_1500/stock-photo-happy-dog-holding-rubber-toy-bone-in-mouth-playing-outdoors-2397912103.jpg"
-                                style={{ width: "100%", height: "auto" }}
-                                alt={`${member.Photo}`}
-                            />
+                                src={getMemberPhoto(member.Name)}
+                                style={{ display: "block", marginLeft: "auto", marginRight:"auto", paddingBottom: "25px"}}
+                            />    
                             <Typography
                                 className="name-typography"
                                 variant="h4"
                                 sx={{ textAlign: "center" }}
                                 style={{ fontFamily: "Baskervville SC" }}
                             >
-                                {member.Name}
-                            </Typography>
-                            <Typography
-                                className="department-typography"
-                                variant="h6"
-                                sx={{ textAlign: "center" }}
-                            >
-                                {member.Department}
+                                {member.Name} 
                             </Typography>
                             <Typography
                                 className="bio-typography"
                                 variant="body1"
                                 sx={{ textAlign: "center" }}
+                                style={{ fontFamily: "Lora" }}
                             >
                                 {member.Bio}
                             </Typography>

@@ -94,7 +94,10 @@ const Navbar = (props) => {
               <img className="menu-button" src="/images/menu-button.png" />
               <Box className="dropdown-content">
                 <Link href="/people" className="nav-menu-item">
-                  People
+                Directors
+                </Link>
+                <Link href="/members" className="nav-menu-item">
+                Members
                 </Link>
                 <Link href="/jprom" className="nav-menu-item">
                   JProm
