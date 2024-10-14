@@ -163,7 +163,7 @@
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 80%;  
     justify-content: center;
     align-items: center;
     gap: 50px;
