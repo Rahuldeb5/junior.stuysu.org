@@ -24,7 +24,7 @@
   max-width: 70em;
   width: 100%;
   height: 700px;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .image-container .caption {
