@@ -1,0 +1,148 @@
+.member-page {
+  background-image: url(../../public/images/svg12.svg);
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.department-typography {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  white-space: nowrap;  
+  display: inline-block;
+  font-family: Lora;
+  margin: 0 auto;
+  font-weight: 400;
+  margin: auto;
+  white-space: nowrap;
+  font-size: 10em;
+}
+
+.bio-typography {
+  padding: 20px;
+  background-color: #0e2b54;
+  color: white;
+  border-radius: 25px;
+  font-family: Lora;
+  font-weight: 300;
+  justify-content: center;  
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px !important;
+}
+
+.caucusMember {
+  color: #0e2b54;
+  width: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  animation: typing 2s steps(250, end);
+  font-family: Lora;
+  margin: 0 auto;
+  font-weight: 400;
+  margin: auto;
+  white-space: nowrap;
+  font-size: 100px;
+  border-top: 5px ridge #0e2b54;
+  border-bottom: 5px ridge #0e2b54;
+  border-left: none;
+  border-right: none;
+}
+
+.member-box-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.member-sub-box {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 10px black;
+  max-width: 50%;
+  padding-top: 50px;
+}
+
+.member-sub-box img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.member-sub-box .name-typography {
+  font-weight: 900;
+  margin-top: 0.5rem;
+  text-shadow: 1px 1px 0 #000;
+  color: #0e2b54
+}
+
+.member-sub-box .typography {
+  padding: 20px;
+  border-color: white;
+  background-color: #0e2b54;
+  color: white;
+  border-radius: 25px;
+  font-family: Lora;
+  font-weight: 300;
+  text-align: justify, center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 430px) {
+  .caucusMember {
+    max-width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 2s steps(250, end);
+    font-family: Lora;
+    margin: 0 auto;
+    font-weight: 400;
+    margin: auto;
+    white-space: nowrap;
+    font-size: 3rem !important; 
+    border-top: 5px ridge #0e2b54;
+    border-bottom: 5px ridge #0e2b54;
+    border-left: none;
+    border-right: none;
+  }
+  .member-sub-box {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 10px black;
+    max-width: 95%;
+  }
+
+  .bio-typography {
+    padding: 20px;
+    background-color: #0e2b54;
+    color: white;
+    border-radius: 25px;
+    font-family: Lora;
+    font-weight: 300;
+    justify-content: center;  
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.2rem !important;
+  }
+  
+}

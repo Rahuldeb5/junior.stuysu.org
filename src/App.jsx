@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Members from "./pages/Members";
 import Jprom from "./pages/Jprom";
 import OtherEvents from "./pages/OtherEvents";
 import Newsletters from "./pages/Newsletters";
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Home />} />
           <Route path="/people" element={<About />} />
+          <Route path="/members" element={<Members />} />
           <Route path="/jprom" element={<Jprom />} />
           <Route path="/other" element={<OtherEvents />} />
           <Route path="/newsletters" element={<Newsletters />} />
