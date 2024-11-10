@@ -22,9 +22,10 @@ export default function About() {
         fetchMemberData();
     }, []);
 
-    const getMemberPhoto = (name) => {
+    const getMemberPhoto = (name, index) => {
         const pngName = name.trim().toLowerCase().replace(/\s+/g, "_");
-        return `/images/people/members/${pngName}.png`; 
+        const pngIndex = index.trim().toLowerCase().replace(/\s+/g, "_");
+        return `/images/people/members/${pngIndex}_${pngName}.png`; 
     };
 
     return (
@@ -44,7 +45,7 @@ export default function About() {
                     <Box className="member-box-item" key={index}>
                         <Box className="member-sub-box">
                             <img
-                                src={getMemberPhoto(member.Name)}
+                                src={getMemberPhoto(member.Name, member.Department)}
                                 style={{display: "block", marginLeft: "auto", marginRight:"auto", paddingBottom: "25px"}}
                             />    
                             <Typography
