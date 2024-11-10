@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import Navbar from "../comps/Navbar";
 import "./Jprom.css";
+import Carousel from "../comps/Carousel2";
 
 export default function Jprom() {
   return (
@@ -8,7 +9,6 @@ export default function Jprom() {
       <Box className="navbar">
         <Navbar {...{ page: "Jprom" }} />
       </Box>
-
       <Box className="content">
         <Box className="info">
           <Box className="fundraisingImg">
@@ -43,6 +43,16 @@ export default function Jprom() {
               className="jpromImage"
             />
           </Box>
+        </Box>
+        <Box className="jpromEvent1">
+        <Carousel className="slideshow-carousel" />
+          <Typography
+            variant="body"
+            className="desc"
+            style={{ fontFamily: "Baskervville SC" }}
+          >
+            During the prospective students and parents Open House on 10/16-17, we raised $800 during our Bake Sale that will be used to lower Jprom prices!
+          </Typography>
         </Box>
       </Box>
     </Box>

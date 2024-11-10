@@ -80,6 +80,25 @@
   align-items: center;
 
 }
+.firstEvent {
+  width: 100%; 
+  max-width: 40em; 
+  height: auto;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-right: .5em;
+  margin-left: .5em;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 0.01em;
+}
+.desc {
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
 
 @media screen and (max-width: 430px) {
   .fundraisingImg {
@@ -123,5 +142,15 @@
     max-width: 75%; /* Ensure the caption fits within the container */
     margin-bottom: 30px; /* Adjust bottom margin */
     text-align: center; /* Center align text */
+  }
+  .firstEvent {
+    width: 100%; /* Ensure the image fits within the container */
+    max-width: 20em; /* Set a maximum width */
+    height: auto;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 15em;
+    margin-right: 15em;
   }
 }
