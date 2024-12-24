@@ -10,9 +10,8 @@ export default function NewslettersData() {
     setOpenBox(openBox === boxNumber ? null : boxNumber);
   };
 
-  const firstElement = newsletters[newsletters.length - 2];
-  const secondElement = newsletters[newsletters.length - 1];
-  let pastNewsletters = newsletters.slice(0, -1);
+  const firstElement = newsletters[newsletters.length - 1];
+  let pastNewsletters = newsletters.slice(0, newsletters.length - 1);
 
   return (
     <Box className="newsletters-container">
@@ -28,17 +27,17 @@ export default function NewslettersData() {
           <Box className="latest-newsletter-item">
             <Box className="latest-title-div">
               <Typography variant="h2" className="latest-title">
-                {secondElement.title}
+                {firstElement.title}
               </Typography>
             </Box>
             <Box className="latest-embed-blurb-div">
               <Typography className="latest-newsletter-blurb">
-                {secondElement.blurb}
+                {firstElement.blurb}
               </Typography>
               <hr className="line-break" />
               <iframe
                 className="latest-newsletter-embed"
-                src={secondElement.pdf}
+                src={firstElement.pdf}
                 width="600em"
                 height="600em"
               ></iframe>
@@ -63,19 +62,20 @@ export default function NewslettersData() {
             {pastNewsletters
               .slice()
               .reverse()
-              .map((item) => (
-                <Box className="module">
+              .map((item, index) => (
+                <Box className="module" key={index}> 
                   <Box className="newsletter-item">
                     <Box className="newsletter-title-blurb">
                       <Typography variant="h3" className="newsletter-title">
-                        {firstElement.title}
+                        {item.title}
                       </Typography>
                       <Typography className="newsletter-blurb">
-                        {firstElement.blurb}
+                        {item.blurb}
                       </Typography>
                     </Box>
-                    <embed src={firstElement.pdf} width="600em" height="600em" />
+                    <embed src={item.pdf} width="600em" height="600em" />
                   </Box>
+                  
                 </Box>
               ))}
           </Box>

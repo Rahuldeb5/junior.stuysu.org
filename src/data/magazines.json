@@ -105,6 +105,18 @@
       "title": "October",
       "color": "#5f2080",
       "textcolor": "white"
+    },
+    {
+      "url": "/pdfs/magazines/junior/november.pdf#toolbar=0",
+      "title": "November",
+      "color": "#9c2020",
+      "textcolor": "white"
+    },
+    {
+      "url": "/pdfs/magazines/junior/december.pdf#toolbar=0",
+      "title": "December",
+      "color": "#58403b",
+      "textcolor": "white"
     }
   ]
 }
