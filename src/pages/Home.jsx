@@ -12,7 +12,7 @@ import RandomQuote from "../comps/RandomQuote";
 
 export default function Home() {
   const magazineUrl =
-    "https://www.instagram.com/p/DAmgjZYvdD1/";
+    "https://www.instagram.com/p/DDK0lRat_K_/";
 
   const mobile = window.innerWidth <= 430;
 

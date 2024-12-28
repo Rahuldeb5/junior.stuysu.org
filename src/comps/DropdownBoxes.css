@@ -76,3 +76,11 @@
 .magazine-pdf {
   padding-top: 15px;
 }
+
+@media (max-width: 1440px) {
+  .dropdown-item {
+    width: 100%; 
+    height: auto; 
+    padding: 50px 25px 25px 25px;
+  }
+}
