@@ -38,7 +38,7 @@ const Contact = () => {
         </Box>
       </Box>
       <Typography variant="body1" align="center">
-        © 2024 Junior Caucus.
+        © 2025 Junior Caucus.
       </Typography>
       <Typography variant="body1" align="center" class="thanks">
         Special thanks to our Junior Caucus IT Team:
