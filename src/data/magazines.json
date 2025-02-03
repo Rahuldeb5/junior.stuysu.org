@@ -123,6 +123,13 @@
       "title": "January",
       "color": "#1b1663",
       "textcolor": "white"
+    },    
+    {
+      "url": "/pdfs/magazines/junior/february.pdf#toolbar=0",
+      "title": "February",
+      "color": "#e8b0cc",
+      "textcolor": "black"
     }
+    
   ]
 }
