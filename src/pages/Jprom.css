@@ -69,7 +69,11 @@
   color: white;
   font-size: 30px;
   max-width: 75%;
-  line-height: 50px;
+  line-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .caption-container {
@@ -94,7 +98,8 @@
   border-width: 0.01em;
 }
 .desc {
-  font-size: 1.2rem;
+  color: white;
+  font-size: 1.5rem;
   line-height: 1.4em;
   margin-bottom: 1em;
   margin-top: 0;
@@ -113,7 +118,7 @@
     height: auto;
     align-self: center;
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
     margin-left: 15em;
     margin-right: 15em;
   }
@@ -122,7 +127,7 @@
   .header {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem !important; /* Smaller font size */
+    font-size: 2rem !important; /* Smaller font size */
     width: 100%; /* Ensure the text fits within the container */
     padding: 0 10px; /* Add horizontal padding */
     text-align: center; /* Center align text */
@@ -135,14 +140,10 @@
     max-width: 30em;
   }
 
-  .caption {
-    font-size: 1.2rem; /* Smaller font size */
-    line-height: 1.4em; /* Adjust line height for readability */
-    padding: 10px; /* Reduce padding */
-    max-width: 75%; /* Ensure the caption fits within the container */
-    margin-bottom: 30px; /* Adjust bottom margin */
-    text-align: center; /* Center align text */
+  .desc{
+    font-size: 1.5rem;
   }
+
   .firstEvent {
     width: 100%; /* Ensure the image fits within the container */
     max-width: 20em; /* Set a maximum width */
@@ -153,4 +154,10 @@
     margin-left: 15em;
     margin-right: 15em;
   }
+
+  .caption{
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+  
 }
