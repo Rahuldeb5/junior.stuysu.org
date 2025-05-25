@@ -10,9 +10,11 @@ const Navbar = (props) => {
     setMenuOpen((prevMenuOpen) => !prevMenuOpen);
   }, []);
 
+  
+
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 430) {
+      if (window.innerWidth <= 530) {
         if (!menuOpen) {
           toggleMenu();
         }
@@ -21,6 +23,7 @@ const Navbar = (props) => {
           toggleMenu();
         }
       }
+
     };
 
     window.addEventListener("resize", handleResize);

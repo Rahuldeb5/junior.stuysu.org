@@ -10,6 +10,7 @@ import Newsletters from "./pages/Newsletters";
 import Guides from "./pages/Guides";
 import Magazines from "./pages/Magazines";
 import Error from "./pages/Error";
+import Cruise from "./pages/Cruise";
 
 const App = () => {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -31,7 +32,7 @@ const App = () => {
           <Route path="*" element={<Home />} />
           <Route path="/people" element={<About />} />
           <Route path="/members" element={<Members />} />
-          <Route path="/jprom" element={<Jprom />} />
+          <Route path="/jprom" element={<Cruise />} />
           <Route path="/other" element={<OtherEvents />} />
           <Route path="/newsletters" element={<Newsletters />} />
           <Route path="/guides" element={<Guides />} />
