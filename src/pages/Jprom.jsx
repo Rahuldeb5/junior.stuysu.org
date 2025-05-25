@@ -45,19 +45,21 @@ export default function Jprom() {
           </Box>
         </Box>
         <Box className="jpromEvent1">
-        <Carousel className="slideshow-carousel" />
+          <Carousel className="slideshow-carousel" />
         </Box>
         <Box className="caption-container">
-        <Box className="caption">
-        <Typography
-            variant="body"
-            className="desc"
-            style={{ fontFamily: "Baskervville SC" }}
-          >
-            During the prospective students and parents Open House on 10/16-17, we raised $800 during our Bake Sale that will be used to lower Jprom prices!
-          </Typography>
+          <Box className="caption">
+            <Typography
+              variant="body"
+              className="desc"
+              style={{ fontFamily: "Baskervville SC" }}
+            >
+              During the prospective students and parents Open House on
+              10/16-17, we raised $800 during our Bake Sale that will be used to
+              lower Jprom prices!
+            </Typography>
           </Box>
-          </Box>
+        </Box>
       </Box>
     </Box>
   );

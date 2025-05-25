@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  white-space: nowrap;  
+  white-space: nowrap;
   display: inline-block;
   font-family: Lora;
   margin: 0 auto;
@@ -29,7 +29,7 @@
   border-radius: 25px;
   font-family: Lora;
   font-weight: 300;
-  justify-content: center;  
+  justify-content: center;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 20px !important;
@@ -57,7 +57,7 @@
 .member-box-item {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
@@ -86,7 +86,7 @@
   font-weight: 900;
   margin-top: 0.5rem;
   text-shadow: 1px 1px 0 #000;
-  color: #0e2b54
+  color: #0e2b54;
 }
 
 .member-sub-box .typography {
@@ -115,7 +115,7 @@
     font-weight: 400;
     margin: auto;
     white-space: nowrap;
-    font-size: 3rem !important; 
+    font-size: 3rem !important;
     border-top: 5px ridge #0e2b54;
     border-bottom: 5px ridge #0e2b54;
     border-left: none;
@@ -139,10 +139,9 @@
     border-radius: 25px;
     font-family: Lora;
     font-weight: 300;
-    justify-content: center;  
+    justify-content: center;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 1.2rem !important;
   }
-  
 }

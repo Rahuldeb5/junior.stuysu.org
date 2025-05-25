@@ -1,23 +1,22 @@
 [
-    {
-      "caption": "Pictures of First Fundraising Event",
-      "image": "/images/jpromImg1.png"
-    },
-    {
-      "caption": "Pictures of First Fundraising Event",
-      "image": "/images/jpromImg2.png"
-    },
-    {
-      "caption": "Pictures of First Fundraising Event",
-      "image": "/images/jpromImage3.jpg"
-    },
-    {
-        "caption": "Pictures of First Fundraising Event",
-        "image": "/images/jpromImage4.jpg"
-    },
-    {
-      "caption": "Pictures of First Fundraising Event",
-      "image": "/images/jpromImage5.jpg"
-    }
-  ]
-  
+  {
+    "caption": "Pictures of First Fundraising Event",
+    "image": "/images/jpromImg1.png"
+  },
+  {
+    "caption": "Pictures of First Fundraising Event",
+    "image": "/images/jpromImg2.png"
+  },
+  {
+    "caption": "Pictures of First Fundraising Event",
+    "image": "/images/jpromImage3.jpg"
+  },
+  {
+    "caption": "Pictures of First Fundraising Event",
+    "image": "/images/jpromImage4.jpg"
+  },
+  {
+    "caption": "Pictures of First Fundraising Event",
+    "image": "/images/jpromImage5.jpg"
+  }
+]

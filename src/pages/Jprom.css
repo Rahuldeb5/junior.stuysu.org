@@ -82,17 +82,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .firstEvent {
-  width: 100%; 
-  max-width: 40em; 
+  width: 100%;
+  max-width: 40em;
   height: auto;
   align-self: center;
   margin-top: 0;
   margin-bottom: 1em;
-  margin-right: .5em;
-  margin-left: .5em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
   border-radius: 10%;
   border-style: solid;
   border-width: 0.01em;
@@ -140,7 +139,7 @@
     max-width: 30em;
   }
 
-  .desc{
+  .desc {
     font-size: 1.5rem;
   }
 
@@ -155,9 +154,8 @@
     margin-right: 15em;
   }
 
-  .caption{
+  .caption {
     margin-bottom: 0px;
     padding: 20px;
   }
-  
 }

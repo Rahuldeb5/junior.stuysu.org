@@ -63,7 +63,7 @@ export default function NewslettersData() {
               .slice()
               .reverse()
               .map((item, index) => (
-                <Box className="module" key={index}> 
+                <Box className="module" key={index}>
                   <Box className="newsletter-item">
                     <Box className="newsletter-title-blurb">
                       <Typography variant="h3" className="newsletter-title">
@@ -75,7 +75,6 @@ export default function NewslettersData() {
                     </Box>
                     <embed src={item.pdf} width="600em" height="600em" />
                   </Box>
-                  
                 </Box>
               ))}
           </Box>

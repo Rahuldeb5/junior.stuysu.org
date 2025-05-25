@@ -79,8 +79,8 @@
 
 @media (max-width: 1440px) {
   .dropdown-item {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     padding: 50px 25px 25px 25px;
   }
 }
