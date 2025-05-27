@@ -60,11 +60,25 @@ const Navbar = (props) => {
               </Box>
             </Box>
             <Box className="nav-dropdown">
-              Events
+              JProm
               <Box className="dropdown-content">
                 <Link href="/jprom" className="nav-menu-item">
                   JProm
                 </Link>
+                <Link href="/menu" className="nav-menu-item">
+                  Menu
+                </Link>
+                <Link href="/route" className="nav-menu-item">
+                  Route
+                </Link>
+                <Link href="/forms" className="nav-menu-item">
+                  Forms
+                </Link>
+              </Box>
+            </Box>
+            <Box className="nav-dropdown">
+              Events
+              <Box className="dropdown-content">
                 <Link href="/other" className="nav-menu-item">
                   Other
                 </Link>
@@ -104,6 +118,15 @@ const Navbar = (props) => {
                 </Link>
                 <Link href="/jprom" className="nav-menu-item">
                   JProm
+                </Link>
+                <Link href="/menu" className="nav-menu-item">
+                  Menu
+                </Link>
+                <Link href="/route" className="nav-menu-item">
+                  Route
+                </Link>
+                <Link href="/forms" className="nav-menu-item">
+                  Forms
                 </Link>
                 <Link href="/other" className="nav-menu-item">
                   Events

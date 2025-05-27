@@ -15,6 +15,7 @@ export default function Home() {
 
   const mobile = window.innerWidth <= 430;
 
+
   return (
     <Box className="home-page">
       <Box className="navbar">
@@ -45,7 +46,7 @@ export default function Home() {
         </Box>
 
         <Box className="slideshow">
-          <Carousel className="slideshow-carousel" />
+          <Carousel isJprom={false} className="slideshow-carousel" />
         </Box>
 
         <Box className="backgroundInsert1">

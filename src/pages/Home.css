@@ -96,6 +96,7 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 15em;
+  padding-top: 6em;
 }
 
 /* TITLE  */
@@ -378,6 +379,7 @@
   .title-design {
     flex-direction: column;
     padding-bottom: 5em;
+    padding-top: 6em;
   }
 
   .design {

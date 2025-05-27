@@ -3,7 +3,7 @@ import React from "react";
 import ReactCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Carousel.css";
-import Data from "../data/jpromEvent1.json";
+import Data from "../data/jprom-slideshow.json";
 
 const Carousel = () => {
   const responsive = {

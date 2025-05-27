@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import Navbar from "../comps/Navbar";
 import "./Jprom.css";
-import Carousel from "../comps/Carousel2";
+import Carousel from "../comps/Carousel";
 
 export default function Jprom() {
   return (

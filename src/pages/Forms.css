@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.forms-page {
+  background-image: url(../../public/images/backgroundGUIDES.svg);
+  background-position: center;
+  background-size: cover;
+  color: #0e2b54;
+  min-height: 100vh; /* Allows the content to extend beyond the viewport */
+  width: 100vw;
+  overflow-x: hidden; /* Prevents horizontal overflow */
+  overflow-y: auto; /* Allows vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 430px) {
+  .forms-page {
+    padding-top: 3.5rem;
+  }
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}

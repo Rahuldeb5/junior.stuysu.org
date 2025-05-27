@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.otherevents-title-box {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-right: 710px;
+}
+
+.otherevents-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem !important;
+  border: 100px;
+  border-color: #0e2b54;
+  background-color: transparent;
+  color: #0e2b54;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 50px;
+  text-shadow: 1px 1px 2px #0e2b54;
+  justify-content: left;
+  align-items: left;
+}
+
+@media screen and (max-width: 430px) {
+  .otherevents-title {
+    font-size: 3em !important;
+  }
+}
+.event-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-page {
+  background-image: url(../../public/images/backgroundOTHER.svg);
+  background-position: center;
+  background-size: cover;
+  color: #0e2b54;
+  min-height: 100vh; /* Allows the content to extend beyond the viewport */
+  width: 100vw;
+  overflow-x: hidden; /* Prevents horizontal overflow */
+  overflow-y: auto; /* Allows vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 5rem;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
+.event-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  z-index: 0;
+}
+
+.event-head .event-title {
+  padding-top: 30px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  flex: 1 1 85%;
+  overflow: hidden;
+  color: #0e2b54;
+  text-shadow: 1px 1px 10px #0e2b54;
+}
+
+.event-blurb {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  overflow: hidden;
+  color: #0e2b54;
+}
+
+.events-card {
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 30px;
+  margin-top: 3em;
+  border-color: #0e2b54;
+  border-width: 5px;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Ensure content is stacked vertically */
+  justify-content: left; /* Center content horizontally */
+  align-items: left; /* Center content vertically */
+  text-align: center; /* Center text */
+  padding-right: 3em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.info .otherevents-title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  align-items: left;
+}
+
+.photo-box {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.photo-box img {
+  max-width: 100%;
+  height: auto;
+  max-height: 1000px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.events-card:hover {
+  background-color: #a8a6cd;
+}
+
+@media screen and (max-width: 430px) {
+  .event-title {
+    font-size: 1.75rem !important;
+  }
+
+  .event-blurb {
+    padding-top: 1.5em !important;
+    font-size: 1.25rem !important;
+  }
+
+  .photo-box {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .otherevents-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .otherevents-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem !important;
+    border: 100px;
+    border-color: #0e2b54;
+    background-color: transparent;
+    color: #0e2b54;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 30px;
+    text-shadow: 1px 1px 2px #0e2b54;
+    justify-content: left;
+    align-items: left;
+  }
+}
