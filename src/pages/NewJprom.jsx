@@ -36,6 +36,22 @@ export default function NewJprom() {
           REDIRECT
         </Button>
       </Box>
+      <Box className="jprom-links">
+        <Box className="jprom-link">
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/jprom', '_blank')}>
+            Jprom
+          </Button>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/menu', '_blank')}>
+            Menu
+          </Button>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/route', '_blank')}>
+            Route
+          </Button>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/forms', '_blank')}>
+            Forms
+          </Button>
+        </Box>
+      </Box>
       <Box className="info-page">
       <Typography className="info-title">JPROM</Typography>
       <Typography className="info-text">Junior Prom will be on Wednesday, June 4, 2025 on the Spirit of New York 🛳 and the theme is Masquerade Ball 🌟. (no school the next day :)
