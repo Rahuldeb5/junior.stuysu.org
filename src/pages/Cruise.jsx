@@ -1,9 +1,12 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../comps/Navbar";
 import "./Cruise.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Cruise() {
+  const navigate = useNavigate();
+
   const contentRefs = useRef([]);
   const [visibleIndexes, setVisibleIndexes] = useState([]);
   const textContent = [
@@ -133,6 +136,22 @@ export default function Cruise() {
         <Navbar {...{ page: "Jprom" }} />
       </Box>
       <Box className="cruise-page">
+      <Box className="jprom-links">
+        <Box className="jprom-link">
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/jprom')}>
+            Jprom
+          </Button>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/menu')}>
+            Menu
+          </Button>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/route')}>
+            Route
+          </Button>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/forms')}>
+            Forms
+          </Button>
+        </Box>
+      </Box>
         <Typography className="route-title">CRUISE ROUTE</Typography>
         <Box className="route-image-container">
           <img src="/images/route.png" alt="Route" className="route-image" />

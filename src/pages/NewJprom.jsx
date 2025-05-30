@@ -3,10 +3,13 @@ import React, { useState } from "react";
 import Carousel from "../comps/JpromCarousel";
 import Contact from "../comps/Contact";
 import Navbar from "../comps/Navbar";
+import { useNavigate } from 'react-router-dom';
 
 import "./NewJprom.css";
 
 export default function NewJprom() {
+  const navigate = useNavigate();
+
   const [expandedQuestion, setExpandedQuestion] = useState(null);
   const [rotateArrow, setRotateArrow] = useState(false);
   const questionsAndAnswers = [
@@ -38,16 +41,16 @@ export default function NewJprom() {
       </Box>
       <Box className="jprom-links">
         <Box className="jprom-link">
-          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/jprom', '_blank')}>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/jprom')}>
             Jprom
           </Button>
-          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/menu', '_blank')}>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/menu')}>
             Menu
           </Button>
-          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/route', '_blank')}>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/route')}>
             Route
           </Button>
-          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => window.open('/forms', '_blank')}>
+          <Button className="jprom-button" variant="contained" color="primary" size="large" style={{backgroundColor: '#444484  ',color: '#ffffff'}} onClick={() => navigate('/forms')}>
             Forms
           </Button>
         </Box>
